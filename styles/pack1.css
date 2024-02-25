@@ -14,7 +14,7 @@
 .ContentIntroduction{
     width: 1200px;
     /*border: 1px solid black;*/
-    background-color: rgb(215, 122, 0);
+    /*background-color: rgb(215, 122, 0);*/
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -53,6 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .BackHome a{
     text-decoration: none;
@@ -60,7 +61,7 @@
 }
 
 .BodyPack1{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 100px auto;
     max-width: 1400px;
     height: 800px;
@@ -69,7 +70,7 @@
 
 .ContainerPresentation{
     max-width: 1200px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 50px auto;
     overflow: hidden;
 }
@@ -83,11 +84,11 @@
 }
 .ContentPresentation img{
     max-width: 400px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     z-index: 0.1;
 }
 .ContentTextPresentation{
-    border: 1px solid green;
+  /*  border: 1px solid green;*/
     margin-top: 50px;
     z-index: 0.2;
 
@@ -116,7 +117,7 @@
 
 .ContainerContact{
     /*background-color: red;*/
-    border: 1px solid green;
+   /* border: 1px solid green;*/
     height: auto;
     width: 1200px;
     margin: 50px auto;
@@ -153,10 +154,10 @@
 }
 .ContentContact img{
     max-width: 400px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .Data{
-    border: 1px solid #ff0000;
+    /*border: 1px solid #ff0000;*/
     max-width: 600px;
     padding: 30px;
 }
@@ -187,14 +188,14 @@
 
 .ContainerInfo{
     max-width: 1200px;
-    border: 1px solid blue;
+   /* border: 1px solid blue;*/
     display: flex;
     justify-content: center;
     margin: 50px auto;
 }
 .ContentInfo{
     width: 1000px;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -205,7 +206,7 @@
 .tag{
     width: 300px;
     height: 200px;
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
     position: relative;
     cursor: pointer;
 }
@@ -287,14 +288,14 @@
 
 .ContainerMap{
     max-width: 1200px;
-    border: 1px solid rgb(183, 0, 255);
+   /* border: 1px solid rgb(183, 0, 255);*/
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 .ContentMap{
     width: 1000px;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -306,7 +307,7 @@
 }
 .InfoMap{
     width: 450px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
