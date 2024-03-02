@@ -187,8 +187,7 @@
     margin: 50px auto;
     padding: 50px;
     background: rgba(38, 44, 64);
-    border:1px solid #6a7fc1;
-    
+    border:1px solid #6a7fc1; 
 }
 .ContentInfo{
     max-width: 1000px;
