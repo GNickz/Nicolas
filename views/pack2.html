@@ -8,8 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/styles/pack2.css">
     
     
@@ -34,9 +32,9 @@
             </div>
 
             <div class="BackHome">
-                <button>
-                    <box-icon color="#b9cfe8" name='arrow-back'></box-icon>
-                    <a href="/Index.html">Vover al inicio</a>
+                <button class="btnbackhome">
+                    <box-icon color="var(--colorIcons)" name='home'></box-icon>
+                    <a class="backhome" href="/Index.html">Vover al inicio</a>
                 </button>
             </div>
         </div>
@@ -59,10 +57,10 @@
                     </svg>
                 </button>
 
-                <nav class="nav a">
+                <nav class="nav">
                     <ul class="ul">
                         <li>
-                            <a class="a" href="">Inicio</a>
+                            <a class="a" href="#">Inicio</a>
                         </li>
                     </ul>
                 </nav>
@@ -91,13 +89,13 @@
                     <img name="Imagen" class="img">
                 </div>
                 <ul class="directions">
-                    <a href="#" class="directions" onsubmit="return false">
+                    <a href="javascript:void(0)" class="directions">
                         <svg xmlns="http://www.w3.org/2000/svg" class="directionLeft" 
                         width="24" height="24" viewBox="0 0 24 24">
                         <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path></svg>
                     </a>
                     
-                    <a href="#" class="directions" onsubmit="return false">
+                    <a href="javascript:void(0)" class="directions">
                         <svg xmlns="http://www.w3.org/2000/svg" class="directionRigth" 
                         width="24" height="24" viewBox="0 0 24 24">
                         <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
@@ -109,14 +107,132 @@
 
         <section class="ContainerPresentation">
             <div class="ContentPresentation">
-            
+                <div class="InfoPresentation">
+                    <h1 class="h1">Lorem, ipsum.</h1>
+                    <p class="p" >Lorem,Lorem ipsum dolor sit amet consectetur adipisicing
+                        ione?sit amet Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Doloremque saepe autem repudiandae asperiores,
+                        illum ratione molestias eveniet officia totam.
+                    </p>
+                        <button class="btnPresentation"><a class="a" href="">Ver más</a></button>
+                </div>
+                <div class="ImgPresentation">
+                    <img src="/assets/ImgPresentationPack2.svg" alt="">
+                </div>
+                
             </div>
         </section>
 
-    </section>
+        <section class="ContainerTimeLine">
+            <div class="ContentTimeLine">
 
-    
-       
+                <div class="Checkpoint">
+                    <div class="BoxTimeLine">
+                        <h1 class="h1">Step one</h1>
+                        <div class="Icon">
+                            <box-icon class="icon" name='cog' ></box-icon>
+                        </div>
+                        <h2 class="h2">Lorem ipsum dolor sit.</h2>
+                    </div>
+                </div>
+
+                <div class="Checkpoint">
+                    <div class="BoxTimeLine">
+                        <h1 class="h1">Step two</h1>
+                        <div class="Icon">
+                            <box-icon class="icon" name='file-find'></box-icon>
+                        </div>
+                        <h2 class="h2">Lorem ipsum dolor sit.</h2>
+                    </div>
+                </div>
+
+                <div class="Checkpoint">
+                    <div class="BoxTimeLine">
+                        <h1 class="h1">Step three</h1>
+                        <div class="Icon">
+                            <box-icon class="icon" name='edit-alt' ></box-icon>
+                        </div>
+                        <h2 class="h2">Lorem ipsum dolor sit.</h2>
+                    </div>
+                </div>
+
+                <div class="Checkpoint">
+                    <div class="BoxTimeLine">
+                        <h1 class="h1">Step four</h1>
+                        <div class="Icon">
+                            <box-icon class="icon" name='lock-open' ></box-icon>
+                        </div>
+                        <h2 class="h2">Lorem ipsum dolor sit.</h2>
+                    </div>
+                </div>
+               
+                <div class="Checkpoint">
+                    <div class="BoxTimeLine">
+                        <h1 class="h1">Step five</h1>
+                        <div class="Icon">
+                            <box-icon class="icon" name='objects-vertical-bottom'></box-icon>
+                        </div>
+                        <h2 class="h2">Lorem ipsum dolor sit.</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="ContainerInfo">
+            <div class="ContentInfo">
+                
+                <h2>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Sequi, quia! Lorem, ipsum dolor sit amet consectetur.
+                </h2>
+                
+                <img src="https://plus.unsplash.com/premium_photo-1696862516220-be1e1aa943f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+        </section>
+
+        <footer class="ContainerFooter">
+
+        <div class="ContentFooter">
+
+            <div class="Logo">
+                <div class="LogoContent">
+                    <h1 class="h1">Logo</h1>
+                </div>
+            </div>
+
+            <div class="Nav">
+                <div class="NavContent">
+                    <div class="LogoContent">
+                        <a class="a" href="#">Inicio</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Contact">
+                <div class="ContactContent">
+                    <button class="IconsContact">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <box-icon class="iconcontact" type='logo' name='facebook-square'></box-icon>
+                        </a>
+                    </button>
+                    <button class="IconsContact">
+                        <a href="https://www.whatsapp.com" target="_blank">
+                            <box-icon class="iconcontact" name='whatsapp-square' type='logo' ></box-icon>
+                        </a>
+                    </button>
+                    <button class="IconsContact">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <box-icon class="iconcontact" name='instagram-alt' type='logo' ></box-icon>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        </footer>
+
+    </section>
 
     
 </body>

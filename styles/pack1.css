@@ -86,11 +86,9 @@
 }
 .ContentPresentation img{
     max-width: 400px;
-    z-index: 0.1;
 }
 .ContentTextPresentation{
-    margin-top: 50px;
-    z-index: 0.2;
+    margin-top: 100px;
 }
 .ContentTextPresentation h1,h2,p{
     font-family:var(--tipografia);

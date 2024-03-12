@@ -19,8 +19,13 @@ const trigger = document.querySelector('.NigthMode')
 const container = document.querySelector('.BodyPack2')
 const moon = document.querySelector('.moon')
 const header = document.querySelector('.ContainerHeader')
-const menu = document.querySelectorAll('.h1, .a')
+const menu = document.querySelectorAll('.h1, .a, .p, .h2')
 const desplegable = document.querySelector('.svg')
+const containerPresentation = document.querySelector('.ContentPresentation')
+const boxTimeLine = document.querySelector('.BoxTimeLine')
+const icons = document.querySelectorAll('.icon')
+const contact = document.querySelectorAll('.iconcontact')
+
 
 trigger.addEventListener('click',()=>{
     container.classList.toggle('change')
@@ -30,17 +35,25 @@ trigger.addEventListener('click',()=>{
         element.classList.toggle('change');
     });
     header.classList.toggle('change')
-    
+    containerPresentation.classList.toggle('change')
+    boxTimeLine.classList.toggle('change')
+    icons.forEach(element =>{
+        element.classList.toggle('change');
+    });
+    contact.forEach(element =>{
+        element.classList.toggle('change');
+    });
+
 });
 
 
 /*Slider*/
 
 let imagenes = [
-    "/assets/Imagen-Uno.jpg",
-    "/assets/Imagen-Dos.jpg",
-    "/assets/Imagen-Tres.jpg",
-    "/assets/Imagen-Cuatro.jpg"
+    "/assets/Imagen-Uno.webp",
+    "/assets/Imagen-Dos.webp",
+    "/assets/Imagen-Tres.webp",
+    "/assets/Imagen-Cuatro.webp"
 ];
 document.Imagen.src = imagenes[0];
 
@@ -58,11 +71,11 @@ function moveRigth()
         }
         document.Imagen.src = imagenes[Contador];
     }
-let Intervalo = setInterval(moveRigth, 5000)
+let Intervalo = setInterval(moveRigth, 3000)
 rigth.addEventListener('click', function(){
     clearInterval(Intervalo);
     moveRigth();
-    Intervalo = setInterval(moveRigth, 5000)
+    Intervalo = setInterval(moveRigth, 3000)
 });
 
 function moveLeft()
