@@ -312,62 +312,58 @@ transform: translateY(-125px);
 }
 
 .ContainerTimeLine{
-    max-width: 1400px;
+    margin: 0 auto;
+    max-width: 34.15em;
     margin-bottom: 100px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-.ContentTimeLine{
-    height: 100%;
-    max-width:1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
 }
 .Checkpoint{
-    width:500px;
+    max-width: 34em;
     padding-top: 2em;
     padding-bottom: 2em;
     position: relative;
 }
-.BoxTimeLine{
-    border: 1px solid var(--colorMLBordersIntoBodyPack2);
+.Checkpoint .ContentChecpoint{
+    border: 2px solid var(--colorMLBordersIntoBodyPack2);
     background-color: var(--backgroundColorModeLigthSections);
-    border-radius: 10px;
-    padding: 2em;
+    border-radius: 15px;
+    padding: 1.5em;
+}
+.ContentChecpoint{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: space-evenly;
     align-items: center;
-    height: auto;
 }
-.BoxTimeLine h1,h2{
-    color: var(--colorMLTextsIntoBodyPack2);
+.ContentChecpoint .h1{
+    font-family: var(--tipografia);
+    font-weight: 400;
+    font-size: 30px;
 }
-.Icon{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.icon{
-    transform: scale(5);
+div .Icon{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    transform: scale(4);
     fill: var(--colorMLIconsFillIntoBodyPack2);
 }
+.ContentChecpoint .h2{
+    font-family: var(--tipografia);
+    font-weight: 300;
+    font-size: 25px;
+}
 .Checkpoint:nth-child(odd){
-    border-left: 4px solid var(--colorMLBordersIntoBodyPack2);
+    border-left: 3px solid var(--colorMLBordersIntoBodyPack2);
     padding-left: 3em;
-    transform:translateX(248px) ;
+    transform: translateX(17em);
 }
 .Checkpoint:nth-child(even){
-    border-right: 4px solid var(--colorMLBordersIntoBodyPack2);
+    border-right: 3px solid var(--colorMLBordersIntoBodyPack2);
     padding-right: 3em;
-    transform: translateX(-248px);
+    transform: translateX(-17em);
 }
 .Checkpoint:nth-child(odd)::before,
 .Checkpoint:nth-child(even)::before{
     content: '';
-    background: var(--colorMLBordersIntoBodyPack2);
+    background-color: var(--colorMLBordersIntoBodyPack2);
     width: 3em;
     height: 3px;
     position: absolute;
@@ -375,16 +371,16 @@ transform: translateY(-125px);
     transform: translateY(-50%);
 }
 .Checkpoint:nth-child(odd)::before{
-    left: 0;
+    left: 0; 
 }
 .Checkpoint:nth-child(even)::before{
-    right: 0;
+    right: 0; 
 }
-.Checkpoint:nth-child(odd) div::before,
-.Checkpoint:nth-child(even) div::before{
+.Checkpoint:nth-child(odd) .ContentChecpoint::before,
+.Checkpoint:nth-child(even) .ContentChecpoint::before{
     content: '';
     background: var(--colorMLBordersIntoBodyPack2);
-    box-shadow: 0 0 .5em #b9cfe8;
+    box-shadow: 0 0 0.5em var(--colorMLBordersIntoBodyPack2);
     width: 0.8em;
     height: 0.8em;
     position: absolute;
@@ -392,11 +388,11 @@ transform: translateY(-125px);
     transform: translateY(-50%);
     border-radius: 50%;
 }
-.Checkpoint:nth-child(odd) div::before{
-    left:-8px;
+.Checkpoint:nth-child(odd) .ContentChecpoint::before{
+    left: -0.5em; 
 }
-.Checkpoint:nth-child(even) div::before{
-    right:-8px;
+.Checkpoint:nth-child(even) .ContentChecpoint::before{
+    right: -0.5em; 
 }
 
 .ContainerFooter{
@@ -531,25 +527,30 @@ transform: translateY(-125px);
         margin-top: 15px;
     }
 
-    .ContentTimeLine .Checkpoint{
+    .ContainerTimeLine{
+        width: 80vw;
+    }
+    .ContainerTimeLine .Checkpoint{
         width: 100%;
         transform: none;
         padding-left: 0;
         padding-right: 0;
         border: none;
     }
-    .ContentTimeLine .Checkpoint::before{
+    .ContainerTimeLine .Checkpoint::before{
         width: 3px;
         height: 4em;
         top: -2em;
         left: 50%;
         transform: translateX(-50%);
     }
-    .ContainerTimeLine .Checkpoint div::before{
-        top: -.5em;
+    .ContainerTimeLine .Checkpoint .ContentChecpoint::before{
+        top: -0.5em;
         left: 50%;
         transform: translateX(-50%);
     }
+
+    
 
     
 }

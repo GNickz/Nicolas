@@ -22,7 +22,7 @@ const header = document.querySelector('.ContainerHeader')
 const menu = document.querySelectorAll('.h1, .a, .p, .h2')
 const desplegable = document.querySelector('.svg')
 const containerPresentation = document.querySelector('.ContentPresentation')
-const boxTimeLine = document.querySelector('.BoxTimeLine')
+const boxTimeLine = document.querySelector('.ContentChecpoint')
 const icons = document.querySelectorAll('.icon')
 const contact = document.querySelectorAll('.iconcontact')
 
