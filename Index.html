@@ -8,79 +8,83 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 </head>
 <body>
-    
-    <section class="header">
 
-        <div class="ContainerNav">
-            <img src="assets/MSI_MPG.jpg" alt="" class="Logo">
-            <div class="routes">
-                <a href="" class="">Inicio</a>
-                <a href="views/pack1.html" class="">Pack 1</a>
-                <a href="views/pack2.html" class="">Pack 2</a>
-                <a href="" class="">Pack 3</a>
-            </div>
-        </div>
+    <header class="ContainerHeader">
+        <div class="ContentHeader">
 
-    </section>
+            <h1>
+                Logo
+            </h1>
 
+            <button class="button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg"
+                width="24" height="24" viewBox="0 0 24 24">
+                <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                </svg>
+            </button>
 
-    <section class="Body">
-
-        <div class="ContainerAside">
-            <aside>
-                <div class="RoutesAside">
-                    <a href="">Presentación</a>
-                    <a href="">Ventajas</a>
-                    <a href="">Paquetes</a>
-                    <a href="">Habilidades</a>
-                </div>
-            </aside>
-        </div>
-
-        <div class="Content">
-
-            <div class="Presentation">
-                
-                <div class="PresentationContent">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam harum ad excepturi magni quam doloremque eius voluptatibus ipsam illo corporis temporibus porro molestiae, ratione mollitia saepe optio at laboriosam repellendus commodi. Molestias autem aperiam minima. Sunt ea iusto ipsa eos a temporibus qui inventore eaque at earum? Incidunt, iusto.</p>
-
-                </div>
-
-            </div>
-
-            <div class="Info">
-                
-                <div class="InfoContent">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam harum ad excepturi magni quam doloremque eius voluptatibus ipsam illo corporis temporibus porro molestiae, ratione mollitia saepe optio at laboriosam repellendus commodi. Molestias autem aperiam minima. Sunt ea iusto ipsa eos a temporibus qui inventore eaque at earum? Incidunt, iusto.</p>
-
-                </div>
-            </div>
-
-            <div class="Plus">
-                
-                <div class="PlusContent">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam harum ad excepturi magni quam doloremque eius voluptatibus ipsam illo corporis temporibus porro molestiae, ratione mollitia saepe optio at laboriosam repellendus commodi. Molestias autem aperiam minima. Sunt ea iusto ipsa eos a temporibus qui inventore eaque at earum? Incidunt, iusto.</p>
-
-                </div>
-            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="views/pack2.html">Servicios</a></li>
+            
+                </ul>
+            </nav>
 
         </div>
+    </header>
 
+    <section class="ContainerPresentation">
+        <div class="ContentPresentation">
+            <div class="PicturePresentation">
+                <img src="https://imageproxy.ifunny.co/resize:640x,quality:90x75/images/8e5b242c103d4aff60983e0676e15feb1e9204df628fee3429f0888e2ab4916e_3.jpg" alt="">
+            </div>
+            <div class="InfoPresentation">
+                <h1>Nicolas Urrutia</h1>
+                <h1>Desarrollador FrontEnd</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deserunt expedita, consectetur libero animi quibusdam.</p>
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    
+    <footer class="ContainerFotter">
+        <div class="ContentFotter">
 
-   
+            <h1>Logo</h1>
 
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Servicios</a></li>
+                </ul>
+            </nav>
 
-    <section class="footer">
-    </section>
+            <div class="Contact">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <box-icon class="iconcontact" type='logo' name='facebook-square'></box-icon>
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <box-icon class="iconcontact" name='whatsapp-square' type='logo' ></box-icon>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <box-icon class="iconcontact" name='instagram-alt' type='logo' ></box-icon>
+                </a>
+            </div>
+
+        </div>
+    </footer>
 
     
 
     
 </body>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </html>
