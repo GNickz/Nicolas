@@ -5,65 +5,231 @@
 }
 
 :root{
-    --tipografia:roboto;
+    --tipografia:Rubik;
+    --BackgroundImageBodyMD:url(/assets/BackGroundImgBodyMD.jpg);
+    --BackgroundImageBodyML:url(/assets/BCGIMGBODYML.png);
+
+    --ColorSectionsML:#c8fffbb6;
+    --ColorBordersSectionsML:#20dfe1;
+    --TextColorML:#012c32;
+    --ColorFillIconsML:#012c32;
+
+    --ColorFillIconsMD:#effefd;
+    --ColorSectionsMD:#07bfc5c7;
+
 }
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-image:var(--BackgroundImageBodyML);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
+.body.change{
+    background-image: var(--BackgroundImageBodyMD);
+}
+.h1{
+    font-family: var(--tipografia);
+}
+.a{
+    text-decoration: none;
+}
+.p{
+    font-family: var(--tipografia);
+}
+.li{
+    list-style: none;
+    text-transform: uppercase;
+}
 
 .ContainerHeader{
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.364);
+    background-color: var(--ColorSectionsML);
+    border-bottom: 1px solid var(--ColorBordersSectionsML);
     backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     z-index: 1;
+    margin-bottom: 50px;
+}
+.ContainerHeader.change{
+    background-color: var(--ColorSectionsMD);
+
 }
 .ContentHeader{
     max-width:1200px;
-    /*background-color: blue;*/
     margin: 0 auto;
+    padding: 1.5em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
+.h1Header{
+    color: var(--TextColorML);
+}
+.BtnMenu{
+    border: none;
+    background: none;
+    display: none;
+    max-width: 2em;
+    max-height: 2em;
+}
+.svgMenu{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    fill:var(--ColorFillIconsML);
+}
+.svgMenu.change{
+    display: none;
+}
+.svgMenu.ModeLigth{
+    fill: var(--ColorFillIconsMD);
+}
+
+.svgCloseMenu{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    display: none;
+    fill: var(--ColorFillIconsML);
+}
+.svgCloseMenu.change{
+    display: block;
+    fill: var(--ColorFillIconsML);
+}
+.svgCloseMenu.ModeDark{
+    fill: var(--ColorFillIconsMD);
+
+}
+
+.ulHeader{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.liHeader{
+    margin: 0 1.5em;
+    display: flex;
+}
+
+.aHeader{
+    font-family: var(--tipografia);
+    color: var(--TextColorML);
+   
+}
+.NigthModeLigthMode{
+    max-width: 1.5em;
+    max-height: 1.5em;
+}
+.moon{
+    transform: scale(1.5em);
+    cursor: pointer;
+    fill: var(--ColorFillIconsML);
+}
+.moon.change{
+    display: none;
+}
+.sun{
+    transform: scale(1.5em);
+    display: none;
+    fill: var(--ColorFillIconsMD);
+
+}
+.sun.change{
+    display:block;
+    cursor: pointer;
+    fill: var(--ColorFillIconsMD);
+   
+    
+}
+
+
+
+
+
 .ContainerPresentation{
     width: 100%;
-    background-color: rgb(17, 218, 74);
+  /*  background-color: rgb(17, 218, 74);*/
 }
 .ContentPresentation{
     max-width: 800px;
     border: 1px solid red;
     margin: 0 auto;
-    background-color: rgb(16, 117, 161);
+   /* background-color: red;*/
+  /*  background-color: rgb(16, 117, 161);*/
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .ContentPresentation img{
     width: 200px;
     border-radius: 50%;
+    border: 1px solid green;
+}
+.ContentInfoPresentation{
+    width: 500px;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .InfoPresentation{
     width: 300px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
 }
+.ContactPresentation{
+    border: 1px solid red;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly
+}
+
 
 
 .ContainerFotter{
     width: 100%;
     margin-top: auto;
-    background-color: rgb(255, 0, 0);
+  /*  background-color: rgb(255, 0, 0);*/
 }
 .ContentFotter{
-    max-width: 1200px;
+    max-width: 1000px;
     background-color: coral;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width:1080px){
+    .navHeader{
+        width: 100%;
+        height: 0;
+        transition: all .5s ease;
+        display: flex;
+        flex-flow: nowrap;
+        pointer-events: none;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .navHeader.activo{
+        height: 25vh;
+        pointer-events: auto;
+    }
+    .BtnMenu{
+        display: block;
+    }
+    .ulHeader{
+        flex-direction: column;
+    }
+    .liHeader{
+        margin: 2rem 0;
+    }
+   
 }
