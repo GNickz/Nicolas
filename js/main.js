@@ -1,4 +1,4 @@
-
+/*Menu*/ 
 const button = document.querySelector('.BtnMenu');
 const nav = document.querySelector('.navHeader');
 const menu = document.querySelector('.svgMenu');
@@ -10,20 +10,89 @@ button.addEventListener('click', () => {
     closemenu.classList.toggle('change');
 });
 
+
+
+
+
+
+/*Nigth Mode */
 const trigger = document.querySelector('.NigthModeLigthMode')
 const moon = document.querySelector('.moon')
 const sun = document.querySelector('.sun')
 const body = document.querySelector('.body')
-const header = document.querySelector('.ContainerHeader')
+const header = document.querySelectorAll('.ContainerHeader, .ContainerFotter')
 const menuMD = document.querySelector('.svgCloseMenu')
 const menuML = document.querySelector('.svgMenu')
+const content = document.querySelectorAll('.h1, .p, .a, .svg')
+const highlighted = document.querySelectorAll('.Highlighted')
+const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies')
 
 trigger.addEventListener('click', () =>{
     moon.classList.toggle('change')
     sun.classList.toggle('change')
     body.classList.toggle('change')
-    header.classList.toggle('change')
+    header.forEach(element => {
+        element.classList.toggle('change')
+    })
     menuMD.classList.toggle('ModeDark')
     menuML.classList.toggle('ModeLigth')
+    content.forEach(element => {
+        element.classList.toggle('change')
+    });
+    highlighted.forEach(element => {
+        element.classList.toggle('change')
+    })
+    colorBigSections.forEach(element => {
+        element.classList.toggle('change')
+    })
 
 })
+
+/*Download CV */
+const CV = document.querySelector('.btnDownloadCV')
+
+CV.addEventListener('click',()=>{
+    const URL = 'assets/CV _GNT.pdf';
+    window.open(URL, '_blank');
+})
+
+
+
+
+/*Slider*/
+
+let imagenes = [
+    "/assets/202shots_so.jpg",
+    "/assets/207shots_so.jpg",
+    "/assets/455shots_so.jpg",
+    "/assets/640shots_so.jpg",
+    "/assets/970shots_so.jpg",
+
+];
+
+document.Imagen.src = imagenes[0];
+document.ImagenProject2.src = imagenes[0];
+
+let Contador = 0
+
+function moveRight()
+    {
+        Contador++;
+        if(Contador > imagenes.length -1){
+            Contador = 0;
+        }
+        document.Imagen.src = imagenes[Contador];
+        document.ImagenProject2.src = imagenes[Contador];
+
+    }
+let Intervalo = setInterval(moveRight, 3000)
+
+function moveLeft()
+    {
+        Contador--;
+        if(Contador < 0){
+            Contador = imagenes.length -1;
+        }
+        document.Imagen.src = imagenes[Contador];
+        document.ImagenProject2.src = imagenes[Contador];
+    }
