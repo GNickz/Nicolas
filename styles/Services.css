@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Rubik;
+    font-size: 25px;
+}
+
+
+
+#dots{
+    animation-name: movedots;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+@keyframes movedots {
+   10%{transform: translateY(-15px);}
+}
+#rowrigth{
+    animation-name: moverrowrigth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+@keyframes moverrowrigth {
+    10%{transform: translateX(15px);}
+}
+#rowleft{
+    animation-name: moverrowleft;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+@keyframes moverrowleft{
+    10%{transform: translateX(-15px);}
+}
+
+.ContainerSVG{
+    width: 100%;
+}
+.ContentSVG{
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 1em;
+}
+.TitleSVG{
+    max-width: 400px;
+    margin-bottom: 25px;  
+}
+.SVG{
+    max-width: 800px;
+}
+
+
+

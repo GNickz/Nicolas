@@ -4,8 +4,10 @@
     bottom: 0;
 }
 
+/*Global Variables*/
 :root{
     --tipografia:Rubik;
+
    /* --BackgroundImageBodyMD:url(/assets/BackGroundImgBodyMD.jpg);
     --BackgroundImageBodyML:url(/assets/BCGIMGBODYML.png);
     */
@@ -33,15 +35,18 @@
     --ColorBorderSectionsMD:#284647; 
 
     --ColorTextMD:#f4f9f9;
-    
-
 }
+
+/*navBar href's relocated with every section */
+/*
 html{
     scroll-behavior: smooth;
-}
+}*/
 section[id]{
-    scroll-margin-top: 210px;
+    scroll-margin-top:150px;
 }
+
+
 body{
     transition: all .5s;
     background-color: var(--BackgroundBodyColorML);
@@ -54,11 +59,10 @@ body{
     
 }
 
-/*Change stile to ModeNigth usin toogle add class .change, .ModeDark or ModeLigth*/
+/*Change styles to ModeNigth usin toogle*/
 .body.change{
     transition: all .5s;
     background-color: var(--BackgrounBodyColorMD);
-   /* background-image: var(--BackgroundImageBodyMD);*/
 }
 .h1.change, .p.change, .a.change, .svg.change{
     color: var(--ColorTextMD);
@@ -105,7 +109,7 @@ body{
     background-color: var(--ColorBGSectionsMD);
 }
 
-
+/*Global Styles*/
 .h1{
     color: var(--TextColorML);
     font-family: var(--tipografia);
@@ -125,6 +129,10 @@ body{
     font-size: 15px;
     text-transform: uppercase;
 }
+.img{
+    width: 50px;
+    object-fit: cover;
+}
 .li{
     font-family: var(--tipografia);
     list-style: none;
@@ -140,7 +148,7 @@ body{
     border: none;
 }
 
-
+/*Styles Header*/
 .ContainerHeader{
     width: 100%;
     background-color: var(--ColorBGHeaderML);
@@ -149,9 +157,8 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
-
 .ContentHeader{
     max-width:1200px;
     margin: 0 auto;
@@ -214,10 +221,11 @@ body{
     fill: var(--ColorFillIconsMD);
 }
 
-
+/*Styles Presentation*/
 .ContainerPresentation{
     width: 100%;
     margin-bottom: 150px;
+
 }
 .ContentPresentation{
     padding-left: 1em;
@@ -230,8 +238,7 @@ body{
     align-items: center;
 }
 .ContentPresentation img{
-    width: 200px;
-    border-radius: 50%;
+    width: 300px;
 }
 .ContentInfoPresentation{
     width: 500px;
@@ -252,17 +259,37 @@ body{
     color: var(--ColorDestacadoML);
 }
 .ContactPresentation{
-    width: 360px;
+    width: 460px;
     padding: 1em;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
+    gap: 25px;
 }
-.svgGitHub{
+
+.btnLinkGitHub{
+    cursor: pointer;
+    border: 1px solid var(--ColorBordersSectionsML);
+    width: 200px;
+    padding: 10px;
+    border-radius: .9em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
     transition: all 500ms;
 }
-.svgGitHub:hover{
-    fill: var(--ColorFillIconsMLHover);   
+.aLinkGitHub{
+    text-transform: none;
+    font-weight:600;
+}
+.btnLinkGitHub:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+}
+.svgGitHub{
+    transform: scale(.8);
 }
 .btnDownloadCV{
     cursor: pointer;
@@ -285,12 +312,14 @@ body{
     fill: #f4f9f9;
 }
 .CV{
-    color: #f4f9f9;
+    color:#fff;
+    font-weight: 600;
 }
 
+/*Styles AboutMe*/
 .ContainerAbouMe{
     width: 100%;
-    margin-bottom: 280px;
+    margin-bottom: 260px;
 }
 .ContentAboutMe{
     padding-left: 1em;
@@ -298,18 +327,14 @@ body{
     max-width: 800px;
     margin: 50px auto;
 }
-.h1AboutMe{
-    /*font-weight: 600;*/
-}
 .pAboutMe{
-    /*font-weight: 400;*/
     margin: .7em .7em;
     line-height: 25px;
 }
 
+/*Styles Projects*/
 .ContainerProjects{
     width: 100%;
-    margin-bottom: 150px;
 }
 .ContentProjects{
     max-width: 800px;
@@ -332,13 +357,11 @@ body{
    width: 400px;
 }
 .h1InfoProject{
-    /*font-weight: 600;*/
     font-size: 20px;
     line-height: 20px;
 }
 .pInfoProject{
     margin-top: 1em;
-   /* font-weight: 450*/
 }
 .ProjectTools{
     margin-top: 1em;
@@ -347,7 +370,6 @@ body{
 }
 .pToolsUsed{
     font-size: 15px;
-   /* font-weight: 300;*/
 }
 .Tools{
     margin-top: 1em;
@@ -408,9 +430,10 @@ body{
     height: 100%;
 }
 
+/*Styles Skills&Technologies*/
 .ContainerHabilitesTechnologies{
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     border-top: 1px solid var(--ColorBordersSectionsML);
     border-bottom: 1px solid var(--ColorBordersSectionsML);
     background-color: var(--ColorBGSectionsML);
@@ -477,7 +500,6 @@ body{
 .liHabilites:hover::after{
     width: 100%;
 }
-
 .ContainerTechnologies{
     margin-bottom: 50px;
 }
@@ -502,7 +524,6 @@ body{
 .pTitleTechnologies{
     color: #fff;
 }
-
 .Technologies{
     max-width: 400px;
     display: flex;
@@ -515,9 +536,10 @@ body{
     object-fit: cover;
 }
 
+/*Styles ContactMe*/
 .ContainerContactMe{
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 350px;
 }
 .ContentContactMe{
     max-width: 800px;
@@ -561,7 +583,7 @@ body{
 }
 
 
-
+/*Styles Footer*/
 .ContainerFotter{
     border-top: 1px solid var(--ColorBordersSectionsML);
     background-color: var(--ColorBGHeaderML);
@@ -578,7 +600,7 @@ body{
     align-items: center;
     max-width: 1000px;
 }
-.h1LogoFooter{
+.ImgLogoFooter{
     width: 300px;
     height: 250px;
     display: flex;
@@ -609,6 +631,9 @@ body{
 
 
 @media screen and (max-width:1080px){
+    section[id]{
+        scroll-margin-top:400px;
+    }
     .navHeader{
         width: 100%;
         height: 0;
@@ -621,9 +646,10 @@ body{
         overflow: hidden;
     }
     .navHeader.activo{
-        height: 50vh;
+        height: 25vh;
         pointer-events: auto;
-        padding: 2em;
+        padding: 1em;
+
     }
     .BtnMenu{
         display: block;
@@ -632,7 +658,7 @@ body{
         flex-direction: column;
     }
     .liHeader{
-        margin: 2rem 0;
+        margin: .8rem 0;
     }
 
 

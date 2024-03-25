@@ -1,4 +1,5 @@
 /*Menu*/ 
+/*
 const button = document.querySelector('.BtnMenu');
 const nav = document.querySelector('.navHeader');
 const menu = document.querySelector('.svgMenu');
@@ -9,9 +10,51 @@ button.addEventListener('click', () => {
     menu.classList.toggle('change');
     closemenu.classList.toggle('change');
 });
+*/
+
+/*Open Menu*/
+
+function openMenu(){
+
+    const button = document.querySelector('.BtnMenu')
+    const nav = document.querySelector('.navHeader')
+    const openmenu = document.querySelector('.svgMenu')
+    const closemenu = document.querySelector('.svgCloseMenu')
+
+    button.addEventListener("click",()=>{
+        nav.classList.toggle('activo')
+        openmenu.classList.toggle('change')
+        closemenu.classList.toggle('change')
+    })
+}
+openMenu();
+
+function redigirSecciones(){
+    const links = document.querySelectorAll('.ulHeader a[href^="#"]')
+    const navBar = document.querySelector('.navHeader')
+    const OpenMenu = document.querySelector('.svgMenu')
+    const CloseMenu = document.querySelector('.svgCloseMenu')
+    links.forEach( links => {
+        links.addEventListener("click",event=>{
+            event.preventDefault();
+            
+            navBar.classList.remove('activo')
+            OpenMenu.classList.remove('change')
+            CloseMenu.classList.remove('change')
+            
 
 
-
+            const targetId = links.getAttribute('href').substr(1);
+            const targetElement = document.getElementById(targetId);
+            if(targetElement){
+                targetElement.scrollIntoView({
+                    behavior:'smooth'
+                })
+            }
+        });
+    });
+}
+redigirSecciones();
 
 
 
