@@ -1,16 +1,3 @@
-/*Menu*/ 
-/*
-const button = document.querySelector('.BtnMenu');
-const nav = document.querySelector('.navHeader');
-const menu = document.querySelector('.svgMenu');
-const closemenu = document.querySelector('.svgCloseMenu');
-
-button.addEventListener('click', () => {
-    nav.classList.toggle('activo');
-    menu.classList.toggle('change');
-    closemenu.classList.toggle('change');
-});
-*/
 
 /*Open Menu*/
 
@@ -102,7 +89,7 @@ CV.addEventListener('click',()=>{
 
 
 
-/*Slider*/
+/*Slider FirsProject*/
 
 let imagenes = [
     "/assets/202shots_so.jpg",
@@ -113,8 +100,16 @@ let imagenes = [
 
 ];
 
+let imagesProject2 = [
+    "/assets/P2img1.png",
+    "/assets/P2img2.png",
+    "/assets/P2img3.png",
+    "/assets/P2img4.png",
+    "/assets/P2img5.png",
+]
+
 document.Imagen.src = imagenes[0];
-document.ImagenProject2.src = imagenes[0];
+document.ImagenProject2.src = imagesProject2[0];
 
 let Contador = 0
 
@@ -125,7 +120,7 @@ function moveRight()
             Contador = 0;
         }
         document.Imagen.src = imagenes[Contador];
-        document.ImagenProject2.src = imagenes[Contador];
+        document.ImagenProject2.src = imagesProject2[Contador];
 
     }
 let Intervalo = setInterval(moveRight, 3000)

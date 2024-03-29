@@ -225,7 +225,6 @@ body{
 .ContainerPresentation{
     width: 100%;
     margin-bottom: 150px;
-
 }
 .ContentPresentation{
     padding-left: 1em;
@@ -314,12 +313,13 @@ body{
 .CV{
     color:#fff;
     font-weight: 600;
+    text-transform: none;
 }
 
 /*Styles AboutMe*/
 .ContainerAbouMe{
     width: 100%;
-    margin-bottom: 260px;
+    margin-bottom: 150px;
 }
 .ContentAboutMe{
     padding-left: 1em;
@@ -335,6 +335,7 @@ body{
 /*Styles Projects*/
 .ContainerProjects{
     width: 100%;
+    margin-bottom: 150px;
 }
 .ContentProjects{
     max-width: 800px;
@@ -404,6 +405,10 @@ body{
     display: flex;
     margin-top: 1em;
 }
+.aLinkToCode{
+    text-transform: none;
+    font-weight: 700;
+}
 .BtnLinkProject{
     cursor: pointer;
     width: 200px;
@@ -433,7 +438,7 @@ body{
 /*Styles Skills&Technologies*/
 .ContainerHabilitesTechnologies{
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     border-top: 1px solid var(--ColorBordersSectionsML);
     border-bottom: 1px solid var(--ColorBordersSectionsML);
     background-color: var(--ColorBGSectionsML);
