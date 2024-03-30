@@ -82,7 +82,7 @@ trigger.addEventListener('click', () =>{
 const CV = document.querySelector('.btnDownloadCV')
 
 CV.addEventListener('click',()=>{
-    const URL = 'assets/CV _GNT.pdf';
+    const URL = 'assets/CV_GUSTAVO_NICOLAS_U_G.pdf';
     window.open(URL, '_blank');
 })
 
@@ -92,20 +92,20 @@ CV.addEventListener('click',()=>{
 /*Slider FirsProject*/
 
 let imagenes = [
-    "/assets/202shots_so.jpg",
-    "/assets/207shots_so.jpg",
-    "/assets/455shots_so.jpg",
-    "/assets/640shots_so.jpg",
-    "/assets/970shots_so.jpg",
+    "assets/202shots_so.jpg",
+    "assets/207shots_so.jpg",
+    "assets/455shots_so.jpg",
+    "assets/640shots_so.jpg",
+    "assets/970shots_so.jpg",
 
 ];
 
 let imagesProject2 = [
-    "/assets/P2img1.png",
-    "/assets/P2img2.png",
-    "/assets/P2img3.png",
-    "/assets/P2img4.png",
-    "/assets/P2img5.png",
+    "assets/P2img1.png",
+    "assets/P2img2.png",
+    "assets/P2img3.png",
+    "assets/P2img4.png",
+    "assets/P2img5.png",
 ]
 
 document.Imagen.src = imagenes[0];
