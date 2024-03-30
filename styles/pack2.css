@@ -108,13 +108,11 @@ button .backhome{
 .BodyPack2{
     max-width: 1400px;
     height: 900px;
-    margin: 50px auto;
+    margin: 0 auto;
     overflow-y:scroll ;
     position: relative;
     border: 1px solid rgb(0, 0, 0);
-    position: relative;
-    margin-left: 1em;
-    margin-right: 1em;
+    position: relative; 
 }
 
 .BodyPack2.change{ 
