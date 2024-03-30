@@ -1,11 +1,29 @@
 *{
     margin: 0;
+    padding: 0;
+    top: 0; 
 }
 
 :root{
     --tipografia:'Roboto', sans-serif;
-    --colorTextPresentation:black;
-    --colortext:white;
+    --colorPresentacionPack2:rgb(0, 0, 0);
+    --colorBordersPresentationPack2:rgb(192, 192, 192);
+    --colorBackgroundSectionsPresentationPack2:rgb(209, 209, 209, .3);
+    --colorIconsPresentatationPack2:#000000;
+
+    /*Colors Ligth Mode*/
+    --backgroundColorModeLigthSections:rgb(209, 209, 209, .3);
+    --colorMLBordersIntoBodyPack2:rgb(192, 192, 192);
+    --colorMLIconsFillIntoBodyPack2:rgb(51, 51, 51);
+    --colorMLTextsIntoBodyPack2: rgb(51, 51, 51);
+
+    /*Colors Nigth Mode*/
+    --backgroundColorModeNigthAllBodyPack2:rgb(51, 51, 51);
+    --colorMNIconsFillIntoBodyPack2:rgb(247, 247, 247);
+    --colorMNSections:rgb(240, 240, 240,.3);
+    --colorMNBordersIntoBodyPack2:rgb(192, 192, 192);
+    --colorMNTextsIntoBodyPack2:rgb(247, 247, 247);
+    
 }
 
 .ContainerIntroduction{
@@ -13,27 +31,47 @@
     padding: 50px;
 }
 .ContentIntroduction{
-    width: 1200px;
+    max-width:1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns:10% 80%;
+    gap: 50px;
+    justify-content: center;
+}
+.Hand{
+    transform: scale(4);
+    fill:var(--colorIconsPresentationPack2);
+}
+.hand{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: handmove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+@keyframes handmove {
+    10%{rotate:8deg;}
+    30% ,70%{rotate:-10deg;}
+    50%, 85%{rotate:10deg;}
 }
 .TextIntroduction h1,p{
     font-family: var(--tipografia);
-    color:var(--colorTextPresentation);
+    color:var(--colorPresentacionPack2);
 }
 .TextIntroduction p{
     font-family: var(--tipografia);
-    color:var(--colorTextPresentation);
+    color:var(--colorPresentacionPack2);
 }
 .TextIntroduction h1{
-    width: 300px;
+    max-width:300px;
+    width: auto;
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    text-align: center; 
 }
 .TextIntroduction p{
-    width: 1000px;
+    width: auto;
     font-size: 25px;
     font-weight: 200;
     margin: 0 auto;
@@ -46,523 +84,475 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    border: 1px rgb(0, 0, 0);
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 .BackHome button{
     width: 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     cursor: pointer;
-    background-color: #262c40;
-    border:1px solid #b9cfe8;
+    background-color: var(--colorBackgroundSectionsPresentationPack2);
+    border:1px solid var(--colorBordersPresentationPack2);
+    fill: var(--colorIconsPresentatationPack2);
     height: 70px;
     border-radius: 10px;
 }
-.BackHome a{
+button .backhome{
+    font-family: var(--tipografia);
+    color:var(--colorMLTextsIntoBodyPack2);
+}
+
+
+.BodyPack2{
+    max-width: 1400px;
+    height: 900px;
+    margin: 0 auto;
+    overflow-y:scroll ;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative; 
+}
+
+.BodyPack2.change{ 
+    background-color: var(--backgroundColorModeNigthAllBodyPack2);
+}
+.BodyPack2 .moon.change{
+    fill:var(--colorMNIconsFillIntoBodyPack2);
+    transition: 1s;
+}
+.ContainerHeader.change{
+    background-color:var();
+    border: 1px solid var(--colorMNBordersIntoBodyPack2);
+}
+.h1.change, .a.change, .p.change, .h2.change{
+    background: none;
+    color: var(--colorMNTextsIntoBodyPack2);
+    transition: 1s;
+}
+.svg.change{
+    fill:var(--colorMNIconsFillIntoBodyPack2);
+    transition: 1s;
+}
+.ContentPresentation.change{
+    background-color:var(--colorMNSections);
+    border: 1px solid var(--colorMNBordersIntoBodyPack2);
+}
+.BoxTimeLine.change{
+    background-color:var(--colorMNSections);
+    border: 1px solid var(--colorMNBordersIntoBodyPack2);
+}
+.icon.change{
+    fill:var(--colorMNIconsFillIntoBodyPack2);
+}
+.iconcontact.change{
+    fill:var(--colorMNIconsFillIntoBodyPack2);
+}
+
+
+.ContainerHeader{
+    width:100%;
+    background-color: var(--backgroundColorModeLigthSections);
+    backdrop-filter: blur(10px);
+    margin: 0 0 50px auto;
+    position: sticky;
+    z-index: 1;
+}
+.ContentHeader {   
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;  
+    border: 1px solid var(--colorMLBordersFillsIconsIntoBodyPack2); 
+    border-radius: 10px;
+}
+.h1{
+    color:var(--colorMLTextsIntoBodyPack2);
     text-decoration: none;
     font-family: var(--tipografia);
-    color: #b9cfe8;
+    background: none;
+    transition: 1s;
+}
+.ContentHeader button {
+    display: none;
+    border: none;
+    background: none;
+}
+.svg{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    fill:var(--colorMLIconsFillIntoBodyPack2);
+    transition-duration: 500ms;
+}
+.a{
+    text-decoration: none;
+    font-family: var(--tipografia);
+    color:var(--colorMLTextsIntoBodyPack2);
+    transition: 1s;
+    text-transform: uppercase;
+}
+.nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    margin: 0 1em;
+}
+.NigthMode .moon{
+    background: none;
+    cursor: pointer;
+    transition: 1s;
+    fill:var(--colorMLIconsFillIntoBodyPack2);
 }
 
-.BodyPack1{
-    margin: 100px auto;
-    max-width: 1400px;
-    height: 800px;
-    overflow-y: scroll;
-    background-color: #18181b;
-    border: 2px solid #6a7fc1;
+.ContainerCarrousel{
+    width: 100%;
+    margin-bottom: 100px;
 }
-.ContainerPresentation{
+.Carrousel{
     max-width: 1200px;
-    margin: 50px auto;
+    height: 500px;
+    margin: 0 auto;
     overflow: hidden;
 }
-.ContentPresentation{
-    display: grid;
-    grid-template-columns: 30% 60%;
-    justify-content: center;
-    align-items: center;
-}
-.ContentPresentation img{
-    max-width: 400px;
-}
-.ContentTextPresentation{
-    margin-top: 100px;
-}
-.ContentTextPresentation h1,h2,p{
-    font-family:var(--tipografia);
-    color: var(--colortext);
-}
-.ContentTextPresentation h1{
-    font-size: 35px;
-    text-align: center;
-    font-weight: 400;
-}
-.ContentTextPresentation h2{
-    font-size: 25px;
-    text-align: center;
-    font-weight: 300
-}
-.ContentTextPresentation p{
-    font-size: 20px;
-    margin: 25px;
-    text-align: center;
-    text-align: justify;
-    font-weight: 200;
-}
-
-.ContainerContact{
-    height: auto;
-    width: 1200px;
-    margin: 50px auto;
-}
-.ContainerContact ul{
-    max-width: 350px;
-    margin: 20px auto;
-    padding-left: 10px;
-    padding-right: 10px;
+.Carrousel .ContentCarrousel{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    height: 50px;
-    border-bottom:1px solid #6a7fc1;
-    border-radius: 5px;
 }
-.Media{
-    transform: scale(1.5);
-    transition: all 1000ms;
+.Carrousel .img{
+    border-radius: 30px;
+    object-fit: cover;
+    width: 100%;
 }
-.Media:hover{
+.Carrousel .directions{
+padding: 0;
+display: flex;
+justify-content: space-between;
+z-index: 0.9;
+transform: translateY(-125px);
+}
+.directions .directionRigth, .directionLeft{
     transform: scale(2.5);
+    fill: rgb(255, 255, 255);
+    background: rgba(109, 109, 109, 0.272);
+    border-radius: 50%;  
+    cursor: pointer;
 }
-.Media.facebook,.twitter,.instagram{
-    filter:drop-shadow(0px 0px 0.5px rgb(106, 127, 193));
+.directionRigth{
+    margin-right: 30px;
 }
-.ContentContact{
-    display: grid; 
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: center;
-}
-.ContentContact img{
-    max-width: 400px;
-}
-.Data{
-    max-width: 600px;
-    padding: 30px;
-}
-.Data h1, p{
-    font-family: var(--tipografia);
-    color: var(--colortext);
-}
-.Data h1{
-    font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-    margin: 10px;
-}
-.Data p{
-    font-size: 30px;
-    font-weight: 200;
-    text-align: justify;
-    margin: 10px;
-}
-.Data .AgeWork{
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    font-weight: 400;
-}
-.hobie{
-    text-align: center;
-    font-family: var(--tipografia);
+.directionLeft{
+    margin-left: 30px;
 }
 
-.ContainerInfo{
+.ContainerPresentation{
+    max-width: 1400px;
+    height: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.ContentPresentation{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-flow:wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    background-color:var(--backgroundColorModeLigthSections);
+    border: 1px solid var(--colorMLBordersIntoBodyPack2);
+}
+.InfoPresentation{
+    max-width: 600px;
+    padding: 10px;
+}
+.InfoPresentation h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: var(--tipografia);
+    margin-bottom: 25px;
+    color: var(--colorMLTextsIntoBodyPack2);
+}
+.InfoPresentation p{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: var(--tipografia);
+    margin-bottom: 10px;
+    color:var(--colorMLTextsIntoBodyPack2);
+}
+.InfoPresentation button{
+    width: 100%;
+    height: 70px;
+    background-color:var(--backgroundColorModeLigthSections);
+    border: 1px solid var(--colorMLBordersIntoBodyPack2);
+    border-radius:15px ;
+}
+.btnPresentation a{
+    text-decoration: none;
+    color: var(--colorMLTextsIntoBodyPack2);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--tipografia);
+}
+.ImgPresentation img{
+    width: 300px;
+    object-fit: cover;
+}
+
+.ContainerTimeLine{
+    margin: 0 auto;
+    max-width: 34.15em;
+    margin-bottom: 100px;
+}
+.Checkpoint{
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+.Checkpoint .ContentChecpoint{
+    border: 2px solid var(--colorMLBordersIntoBodyPack2);
+    background-color: var(--backgroundColorModeLigthSections);
+    border-radius: 15px;
+    padding: 1.5em;
+}
+.ContentChecpoint{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ContentChecpoint .h1{
+    font-family: var(--tipografia);
+    font-weight: 400;
+    font-size: 30px;
+}
+div .Icon{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    transform: scale(4);
+    fill: var(--colorMLIconsFillIntoBodyPack2);
+}
+.ContentChecpoint .h2{
+    font-family: var(--tipografia);
+    font-weight: 300;
+    font-size: 25px;
+}
+.Checkpoint:nth-child(odd){
+    border-left: 3px solid var(--colorMLBordersIntoBodyPack2);
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+.Checkpoint:nth-child(even){
+    border-right: 3px solid var(--colorMLBordersIntoBodyPack2);
+    padding-right: 3em;
+    transform: translateX(-17em);
+}
+.Checkpoint:nth-child(odd)::before,
+.Checkpoint:nth-child(even)::before{
+    content: '';
+    background-color: var(--colorMLBordersIntoBodyPack2);
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.Checkpoint:nth-child(odd)::before{
+    left: 0; 
+}
+.Checkpoint:nth-child(even)::before{
+    right: 0; 
+}
+.Checkpoint:nth-child(odd) .ContentChecpoint::before,
+.Checkpoint:nth-child(even) .ContentChecpoint::before{
+    content: '';
+    background: var(--colorMLBordersIntoBodyPack2);
+    box-shadow: 0 0 0.5em var(--colorMLBordersIntoBodyPack2);
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+.Checkpoint:nth-child(odd) .ContentChecpoint::before{
+    left: -0.5em; 
+}
+.Checkpoint:nth-child(even) .ContentChecpoint::before{
+    right: -0.5em; 
+}
+
+.ContainerFooter{
     max-width: 100%;
     justify-content: center;
-    margin: 50px auto;
-    padding: 50px;
-    background: rgba(38, 44, 64);
-    border:1px solid #6a7fc1; 
+    background-color:var(--backgroundColorModeLigthSections);
+    border: 1px solid var(--colorMLBordersIntoBodyPack2);
+}
+.ContentFooter{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;  
+    gap: 10px;
+}
+.ContentFooter h1,a{
+    color: var(--colorMLTextsIntoBodyPack2);
+    text-decoration: none;
+    font-family: var(--tipografia);
+}
+.a{
+    text-transform: uppercase; 
+}
+.Logo{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContactContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 10px;
+}
+.IconsContact{
+    background: none;
+    border: none;
+}
+.iconcontact{
+    fill: var(--colorMLIconsFillIntoBodyPack2);
+    transform: scale(1.5);
+    transition: all 500ms;
+}
+.iconcontact:hover{
+    transform: scale(2);
+}
+.Nav{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerInfo{
+    max-width: 1400px;
+    height: auto;
+    background-color: var(--backgroundColorModeLigthSections);
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
 }
 .ContentInfo{
-    max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 10px;
-    margin: 0 auto;
-}
-.tag{
-    width: 300px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
-    transition: background-color 5s;
-}
-.tagcontent{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(3px);
-    background-color: rgba(106, 127, 193, 0.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    transition: background-color 1s;
-    border-radius: 10px;
-}
-.tagcontent:hover{
-    backdrop-filter: none;
-    background-color: rgba(106, 127, 193, 0.3);
-}
-.icon{  
-    filter:drop-shadow(0px 0px 1px rgba(38, 44, 64, 0.9));
-    transform: scale(4);
-}
-.tagcontent h1{
-    color: var(--colortext);
-    text-align: center;
-    margin: 10px 10px;
-    font-weight: 600;
-}
-.tagcontent p{
-    color: var(--colortext);
-    text-align: center;
-    font-weight: 500;
-}
-.tagcontent:hover>h1{
-    filter:drop-shadow(0px 0px 1px rgba(38, 44, 64, 0.9));
-}
-.tagcontent:hover>p{
-    filter:drop-shadow(0px 0px 1px rgba(38, 44, 64, 0.9));
-}
-.presentation img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.custom img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.email img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.extension img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.tools img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.result img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.ContainerMap{
     width: 1200px;
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
-}
-.ContentMap{
-    max-width: 1000px;
-    display: flex;
+    flex-flow: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 50px;
 }
-.Map{
-    width: 600px;
-}
-.Map>iframe{
+.ContentInfo h2{
     max-width: 500px;
-    border-radius: 10px;
-    -webkit-box-shadow: -2px -2px 2px 2px rgba(106,127,193,1);
-}
-.InfoMap{
-    width: 450px;
+    margin: 30px auto;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    text-align: center;
     align-items: center;
-    text-align: center;
-}
-.InfoMap h1{
-    font-size: 30px;
-    font-weight: 400;
-    color:var(--colortext);
+    font-weight: 300;
     font-family: var(--tipografia);
-    text-align: center;
-}
-.InfoMap p{
     font-size: 25px;
-    font-weight: 200;
-    color: var(--colortext);
-    font-family: var(--tipografia);
-    text-align: justify;
 }
-.adress,.phone{
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-a>box-icon{
-    transform: scale(1.5);
-    margin-right: 10px;
-    align-items: center;
-}
-.phone>box-icon{
-    transform: scale(1.5);
-    margin-right: 10px;
-    align-items: center;
+.ContentInfo img{
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+    object-fit: cover; 
 }
 
 
 
 
 
-@media
-(width > 900px) and (width < 1400px){
 
-.ContentIntroduction{
-    width: auto;
-    padding: 50px;
-}
-.TextIntroduction h1{
-    width: auto;
-    margin-bottom: 20px;
-}
-.TextIntroduction p{
-    width: auto;
-    margin-bottom: 20px;
-}
-
-.ContentPresentation{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: justify;
-    margin-bottom: 100px;
-}
-.ContentTextPresentation p{
-    margin-bottom: 25px;
-}
-
-.ContainerContact{
-    width: auto;
-    display: grid;
-    grid-template-columns: 80% 10%;
-    justify-content: center;
-}
-.ContentContact{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: justify;
-}
-.Data .AgeWork{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.ContainerContact ul{
-    flex-direction: column-reverse;
-    border-bottom: none;
-    height: auto;
-    margin-right: 100px;
-}
-
-.ContainerMap{
-    width: auto;
-}
-.ContentMap{
-    flex-direction: column-reverse;
-    justify-content: space-between;
-}
-.Map{
-    width:auto;
-}
-.InfoMap h1{
-    margin-bottom: 50px;
-}
-.InfoMap{
-    margin-bottom: 50px;
-}
-}
-
-@media
-(width > 768px) and (width < 1024px){
-
-.ContentIntroduction{
-    width: auto;
-    padding: 50px;
-}
-.TextIntroduction h1{
-    width: auto;
-    margin-bottom: 20px;
-}
-.TextIntroduction p{
-    width: auto;
-    margin-bottom: 20px;
-}
-
-.ContentPresentation{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: justify;
-    margin-bottom: 100px;
-}
-.ContentTextPresentation p{
-    margin-bottom: 25px;
-}
-
-.ContainerContact{
-    width: auto;
-    display: grid;
-    grid-template-columns: 80% 10%;
-    justify-content: center;
-}
-.ContentContact{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: justify;
-}
-.Data .AgeWork{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.ContainerContact ul{
-    flex-direction: column-reverse;
-    border-bottom: none;
-    height: auto;
-    margin-right: 100px;
-}
-
-.ContainerMap{
-    width: auto;
-}
-.ContentMap{
-    flex-direction: column-reverse;
-    justify-content: space-between;
-}
-.Map{
-    width:auto;
-}
-.InfoMap h1{
-    margin-bottom: 50px;
-}
-.InfoMap{
-    margin-bottom: 50px;
-}
-}
-
-@media
-(width > 389px) and (width < 843px){
-    .ContentIntroduction{
-        width: auto;
+@media screen and (max-width:1080px) {
+    .ContentHeader button{
+        display: block;
     }
-    .TextIntroduction h1{
-        width: auto;
-        margin-bottom: 20px;
-    }
-    .TextIntroduction p{
-        width: auto;
-        margin-bottom: 25px;
-    }
-    .ContentPresentation{
+    .ContentHeader .nav{
+        width: 100%;
+        height: 0;
+        transition: all .5s ease;
         display: flex;
-        flex-direction: column-reverse;
-        text-align: justify;
-        margin-bottom: 100px;
-    }
-    .ContentTextPresentation p{
-        margin-bottom: 50px;
-    }
-    .ContentPresentation img{
-        max-width: 300px;
-    }
-
-    .ContainerContact{
-        width: auto;
-        display: grid;
-        grid-template-columns: 70% 10%;
+        flex-flow: nowrap;
+        pointer-events: none;
         justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
-    .ContentContact{
-        display: flex;
-        flex-direction: column-reverse;
-        text-align: justify;
+    .ContentHeader .nav.activo{
+       pointer-events: auto;
+       height:25vh;
     }
-    .ContentContact img{
-        max-width: 200px;
+
+    .ContentHeader .svg.rotate{
+        rotate: 90deg;
+        transition-duration: 500ms;
     }
-    .Data h1{
-        text-align: left;
+    .nav ul{
+        flex-direction: column;
     }
-    .Data .AgeWork{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: left;
+    .nav li{
+        margin: 1rem 0;
     }
-    .ContainerContact ul{
-        flex-direction: column-reverse;
-        border-bottom: none;
-        height: auto;
-        margin-right: 100px;
+    .NigthMode .moon{
+        margin-top: 15px;
     }
+
+    .ContainerTimeLine{
+        width: 80vw;
+    }
+    .ContainerTimeLine .Checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    .ContainerTimeLine .Checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .ContainerTimeLine .Checkpoint .ContentChecpoint::before{
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     
-    .ContainerMap{
-        width: auto;
-    }
-    .ContentMap{
-        flex-direction: column-reverse;
-        justify-content: space-between;
-    }
-    .Map{
-        max-width: 300px;
-        margin: 0 auto;
-    }
-    .InfoMap h1{
-        margin-bottom: 50px; 
-    }
-    .InfoMap h1{
-        width: auto;
-    }
-    .InfoMap p{
-        text-align: center;
-    }
-    .InfoMap{
-        margin-bottom: 50px;
-        width: auto;
-    }
+
+    
 }
-
-
-
-
-
-
-
-
 
 

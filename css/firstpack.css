@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --tipografia:'Roboto', sans-serif;
+    --colorTextPresentation:black;
+    --colortext:white;
+}
+
+.ContainerIntroduction{
+    max-width: 100%;
+    padding: 50px;
+}
+.ContentIntroduction{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.TextIntroduction h1,p{
+    font-family: var(--tipografia);
+    color:var(--colorTextPresentation);
+}
+.TextIntroduction p{
+    font-family: var(--tipografia);
+    color:var(--colorTextPresentation);
+}
+.TextIntroduction h1{
+    width: 300px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.TextIntroduction p{
+    width: 1000px;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0 auto;
+    text-align: justify;
+}
+.BackHome{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px rgb(0, 0, 0);
+}
+.BackHome button{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #262c40;
+    border:1px solid #b9cfe8;
+    height: 70px;
+    border-radius: 10px;
+}
+.BackHome a{
+    text-decoration: none;
+    font-family: var(--tipografia);
+    color: #b9cfe8;
+}
+
+.BodyPack1{
+    margin: 100px auto;
+    max-width: 1400px;
+    height: 800px;
+    overflow-y: scroll;
+    background-color: #18181b;
+    border: 2px solid #6a7fc1;
+}
+.ContainerPresentation{
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.ContentPresentation{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    justify-content: center;
+    align-items: center;
+}
+.ContentPresentation img{
+    max-width: 400px;
+}
+.ContentTextPresentation{
+    margin-top: 100px;
+}
+.ContentTextPresentation h1,h2,p{
+    font-family:var(--tipografia);
+    color: var(--colortext);
+}
+.ContentTextPresentation h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+.ContentTextPresentation h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300
+}
+.ContentTextPresentation p{
+    font-size: 20px;
+    margin: 25px;
+    text-align: center;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.ContainerContact{
+    height: auto;
+    width: 1200px;
+    margin: 50px auto;
+}
+.ContainerContact ul{
+    max-width: 350px;
+    margin: 20px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 50px;
+    border-bottom:1px solid #6a7fc1;
+    border-radius: 5px;
+}
+.Media{
+    transform: scale(1.5);
+    transition: all 1000ms;
+}
+.Media:hover{
+    transform: scale(2.5);
+}
+.Media.facebook,.twitter,.instagram{
+    filter:drop-shadow(0px 0px 0.5px rgb(106, 127, 193));
+}
+.ContentContact{
+    display: grid; 
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.ContentContact img{
+    max-width: 400px;
+}
+.Data{
+    max-width: 600px;
+    padding: 30px;
+}
+.Data h1, p{
+    font-family: var(--tipografia);
+    color: var(--colortext);
+}
+.Data h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+}
+.Data p{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: justify;
+    margin: 10px;
+}
+.Data .AgeWork{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 400;
+}
+.hobie{
+    text-align: center;
+    font-family: var(--tipografia);
+}
+
+.ContainerInfo{
+    max-width: 100%;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 50px;
+    background: rgba(38, 44, 64);
+    border:1px solid #6a7fc1; 
+}
+.ContentInfo{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.tag{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 5s;
+}
+.tagcontent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    background-color: rgba(106, 127, 193, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 1s;
+    border-radius: 10px;
+}
+.tagcontent:hover{
+    backdrop-filter: none;
+    background-color: rgba(106, 127, 193, 0.3);
+}
+.icon{  
+    filter:drop-shadow(0px 0px 1px rgba(38, 44, 64, 0.9));
+    transform: scale(4);
+}
+.tagcontent h1{
+    color: var(--colortext);
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+.tagcontent p{
+    color: var(--colortext);
+    text-align: center;
+    font-weight: 500;
+}
+.tagcontent:hover>h1{
+    filter:drop-shadow(0px 0px 1px rgba(38, 44, 64, 0.9));
+}
+.tagcontent:hover>p{
+    filter:drop-shadow(0px 0px 1px rgba(38, 44, 64, 0.9));
+}
+.presentation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.custom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.email img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.extension img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.tools img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ContainerMap{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.ContentMap{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.Map{
+    width: 600px;
+}
+.Map>iframe{
+    max-width: 500px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px -2px 2px 2px rgba(106,127,193,1);
+}
+.InfoMap{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.InfoMap h1{
+    font-size: 30px;
+    font-weight: 400;
+    color:var(--colortext);
+    font-family: var(--tipografia);
+    text-align: center;
+}
+.InfoMap p{
+    font-size: 25px;
+    font-weight: 200;
+    color: var(--colortext);
+    font-family: var(--tipografia);
+    text-align: justify;
+}
+.adress,.phone{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a>box-icon{
+    transform: scale(1.5);
+    margin-right: 10px;
+    align-items: center;
+}
+.phone>box-icon{
+    transform: scale(1.5);
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+
+
+
+@media
+(width > 900px) and (width < 1400px){
+
+.ContentIntroduction{
+    width: auto;
+    padding: 50px;
+}
+.TextIntroduction h1{
+    width: auto;
+    margin-bottom: 20px;
+}
+.TextIntroduction p{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.ContentPresentation{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.ContentTextPresentation p{
+    margin-bottom: 25px;
+}
+
+.ContainerContact{
+    width: auto;
+    display: grid;
+    grid-template-columns: 80% 10%;
+    justify-content: center;
+}
+.ContentContact{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+}
+.Data .AgeWork{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.ContainerContact ul{
+    flex-direction: column-reverse;
+    border-bottom: none;
+    height: auto;
+    margin-right: 100px;
+}
+
+.ContainerMap{
+    width: auto;
+}
+.ContentMap{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.Map{
+    width:auto;
+}
+.InfoMap h1{
+    margin-bottom: 50px;
+}
+.InfoMap{
+    margin-bottom: 50px;
+}
+}
+
+@media
+(width > 768px) and (width < 1024px){
+
+.ContentIntroduction{
+    width: auto;
+    padding: 50px;
+}
+.TextIntroduction h1{
+    width: auto;
+    margin-bottom: 20px;
+}
+.TextIntroduction p{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.ContentPresentation{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.ContentTextPresentation p{
+    margin-bottom: 25px;
+}
+
+.ContainerContact{
+    width: auto;
+    display: grid;
+    grid-template-columns: 80% 10%;
+    justify-content: center;
+}
+.ContentContact{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+}
+.Data .AgeWork{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.ContainerContact ul{
+    flex-direction: column-reverse;
+    border-bottom: none;
+    height: auto;
+    margin-right: 100px;
+}
+
+.ContainerMap{
+    width: auto;
+}
+.ContentMap{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.Map{
+    width:auto;
+}
+.InfoMap h1{
+    margin-bottom: 50px;
+}
+.InfoMap{
+    margin-bottom: 50px;
+}
+}
+
+@media
+(width > 389px) and (width < 843px){
+    .ContentIntroduction{
+        width: auto;
+    }
+    .TextIntroduction h1{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .TextIntroduction p{
+        width: auto;
+        margin-bottom: 25px;
+    }
+    .ContentPresentation{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: justify;
+        margin-bottom: 100px;
+    }
+    .ContentTextPresentation p{
+        margin-bottom: 50px;
+    }
+    .ContentPresentation img{
+        max-width: 300px;
+    }
+
+    .ContainerContact{
+        width: auto;
+        display: grid;
+        grid-template-columns: 70% 10%;
+        justify-content: center;
+    }
+    .ContentContact{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: justify;
+    }
+    .ContentContact img{
+        max-width: 200px;
+    }
+    .Data h1{
+        text-align: left;
+    }
+    .Data .AgeWork{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: left;
+    }
+    .ContainerContact ul{
+        flex-direction: column-reverse;
+        border-bottom: none;
+        height: auto;
+        margin-right: 100px;
+    }
+    
+    .ContainerMap{
+        width: auto;
+    }
+    .ContentMap{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .Map{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .InfoMap h1{
+        margin-bottom: 50px; 
+    }
+    .InfoMap h1{
+        width: auto;
+    }
+    .InfoMap p{
+        text-align: center;
+    }
+    .InfoMap{
+        margin-bottom: 50px;
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
