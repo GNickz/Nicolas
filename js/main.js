@@ -55,7 +55,7 @@ const menuMD = document.querySelector('.svgCloseMenu')
 const menuML = document.querySelector('.svgMenu')
 const content = document.querySelectorAll('.h1, .p, .a, .svg')
 const highlighted = document.querySelectorAll('.Highlighted')
-const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies')
+const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies')
 
 trigger.addEventListener('click', () =>{
     moon.classList.toggle('change')

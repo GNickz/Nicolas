@@ -56,7 +56,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;*/
-    
 }
 
 /*Change styles to ModeNigth usin toogle*/
@@ -107,6 +106,10 @@ body{
 
 .ContentCard.change, .ContainerHabilitesTechnologies.change{
     background-color: var(--ColorBGSectionsMD);
+}
+
+.ContainerHabilites.change, .ContainerTechnologies.change{
+    background-color: #0e0e11;
 }
 
 /*Global Styles*/
@@ -452,21 +455,23 @@ body{
 }
 .ContainerHabilites{
     margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 2em 1em 1em 1em ;
+    background-color: #fff;
+    border: 1px solid var(--ColorBordersSectionsML);
+    border-radius: 10px;
 }
 .ContentHabilites{
-    margin-top: 1em;
-    padding: 1em;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    flex-flow: row wrap-reverse; 
 }
 .TitleHabilites{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     border-radius: .5em;
     background-color: var(--ColorBGButtonsML);
-    padding-left: 1em;
     width: 150px;
     height: 50px;
     margin-bottom: 20px;
@@ -475,11 +480,11 @@ body{
     color: #fff;
 }
 .InfoHabilites{
-    max-width: 400px;
+    width: 500px;
     display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px 20px;
     padding: 1em;
 }
 .liHabilites{
@@ -507,18 +512,19 @@ body{
 }
 .ContainerTechnologies{
     margin-bottom: 50px;
+    padding: 2em 1em 1em 1em;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid var(--ColorBordersSectionsML);
 }
 .ContentTechnologies{
-    margin-top: 1em;
-    padding: 1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
 .TitleTechnologies{
     display: flex;
-    justify-content: start;
-    padding-left: 1em;
+    justify-content: center;
     align-items: center;
     border-radius: .5em;
     background-color:var(--ColorBGButtonsML);
@@ -530,12 +536,12 @@ body{
     color: #fff;
 }
 .Technologies{
-    max-width: 400px;
+    width: 500px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    gap: 20px 20px;
-    padding: 1em;
+    justify-content: space-around;
+    gap: 40px 20px;
+    padding: 2em;
 }
 .Technologies img{
     object-fit: cover;
