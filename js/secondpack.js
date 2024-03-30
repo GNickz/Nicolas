@@ -50,10 +50,10 @@ trigger.addEventListener('click',()=>{
 /*Slider*/
 
 let imagenes = [
-    "assets/Imagen-Uno.webp",
-    "assets/Imagen-Dos.webp",
-    "assets/Imagen-Tres.webp",
-    "assets/Imagen-Cuatro.webp"
+    "https://gnickz.github.io/Portafolio/assets/Imagen-Uno.webp",
+    "https://gnickz.github.io/Portafolio/assets/Imagen-Dos.webp",
+    "https://gnickz.github.io/Portafolio/assets/Imagen-Tres.webp",
+    "https://gnickz.github.io/Portafolio/assets/Imagen-Cuatro.webp"
 ];
 document.Imagen.src = imagenes[0];
 
