@@ -435,12 +435,14 @@ body{
 }
 .Carrousel{
     width: 300px;
+    
 }
-.ImgProject img{
+.imgproject{
     border-radius: 1em;
     object-fit: contain;
     width: 100%;
     height: 100%;
+    border: 1px solid var(--ColorBordersSectionsML);
 }
 
 /*Styles Skills&Technologies*/
