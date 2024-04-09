@@ -25,7 +25,7 @@
     --ColorBordersSectionsML:#5ea3a2;
     --TextColorML:#112022;
     --ColorFillIconsML:#112022;
-    --ColorFillIconsMLHover: #408080;
+    --ColorFillIconsMLHover: #5ea3a2;
     
 
     --ColorFillIconsMD:#f4f9f9;
@@ -377,13 +377,16 @@ body{
     display: flex;
     flex-direction: column;
 }
-.pToolsUsed{
-    font-size: 15px;
+.ProjectTools{
+    border: 1px solid var(--ColorBordersSectionsML);
+    border-radius: .5em;
+    padding: .5em;
 }
 .Tools{
-    margin-top: 1em;
+   margin: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -406,7 +409,7 @@ body{
     transition: opacity 0.3s;
   }
 .svgIconToolsProject:hover{
-    fill: var(--ColorFillIconsMLHover);
+    fill: var(--ColorDestacadoMD);
 }
 
 .LnkCode{
