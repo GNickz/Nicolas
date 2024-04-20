@@ -50,6 +50,7 @@ section[id]{
 body{
     transition: all .5s;
     background-color: var(--BackgroundBodyColorML);
+
     /*
     background-image:var(--BackgroundImageBodyML);
     background-size: cover;
@@ -57,6 +58,136 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;*/
 }
+.ContainerAnimation{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 3900px;
+   
+}
+.bckanimation{
+    position: absolute;
+    top:200px;
+    left:400px;
+    width: 2px;
+    height: 2px;
+    background-color: #408080;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(64, 128, 128, 0.1),
+    
+    0 0 20px rgba(64,128,128,1);
+    animation: animate 3s linear infinite;
+}
+.bckanimation::before{
+    content:'';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 1px;
+    left: 2px;
+    background:linear-gradient(90deg,#408080,transparent);
+}
+@keyframes animate {
+    0%{transform: rotate(315deg) translateX(0);
+    opacity: 1;}
+    90%{opacity: 1;}
+    100%{transform: rotate(315deg) translateX(-5900px);
+    opacity: 0;}
+}
+.bckanimation:nth-child(1){
+    top:0;
+    left:20%;
+    animation-duration: 10s;
+}
+.bckanimation:nth-child(2){
+    top:0;
+    left: 40%;
+    animation-duration: 40s;
+    animation-delay: 1s;
+}
+.bckanimation:nth-child(3){
+    top:0;
+    left: 60%;
+    animation-duration: 12s;
+    animation-delay: 5s;
+}
+.bckanimation:nth-child(4){
+    top:0;
+    left: 80%;
+    animation-duration: 14s;
+    animation-delay:1s;
+}
+.bckanimation:nth-child(5){
+    top:0;
+    left: 100%;
+    animation-duration: 45s;
+    animation-delay:2s;
+}
+.bckanimation:nth-child(6){
+    top:0;
+    left:120%;
+    animation-duration: 55s;
+    animation-delay: 5s;
+}
+.bckanimation:nth-child(7){
+    top:0;
+    left: 140%;
+    animation-duration: 51s;
+
+}
+.bckanimation:nth-child(8){
+    top:0;
+    left: 160%;
+    animation-duration: 60s;
+    animation-delay: 4S;
+   
+}
+.bckanimation:nth-child(9){
+    top:0;
+    left: 180%;
+    animation-duration: 50s;
+    animation-delay: 8s;
+    
+}
+.bckanimation:nth-child(10){
+    top:0;
+    left: 200%;
+    animation-duration: 25s;
+    animation-delay: 2s;
+}
+.bckanimation:nth-child(11){
+    top:0;
+    left:220%;
+    animation-duration: 45s;
+    animation-delay: 5s;
+}
+.bckanimation:nth-child(12){
+    top:0;
+    left: 240%;
+    animation-duration: 60s;
+}
+.bckanimation:nth-child(13){
+    top:0;
+    left: 260%;
+    animation-duration: 50s;
+    animation-delay: 4s;  
+}
+.bckanimation:nth-child(14){
+    top:0;
+    left: 280%;
+    animation-duration: 60s;
+    animation-delay: 2s;
+}
+.bckanimation:nth-child(15){
+    top:0;
+    left: 300%;
+    animation-duration: 20s;
+    animation-delay: 3s; 
+}
+
 
 /*Change styles to ModeNigth usin toogle*/
 .body.change{
@@ -109,11 +240,11 @@ body{
 }
 
 .ContainerHabilites.change, .ContainerTechnologies.change{
-    background-color: #0e0e11;
+    background-color: #0e0e11bb;
 }
 
 .ContentContactMe.change{
-    background-color: var(--ColorBGSectionsMD);
+    background-color:var(--ColorBGHeaderMD);
 }
 
 /*Global Styles*/
@@ -228,12 +359,15 @@ body{
     fill: var(--ColorFillIconsMD);
 }
 
+
 /*Styles Presentation*/
 .ContainerPresentation{
     width: 100%;
     margin-bottom: 150px;
+    z-index: 1;
 }
 .ContentPresentation{
+    backdrop-filter: blur(3px);
     padding-left: 1em;
     padding-right: 1em;
     max-width: 800px;
@@ -330,6 +464,7 @@ body{
     margin-bottom: 150px;
 }
 .ContentAboutMe{
+    backdrop-filter: blur(3px);
     padding-left: 1em;
     padding-right: 1em;
     max-width: 800px;
@@ -346,6 +481,7 @@ body{
     margin-bottom: 150px;
 }
 .ContentProjects{
+    backdrop-filter: blur(3px);
     max-width: 800px;
     margin: 50px auto;
     padding-left: 1em;
@@ -401,7 +537,6 @@ body{
     border-radius: 6px;
     padding: 5px;
     position: absolute;
-    z-index: 1;
     bottom: 125%;
     left: 50%;
     margin-left: -60px;
@@ -457,6 +592,7 @@ body{
     background-color: var(--ColorBGSectionsML);
 }
 .ContentHabilitesTechnologies{
+    backdrop-filter: blur(3px);
     max-width: 800px;
     margin: 0 auto;
     padding-top: 2em;
@@ -464,14 +600,16 @@ body{
     padding-right: 1em;
 }
 .ContainerHabilites{
+    backdrop-filter: blur(3px);
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 2em 1em 1em 1em ;
-    background-color: #fff;
+    background-color: #ffffffcc;
     border: 1px solid var(--ColorBordersSectionsML);
     border-radius: 1em;
 }
 .ContentHabilites{
+ 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -481,13 +619,13 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: .9em;
-    background-color:var(--ColorBGButtonsML);
+    border: 1px solid var(--ColorBordersSectionsML);
     width: 200px;
     height: 50px;
     margin-bottom: 20px;
 }
 .pTitleHabilites{
-    color: #fff;
+    color: var(--TextColorML);
 }
 .InfoHabilites{
     width: 500px;
@@ -520,10 +658,11 @@ body{
     width: 100%;
 }
 .ContainerTechnologies{
+    backdrop-filter: blur(3px);
     margin-bottom: 50px;
     padding: 2em 1em 1em 1em;
     border-radius: 1em;
-    background-color: #fff;
+    background-color: #ffffffcc;
     border: 1px solid var(--ColorBordersSectionsML);
 }
 .ContentTechnologies{
@@ -536,13 +675,13 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: .9em;
-    background-color:var(--ColorBGButtonsML);
+    border: 1px solid var(--ColorBordersSectionsML);
     width: 200px;
     height: 50px;
     margin-bottom: 20px;
 }
 .pTitleTechnologies{
-    color: #fff;
+    color: var(--TextColorML);
 }
 .Technologies{
     width: 500px;
@@ -562,6 +701,7 @@ body{
     margin-bottom: 350px;
 }
 .ContentContactMe{
+    backdrop-filter: blur(3px);
     max-width: 800px;
     padding-left: 1em;
     padding-right: 1em;
@@ -627,6 +767,7 @@ body{
 
 /*Styles Footer*/
 .ContainerFotter{
+    backdrop-filter: blur(3px);
     border-top: 1px solid var(--ColorBordersSectionsML);
     background-color: var(--ColorBGHeaderML);
     width: 100%;
