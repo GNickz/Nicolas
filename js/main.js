@@ -148,13 +148,9 @@ function moveLeft()
         const inputquestion = document.getElementById('question').value;
         const inputmessage = document.getElementById('message').value;
 
-        console.log(inputname + inputemail + inputquestion + inputmessage)
-        // Expresión regular para verificar si el campo no contiene números
         const textRegex = /^[^\d]+$/;
-    
-        // Expresión regular para verificar el formato de correo electrónico
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     
         if(inputname === '' || inputemail === '' || inputquestion === '' || inputmessage === ''){
            alert("Todos los campos son obligatorios.");
