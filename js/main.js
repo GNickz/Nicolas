@@ -53,7 +53,7 @@ const body = document.querySelector('.body')
 const header = document.querySelectorAll('.ContainerHeader, .ContainerFotter')
 const menuMD = document.querySelector('.svgCloseMenu')
 const menuML = document.querySelector('.svgMenu')
-const content = document.querySelectorAll('.h1, .p, .a, .svg')
+const content = document.querySelectorAll('.h1, .p, .a, .svg, .lbl, .input')
 const highlighted = document.querySelectorAll('.Highlighted')
 const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe')
 
@@ -89,7 +89,7 @@ CV.addEventListener('click',()=>{
 
 
 
-/*Slider FirsProject*/
+/*Slider FirsProjects*/
 
 let imagenes = [
     "assets/202shots_so.jpg",
@@ -134,3 +134,76 @@ function moveLeft()
         document.Imagen.src = imagenes[Contador];
         document.ImagenProject2.src = imagenes[Contador];
     }
+
+
+    /*Send Email */
+   
+
+
+
+    function sendemail(){
+
+        const inputname = document.getElementById('name').value;
+        const inputemail = document.getElementById('email').value;
+        const inputquestion = document.getElementById('question').value;
+        const inputmessage = document.getElementById('message').value;
+
+        console.log(inputname + inputemail + inputquestion + inputmessage)
+        // Expresión regular para verificar si el campo no contiene números
+        const textRegex = /^[^\d]+$/;
+    
+        // Expresión regular para verificar el formato de correo electrónico
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    
+        if(inputname === '' || inputemail === '' || inputquestion === '' || inputmessage === ''){
+           alert("Todos los campos son obligatorios.");
+            /* Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Todos los campos del formulario son obligatorios.",
+                confirmButtonColor: "#008f39",
+                confirmButtonText: "Entendido"
+            });*/
+        } else if (!textRegex.test(inputname)) {
+            alert("Error en el campo de texto nombre, verifica que no hayas ingresado números.");
+            /*Swal.fire({
+                icon: "error",
+                title: "Error en los campos de texto",
+                text: "Por favor, asegúrate de que los campos de texto no contengan números.",
+                confirmButtonColor: "#008f39",
+                confirmButtonText: "Entendido"
+            });*/
+        } else if (!emailRegex.test(inputemail)) {
+            alert("Error en el campo email, introduce una dirección de correo valida.")
+            /*Swal.fire({
+                icon: "error",
+                title: "Error en el correo electrónico",
+                text: "Por favor, introduce una dirección de correo electrónico válida.",
+                confirmButtonColor: "#008f39",
+                confirmButtonText: "Entendido"
+            });*/
+        } else {
+            alert("Tu mensaje a sido enviado con éxito en breve te contactare.")
+            /*Swal.fire({
+                allowOutsideClick: false,
+                icon: "success",
+                title: "Gracias por contactarme",
+                text: "Tu mensaje a sido enviado con éxito en breve te contactare.",
+                confirmButton: true,
+                confirmButtonText: "Entendido",
+            });*/
+            actionform.setAttribute('action', 'https://formsubmit.co/urrutiagonzalez.gustavon@gmail.com');
+            actionform.submit();
+        }        
+    }
+    
+    const actionform = document.getElementById('Form');
+    const buttonaction = document.getElementById('btnsendemail');
+    
+    buttonaction.addEventListener('click', function(event){
+        event.preventDefault(); // Esto previene el comportamiento predeterminado de enviar el formulario
+        sendemail();
+    });
+    
+

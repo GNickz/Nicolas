@@ -411,11 +411,40 @@
         </div>
     </section>
 
-<!--Section Contact-->    
-    <section class="ContainerContactMe" id="Contact">
-        <div class="ContentContactMe">
-            <h1 class="h1 h1ContacMe">Contácteme</h1>
-            <div class="Contacts">
+<!--Section ContactMe-->
+    <section class="ContainerContactMe">
+        <div class="CointainerContentContactMe">
+            <h1 class="h1 h1Contact">Contáctame</h1>
+
+            <div class="ContentContactMe">
+                <div class="ContainerForm">
+                <form class="Form" id="Form" action="" method="POST">
+                    <div class="ContainerInput">
+                        <label class="lbl lblFormName" for="name">Nombre</label>
+                        <input class="input name" type="text" name="name" id="name">
+                    </div>
+                    <div class="ContainerInput">
+                        <label class="lbl lblFormEmail" for="email">Correo</label>
+                        <input class="input email" type="email" name="email" id="email"> 
+                    </div>
+                    <div class="ContainerInput">
+                        <label class="lbl lblFormQuestion" for="question">Asunto</label>
+                        <input class="input question" type="Asunto" name="question" id="question">
+                    </div>
+                    <div class="ContainerInput TextArea">
+                        <label class="lbl lblFormMessage" for="message">Mensaje</label>
+                        <textarea class="input message" name="message" id="message"></textarea>
+                    </div>
+                    <div class="ContainerButton">
+                        <button onclick="sendemail()" class="btn btnSendEmail" type="submit" id="btnsendemail"><a class="a aSendEmail">Enviar</a></button>
+                    </div>
+                
+                    <input type="hidden" name="_next" value="https://gnickz.github.io/Portafolio/">
+                    <input type="hidden" name="_captcha" value="false">
+                
+                </form>
+                </div>
+                <div class="ContainerContacts">
                 <div class="ContactGmail">
                     <svg xmlns="http://www.w3.org/2000/svg" class="svg svgContactGmail" width="24" height="24" viewBox="0 0 24 24"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg>
                     <p class="p pContactGmail"><span class="Highlighted">UrrutiaGonzalez.</span>GustavoN<span class="Highlighted">@gmail.com</span></p>
@@ -432,7 +461,9 @@
                         <svg class="svg svgContactLinkedin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg>
                     </a>
                 </div>
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -485,10 +516,11 @@
     </footer>
 
     
-
+ 
     
 </body>
 <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@latest"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script src="https://kit.fontawesome.com/6d4a182fa4.js" crossorigin="anonymous"></script>
 </html>

@@ -18,7 +18,7 @@
     --ColorDestacadoMD:#5ea3a2;
 
     --ColorBGHeaderML:rgba(218, 237, 235, 0.800); 
-    --ColorBGSectionsML:#f4f9f9;
+    --ColorBGSectionsML:#f4f9f99a;
     --ColorBGButtonsML:#408080;
 
 
@@ -99,7 +99,7 @@ body{
 .bckanimation:nth-child(1){
     top:0;
     left:20%;
-    animation-duration: 10s;
+    animation-duration: 20s;
 }
 .bckanimation:nth-child(2){
     top:0;
@@ -205,7 +205,7 @@ body{
     transition: all .5s;
     background-color: var(--BackgrounBodyColorMD);
 }
-.h1.change, .p.change, .a.change, .svg.change{
+.h1.change, .p.change, .a.change, .svg.change, .lbl.change, .input.change{
     color: var(--ColorTextMD);
     fill:var(--ColorFillIconsMD);
 }
@@ -295,6 +295,21 @@ body{
 .btn{
     background: none;
     border: none;
+}
+.lbl{
+    margin-bottom: .3em;
+    margin-left: .5em;
+    font-family: var(--tipografia);
+    font-weight: 600;
+    font-size: 15px;
+}
+.input{
+    font-family: var(--tipografia);
+    font-weight: 400;
+    font-size: 14px;
+}
+.emailroute{
+    display: none;
 }
 
 /*Styles Header*/
@@ -709,28 +724,92 @@ body{
 /*Styles ContactMe*/
 .ContainerContactMe{
     width: 100%;
-    margin-bottom: 350px;
+    margin-bottom: 400px;
 }
-.ContentContactMe{
-    backdrop-filter: blur(3px);
+.CointainerContentContactMe{
     max-width: 800px;
+    margin: 100px auto;
+    border-radius: .9em;
     padding-left: 1em;
     padding-right: 1em;
-    margin: 0 auto;
+    backdrop-filter: blur(3px);
+}
+.h1Contact{
+    margin-top: 50px;
+}
+.ContentContactMe{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: var(--ColorBGSectionsML);
+    backdrop-filter: blur(3px);
     border: 1px solid var(--ColorBordersSectionsML);
-    border-radius: 1em;
-}
-.h1ContacMe{
-    margin-top: 25px;
-}
-.Contacts{
-    width: auto;
+    border-radius: .9em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding: 1em;
-    flex-flow: row wrap;
+}
+.ContainerForm{
+    width: 100%;
+}
+.Form{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     gap: 20px;
 }
+.ContainerInput{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    border-bottom: 1.5px solid var(--ColorBordersSectionsML);
+}
+:focus{
+    outline: 1.5px solid var(--ColorBordersSectionsML);
+    border-radius: 3px;
+}
+.btnSendEmail{
+    cursor: pointer;
+    width: 200px;
+    background-color: var(--ColorBGButtonsML);
+    border-radius: .9em;
+    padding: 1em;
+    transition: all 500ms; 
+}
+.btnSendEmail:hover{
+    transform: scale(1.1);
+}
+.aSendEmail{
+    color: #fff;
+    font-weight: 600;
+    text-transform: none;
+}
+.TextArea{
+    grid-column: 1/3;
+}
+.ContainerButton{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+}
+.message{
+    resize: none;
+}
+.ContainerContacts{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+    border-top: 1px solid var(--ColorBordersSectionsML);
+}
+
 .ContactGmail{
     width: 300px;
     display: flex;
@@ -849,7 +928,7 @@ body{
     }
     .navHeader{
         width: 100%;
-        height: 0;
+        height:0;
         transition: all .5s ease;
         display: flex;
         flex-flow: nowrap;
@@ -857,9 +936,10 @@ body{
         justify-content: center;
         align-items: center;
         overflow: hidden;
+    
     }
     .navHeader.activo{
-        height: 25vh;
+        height: 45vh;
         pointer-events: auto;
         padding: 1em;
 
@@ -871,7 +951,7 @@ body{
         flex-direction: column;
     }
     .liHeader{
-        margin: .8rem 0;
+        margin: .5em 0;
     }}
 
 @media screen and (max-width: 769px) {
@@ -887,6 +967,15 @@ body{
         height: 250px;
         overflow: hidden;
      }
+     .ContainerForm{
+        width: 100%;
+     }
+     .Form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+     
 }
 
 @media screen and (max-width:415px){
@@ -986,5 +1075,6 @@ body{
         animation-duration: 35s; 
         animation-delay:8s;
     }
+    
     
 }
