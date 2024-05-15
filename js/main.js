@@ -138,9 +138,6 @@ function moveLeft()
 
     /*Send Email */
    
-
-
-
     function sendemail(){
 
         const inputname = document.getElementById('name').value;
@@ -153,42 +150,42 @@ function moveLeft()
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     
         if(inputname === '' || inputemail === '' || inputquestion === '' || inputmessage === ''){
-           alert("Todos los campos son obligatorios.");
-            /* Swal.fire({
+           //alert("Todos los campos son obligatorios.");
+            Swal.fire({
                 icon: "error",
                 title: "Oops...",
                 text: "Todos los campos del formulario son obligatorios.",
                 confirmButtonColor: "#008f39",
                 confirmButtonText: "Entendido"
-            });*/
+            });
         } else if (!textRegex.test(inputname)) {
-            alert("Error en el campo de texto nombre, verifica que no hayas ingresado números.");
-            /*Swal.fire({
+            //alert("Error en el campo de texto nombre, verifica que no hayas ingresado números.");
+            Swal.fire({
                 icon: "error",
-                title: "Error en los campos de texto",
-                text: "Por favor, asegúrate de que los campos de texto no contengan números.",
+                title: "Error en el campo Nombre",
+                text: "Por favor, asegúrate de que el campo no contengan números.",
                 confirmButtonColor: "#008f39",
                 confirmButtonText: "Entendido"
-            });*/
+            });
         } else if (!emailRegex.test(inputemail)) {
-            alert("Error en el campo email, introduce una dirección de correo valida.")
-            /*Swal.fire({
+            //alert("Error en el campo email, introduce una dirección de correo valida.")
+            Swal.fire({
                 icon: "error",
                 title: "Error en el correo electrónico",
                 text: "Por favor, introduce una dirección de correo electrónico válida.",
                 confirmButtonColor: "#008f39",
                 confirmButtonText: "Entendido"
-            });*/
+            });
         } else {
-            alert("Tu mensaje a sido enviado con éxito en breve te contactare.")
-            /*Swal.fire({
+            //alert("Tu mensaje a sido enviado con éxito en breve te contactare.")
+            Swal.fire({
                 allowOutsideClick: false,
                 icon: "success",
                 title: "Gracias por contactarme",
                 text: "Tu mensaje a sido enviado con éxito en breve te contactare.",
                 confirmButton: true,
                 confirmButtonText: "Entendido",
-            });*/
+            });
             actionform.setAttribute('action', 'https://formsubmit.co/urrutiagonzalez.gustavon@gmail.com');
             actionform.submit();
         }        
