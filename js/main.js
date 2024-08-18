@@ -108,8 +108,17 @@ let imagesProject2 = [
     "assets/P2img5.png",
 ]
 
+let imagesProject3 = [
+    "assets/p3img1.png",
+    "assets/p3img2.png",
+    "assets/p3img3.png",
+    "assets/p3img4.png",
+    "assets/p3img5.png",
+]
+
 document.Imagen.src = imagenes[0];
 document.ImagenProject2.src = imagesProject2[0];
+document.ImagenProject3.src = imagesProject3[0];
 
 let Contador = 0
 
@@ -121,6 +130,7 @@ function moveRight()
         }
         document.Imagen.src = imagenes[Contador];
         document.ImagenProject2.src = imagesProject2[Contador];
+        document.ImagenProject3.src = imagesProject3[Contador];
 
     }
 let Intervalo = setInterval(moveRight, 3000)
@@ -133,6 +143,8 @@ function moveLeft()
         }
         document.Imagen.src = imagenes[Contador];
         document.ImagenProject2.src = imagenes[Contador];
+        document.ImagenProject3.src = imagenes[Contador];
+
     }
 
 
