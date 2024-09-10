@@ -197,10 +197,15 @@ function moveLeft()
                 text: "Tu mensaje a sido enviado con éxito en breve te contactare.",
                 confirmButton: true,
                 confirmButtonText: "Entendido",
+                allowOutsideClick: false,
+                timer: 5000,
+                timerProgressBar: true,
             });
             actionform.setAttribute('action', 'https://formsubmit.co/urrutiagonzalez.gustavon@gmail.com');
             actionform.submit();
-        }        
+        }     
+        
+       
     }
     
     const actionform = document.getElementById('Form');
@@ -208,6 +213,8 @@ function moveLeft()
     
     buttonaction.addEventListener('click', function(event){
         event.preventDefault(); // Esto previene el comportamiento predeterminado de enviar el formulario
+        // const clean = document.getElementById('Form');
+        // clean.reset();
         sendemail();
     });
     
