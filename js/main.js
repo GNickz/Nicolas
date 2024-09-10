@@ -215,7 +215,7 @@ function moveLeft()
     clean.reset();
     
     buttonaction.addEventListener('click', function(event){
-        //event.preventDefault(); // Esto previene el comportamiento predeterminado de enviar el formulario
+        event.preventDefault(); // Esto previene el comportamiento predeterminado de enviar el formulario
         sendemail();
     });
     
