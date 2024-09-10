@@ -213,9 +213,10 @@ function moveLeft()
     
     buttonaction.addEventListener('click', function(event){
         event.preventDefault(); // Esto previene el comportamiento predeterminado de enviar el formulario
-        // const clean = document.getElementById('Form');
-        // clean.reset();
+        
         sendemail();
+        const clean = document.getElementById('Form');
+        clean.reset();
     });
     
 
