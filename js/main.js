@@ -56,6 +56,7 @@ const menuML = document.querySelector('.svgMenu')
 const content = document.querySelectorAll('.h1, .p, .a, .svg, .lbl, .input')
 const highlighted = document.querySelectorAll('.Highlighted')
 const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe')
+const colorInterSections = document.querySelectorAll('.ProjectTools, .BtnLinkProject')
 
 trigger.addEventListener('click', () =>{
     moon.classList.toggle('change')
@@ -75,6 +76,9 @@ trigger.addEventListener('click', () =>{
     colorBigSections.forEach(element => {
         element.classList.toggle('change')
     })
+    colorInterSections.forEach(element => {
+        element.classList.toggle('change')
+    })
 
 })
 
@@ -82,7 +86,7 @@ trigger.addEventListener('click', () =>{
 const CV = document.querySelector('.btnDownloadCV')
 
 CV.addEventListener('click',()=>{
-    const URL = 'assets/CV_GUSTAVO_NICOLAS_U_G.pdf';
+    const URL = 'assets/CV-Gustavo.pdf';
     window.open(URL, '_blank');
 })
 

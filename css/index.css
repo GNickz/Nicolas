@@ -258,6 +258,10 @@ body{
     background-color:var(--ColorBGHeaderMD);
 }
 
+.ProjectTools.change, .BtnLinkProject.change{
+    background-color: var(--BackgrounBodyColorMD);
+}
+
 /*Global Styles*/
 .h1{
     color: var(--TextColorML);
@@ -538,12 +542,12 @@ body{
     margin-top: 1em;
     display: flex;
     flex-direction: column;
-}
-.ProjectTools{
     border: 1px solid var(--ColorBordersSectionsML);
     border-radius: .5em;
     padding: .5em;
+    background-color: var(--BackgroundBodyColorML);
 }
+
 .Tools{
    margin: 5px;
     display: flex;
@@ -591,7 +595,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
-    transition: all 500ms;  
+    transition: all 500ms;
+    background-color: var(--BackgroundBodyColorML);  
 }
 .BtnLinkProject:hover{
     transform: scale(1.1);
