@@ -640,10 +640,9 @@ body{
     border-radius: 1em;
 }
 .ContentHabilites{
- 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 .TitleHabilites{
     display: flex;
@@ -699,7 +698,7 @@ body{
 .ContentTechnologies{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: start;
 }
 .TitleTechnologies{
     display: flex;
@@ -715,15 +714,16 @@ body{
     color: var(--TextColorML);
 }
 .Technologies{
-    width: 500px;
+    padding: 1em;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    gap: 40px 20px;
-    padding: 1em;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 1rem;
 }
-.Technologies img{
+.img-technologies{
     object-fit: cover;
+    border: 1px solid black;
 }
 
 /*Styles ContactMe*/
