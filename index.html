@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-    name="description"
-    content="Autor: Gustavo Nicolas Urrutia González.
+    <meta name="description"
+        content="Autor: Gustavo Nicolas Urrutia González.
     Sitio web personal estructurado con diferentes etiquetas HTML, estilizado con CSS y brindándole funcionalidad con JavaScript.">
     <title>Gustavo Nicolas</title>
     <link rel="icon" href="assets/Logo.svg">
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" defer href="https://fonts.googleapis.com">
     <link rel="preconnect" defer href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" defer rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" defer
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
+
 <body class="body">
 
     <section class="ContainerAnimation">
         <span class="bckanimation"></span>
         <span class="bckanimation"></span>
-        <span class="bckanimation"></span> 
+        <span class="bckanimation"></span>
         <span class="bckanimation"></span>
         <span class="bckanimation"></span>
         <span class="bckanimation"></span>
@@ -39,42 +43,41 @@
 
     <header class="ContainerHeader">
         <div class="ContentHeader">
-            
-            
+
+
             <img class="img imgLogoHeader" src="assets/Logo.svg" alt="">
 
             <button title="Button Menu" class="btn BtnMenu">
-                <svg xmlns="http://www.w3.org/2000/svg" class="svgMenu"
-                width="24" height="24" viewBox="0 0 24 24">
-                <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" class="svgMenu" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" class="svgCloseMenu"
-                width="24" height="24" viewBox="0 0 24 24">
-                <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535
+                <svg xmlns="http://www.w3.org/2000/svg" class="svgCloseMenu" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535
                  12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364
-                  12l4.242-4.242z"></path></svg>
+                  12l4.242-4.242z"></path>
+                </svg>
             </button>
 
-             <nav class="navHeader">
-                <ul class="ulHeader" >
+            <nav class="navHeader">
+                <ul class="ulHeader">
                     <li class="liHeader"><a class="a aHeader" href="#Inicio" aria-label="Link to Inicio">Inicio</a></li>
                     <li class="liHeader"><a class="a aHeader" href="#AboutMe">Acerca de mi</a></li>
                     <li class="liHeader"><a class="a aHeader" href="#Projects">Proyectos</a></li>
                     <li class="liHeader"><a class="a aHeader" href="#Skills">Habilidades</a></li>
                     <li class="liHeader"><a class="a aHeader" href="#Contact">Contacto</a></li>
                     <!--Forma de redireccionar desde el index es: NombreCarpeta/NombreArchivo.html-->
-                    <li class="liHeader"><a class="a aHeader" href="views/services.html" aria-label="Link to Servicios">Servicios</a></li>
+                    <li class="liHeader"><a class="a aHeader" href="views/services.html"
+                            aria-label="Link to Servicios">Servicios</a></li>
                 </ul>
             </nav>
 
-           
+
 
             <div class="NigthModeLigthMode">
-                
-                <svg xmlns="http://www.w3.org/2000/svg"
-                class="moon moon-sun" width="24" height="24"
-                viewBox="0 0 24 24">
-                <path d="M12 11.807A9.002 9.002 0 0 1 10.049
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="moon moon-sun" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path d="M12 11.807A9.002 9.002 0 0 1 10.049
                 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905
                 10.237 0 14.142 3.906 3.906 10.237 3.905 14.143
                 0a9.946 9.946 0 0 0 2.735-5.119A9.003 9.003 0 0
@@ -82,10 +85,8 @@
                 </svg>
 
 
-                <svg xmlns="http://www.w3.org/2000/svg"
-                class="sun moon-sun" width="24" height="24"
-                viewBox="0 0 24 24">
-                <path d="M6.995 12c0 2.761 2.246 5.007
+                <svg xmlns="http://www.w3.org/2000/svg" class="sun moon-sun" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M6.995 12c0 2.761 2.246 5.007
                 5.007 5.007s5.007-2.246 5.007-5.007-2.246-5.007-5.007-5.007S6.995
                 9.239 6.995 12zM11 19h2v3h-2zm0-17h2v3h-2zm-9
                 9h3v2H2zm17 0h3v2h-3zM5.637 19.778l-1.414-1.414
@@ -96,74 +97,80 @@
                 </svg>
 
             </div>
-            
+
 
         </div>
     </header>
 
 
-    
-        
 
-<!--Section Presentation-->
+
+
+    <!--Section Presentation-->
     <section class="ContainerPresentation" id="Inicio">
         <div class="ContentPresentation">
             <div class="PicturePresentation">
-                <img src="assets/Logo.svg" alt="Logo_Presentación">    
+                <img src="assets/Logo.svg" alt="Logo_Presentación">
             </div>
 
             <div class="ContentInfoPresentation">
                 <div class="InfoPresentation">
                     <h1 class="h1 Name"><span class="Highlighted">Nicolas</span> Urrutia</h1>
                     <h1 class="h1 Profession">Desarrollador <span class="Highlighted">Front end</span></h1>
-                    
+
                 </div>
                 <div class="Presentation">
-                    <p class="p TextPresentation">Apasionado por el desarrollo de herramientas web personalizadas, adaptadas a las necesidades de cada usuario.</p>
+                    <p class="p TextPresentation">Apasionado por el desarrollo de herramientas web personalizadas,
+                        adaptadas a las necesidades de cada usuario.</p>
                 </div>
             </div>
 
             <div class="ContactPresentation">
 
-                <button class="btn btnLinkGitHub" title="Button Link GitHub" onclick="window.open('https://github.com/GNickz', '_blank')" href="javascript:void(0)">
+                <button class="btn btnLinkGitHub" title="Button Link GitHub"
+                    onclick="window.open('https://github.com/GNickz', '_blank')" href="javascript:void(0)">
                     <a href="#" class="a aLinkGitHub" aria-label="Link to GitHub">GitHub</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svgGitHub" width="24" height="24" viewBox="0 0 24 24">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgGitHub" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.026 2c-5.509 0-9.974 4.465-9.974
                             9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605
                             1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93
                             0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554
                             0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552
                             4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
-                            </path>
-                        </svg>
+                        </path>
+                    </svg>
                 </button>
 
                 <button title="Button Download CV" class="btn btnDownloadCV">
                     <a href="#" class="a CV" aria-label="Link to Download CV">Descarga CV</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgDownloadCV" width="24" height="24" viewBox="0 0 24 24">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgDownloadCV" width="24" height="24"
+                        viewBox="0 0 24 24">
                         <path d="M19 9h-4V3H9v6H5l7 8zM4 19h16v2H4z"></path>
                     </svg>
-                </button>                
-                    
+                </button>
+
             </div>
-          
+
         </div>
     </section>
 
-<!--Section AboutMe-->
+    <!--Section AboutMe-->
     <section class="ContainerAbouMe" id="AboutMe">
         <div class="ContentAboutMe">
             <h1 class="h1 h1AboutMe">Un poco sobre mí</h1>
             <p class="p pAboutMe">
                 Soy Gustavo Nicolás Urrutia González,
                 egresado de la carrera de <span class="AboutMe Highlighted">Ingeniería
-                en Sistemas Computacionales</span> con enfoque en el desarrollo web.
+                    en Sistemas Computacionales</span> con enfoque en el desarrollo web.
             </p>
             <p class="p pAboutMe">
                 El logro más significativo durante el proceso de mi carrera
                 fue haber sido seleccionado como uno de los <span class="AboutMe Highlighted">mejores proyectos,</span>
                 específicamente en el área de Ingenierías y Desarrollo Tecnológico,
-                durante el <span class="AboutMe Highlighted">Cuarto Encuentro Estatal de Jóvenes Investigadores 2023,</span>
+                durante el <span class="AboutMe Highlighted">Cuarto Encuentro Estatal de Jóvenes Investigadores
+                    2023,</span>
                 evento llevado a cabo por el <span class="AboutMe Highlighted">CONCYTEP.</span>
             </p>
             <p class="p pAboutMe">
@@ -171,47 +178,54 @@
                 Estoy abierto a la exploración de nuevas tecnologías y a la adquisición
                 de conocimientos en diversas áreas del desarrollo.
             </p>
-            
+
         </div>
     </section>
 
-<!--Section Projects-->
+    <!--Section Projects-->
     <section class="ContainerProjects" id="Projects">
         <div class="ContentProjects">
             <h1 class="h1 h1Projects">Proyectos</h1>
 
-                <div class="ContentCard">
+            <div class="ContentCard">
 
-                    <div class="InfoCard Card1">
-                        <h1 class="h1 h1InfoProject"><span class="Highlighted">Mapa Interactivo para la búsqueda</span> de artesanías en puebla.</h1>
-                        
-                        <p class="p pInfoProject">
-                            Sistema web que permite la consulta de información sobre artesanos y artesanías a traves de un <span class="Highlighted">mapa interactivo a nivel estatal, subdivido por municipios.mediante el uso de un mapa interactivo estatal subdivido en municipios.</span>
+                <div class="InfoCard Card1">
+                    <h1 class="h1 h1InfoProject"><span class="Highlighted">Mapa Interactivo para la búsqueda</span> de
+                        artesanías en puebla.</h1>
+
+                    <p class="p pInfoProject">
+                        Sistema web que permite la consulta de información sobre artesanos y artesanías a traves de un
+                        <span class="Highlighted">mapa interactivo a nivel estatal, subdivido por municipios.mediante el
+                            uso de un mapa interactivo estatal subdivido en municipios.</span>
 
 
-                        <div class="ProjectTools">
-                            <div class="Tools">
-                                <div class="Tooltip" title="HTML"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
-                                        <path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266
+                    <div class="ProjectTools">
+                        <div class="Tools">
+                            <div class="Tooltip" title="HTML">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266
                                         7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.179.602-2.214-.605-.141-1.58H7.691l.247 
-                                        3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z"> 
-                                        </path>
-                                    </svg>
-                                </div>
+                                        3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z">
+                                    </path>
+                                </svg>
+                            </div>
 
-                                <div class="Tooltip" title="CSS"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
+                            <div class="Tooltip" title="CSS">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
                                     <path d="M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 
                                     6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 
                                     2.867L12 17.484l3.995-1.137.905-9.923z">
                                     </path>
                                 </svg>
-                                </div>
+                            </div>
 
-                                <div class="Tooltip" title="Bootstrap"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
-                                    <path d="M18.002 2.997H5.999A3.011 3.011 0 0 0 2.997 6v12.002a3.012 3.012 0 0 0 3.002 
+                            <div class="Tooltip" title="Bootstrap">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.002 2.997H5.999A3.011 3.011 0 0 0 2.997 6v12.002a3.012 3.012 0 0 0 3.002 
                                     3.001h12.003a3.012 3.012 0 0 0 3.001-3.001V6a3.012 3.012 0 0 0-3.001-3.003zm-1.64 
                                     12.647c-.152.36-.389.68-.693.927a3.594 3.594 0 0 1-1.206.614c-.49.151-1.074.229-1.75.229H7.888V6.909h5.103c.943 
                                     0 1.7.213 2.267.646.569.436.854 1.082.854 1.958 0 .528-.13.983-.389 1.357-.259.373-.63.664-1.111.868v.034c.642.135 
@@ -220,11 +234,13 @@
                                     0-.526-.131-.902-.397-1.116-.264-.214-.646-.326-1.146-.326H9.727v2.898h3.001c.436.001.81-.127 1.099-.372z">
                                     </path>
                                 </svg>
-                                </div>
+                            </div>
 
-                                <div class="Tooltip" title="JavaScript"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-2.745 
+                            <div class="Tooltip" title="JavaScript">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-2.745 
                                     14.186c0 1.345-.644 1.814-1.681 1.814-.245 0-.567-.042-.777-.112l.119-.861c.147.049.336.084.546.084.448 0 
                                     .729-.203.729-.938v-2.97h1.064v2.983zm2.043 1.807c-.539 0-1.071-.141-1.337-.287l.217-.883c.287.147.729.294 
                                     1.184.294.491 0 .749-.203.749-.511 0-.295-.224-.463-.791-.666-.784-.272-1.295-.707-1.295-1.394 0-.806.672-1.422 
@@ -232,11 +248,13 @@
                                     .301.267.435.875.665.834.309 1.226.742 1.226 1.408-.002.793-.61 1.466-1.907 1.466zM14 9h-1V4l5 5h-4z">
                                     </path>
                                 </svg>
-                                </div>
+                            </div>
 
-                                <div class="Tooltip" title="PHP"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
-                                    <path d="M2.15 16.78h1.57a.14.14 0 0 0 .14-.12l.35-1.82h1.22a4.88 4.88 0 0 0 1.51-.2A2.79 2.79 0 0 0 8 
+                            <div class="Tooltip" title="PHP">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M2.15 16.78h1.57a.14.14 0 0 0 .14-.12l.35-1.82h1.22a4.88 4.88 0 0 0 1.51-.2A2.79 2.79 0 0 0 8 
                                     14a3.18 3.18 0 0 0 .67-.85 3.43 3.43 0 0 0 .36-1 2.43 2.43 0 0 0-.41-2.16 2.64 2.64 0 0 0-2.09-.78h-3a.16.16 
                                     0 0 0-.15.13L2 16.6a.19.19 0 0 0 0 .13.17.17 0 0 0 .15.05zM5 10.62h1a1.45 1.45 0 0 1 1.08.29c.17.18.2.52.11 
                                     1a1.81 1.81 0 0 1-.57 1.12 2.17 2.17 0 0 1-1.33.33h-.8zm9.8-.95a2.7 2.7 0 0 0-1.88-.51h-1.19l.33-1.76a.15.15 
@@ -248,15 +266,17 @@
                                     0-2.18-.83zm.62 2.77a1.83 1.83 0 0 1-.6 1.12 2.28 2.28 0 0 1-1.37.33h-.8l.54-2.76h1a1.6 1.6 0 0 1 1.13.29c.16.18.16.52.1 1.02z">
                                     </path>
                                 </svg>
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="LnkCode">
-                            <button title="Button See Code Project" class="btn BtnLinkProject" onclick="window.open('https://github.com/GNickz/Mapa-Interactivo', '_blank')">
-                                <a href="#" class="a aLinkToCode" aria-label="Link to See Code Project">Ver repositorio</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974
+                    <div class="LnkCode">
+                        <button title="Button See Code Project" class="btn BtnLinkProject"
+                            onclick="window.open('https://github.com/GNickz/Mapa-Interactivo', '_blank')">
+                            <a href="#" class="a aLinkToCode" aria-label="Link to See Code Project">Ver repositorio</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974
                                     9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481
                                     0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605
                                     1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93
@@ -264,61 +284,68 @@
                                     0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 
                                     4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 
                                     11.974 22 6.465 17.535 2 12.026 2z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </div>
+                                </path>
+                            </svg>
+                        </button>
                     </div>
-
-                        <div class="Carrousel">
-                            <div class="ImgProject">
-                                <img name="Imagen" class="imgproject project1" alt="Image Projects">
-                            </div>
-                        </div>
-
                 </div>
 
-                <div class="ContentCard">
+                <div class="Carrousel">
+                    <div class="ImgProject">
+                        <img name="Imagen" class="imgproject project1" alt="Image Projects">
+                    </div>
+                </div>
 
-                    <div class="InfoCard Card2">
-                        <h1 class="h1 h1InfoProject"><span class="Highlighted">Animaciones</span> SVG</h1>
-                        
-                        <p class="p pInfoProject">
-                            El desarrollo de este proyecto abarca una galería de ilustraciones SVG, <span class="Highlighted"> elaboradas y modificadas para crear un efecto visual dinámico en cualquier sitio web que las implemente.</span>
+            </div>
+
+            <div class="ContentCard">
+
+                <div class="InfoCard Card2">
+                    <h1 class="h1 h1InfoProject"><span class="Highlighted">Animaciones</span> SVG</h1>
+
+                    <p class="p pInfoProject">
+                        El desarrollo de este proyecto abarca una galería de ilustraciones SVG, <span
+                            class="Highlighted"> elaboradas y modificadas para crear un efecto visual dinámico en
+                            cualquier sitio web que las implemente.</span>
 
 
-                        <div class="ProjectTools">
-                            <div class="Tools">
-                                <div class="Tooltip" title="HTML"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
-                                        <path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266
+                    <div class="ProjectTools">
+                        <div class="Tools">
+                            <div class="Tooltip" title="HTML">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266
                                         7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.179.602-2.214-.605-.141-1.58H7.691l.247 
-                                        3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z"> 
-                                        </path>
-                                    </svg>
-                                </div>
+                                        3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z">
+                                    </path>
+                                </svg>
+                            </div>
 
-                                <div class="Tooltip" title="CSS"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
+                            <div class="Tooltip" title="CSS">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
                                     <path d="M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 
                                     6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 
                                     2.867L12 17.484l3.995-1.137.905-9.923z">
                                     </path>
                                 </svg>
-                                </div>
+                            </div>
 
-                                <div class="Tooltip" title="Figma">
-                                    <svg class="svg svgIconToolsProject" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <div class="Tooltip" title="Figma">
+                                <svg class="svg svgIconToolsProject" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24">
                                     <path d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663 3.333 3.333
                                      0 0 0 0 6.665 3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668h3.332z">
                                     </path>
                                     <circle cx="15.332" cy="12" r="3.332"></circle>
-                                    </svg>
-                                </div>
+                                </svg>
+                            </div>
 
-                                <div class="Tooltip" title="JavaScript"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24" height="24" viewBox="0 0 24 24">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-2.745 
+                            <div class="Tooltip" title="JavaScript">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svg svgIconToolsProject" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-2.745 
                                     14.186c0 1.345-.644 1.814-1.681 1.814-.245 0-.567-.042-.777-.112l.119-.861c.147.049.336.084.546.084.448 0 
                                     .729-.203.729-.938v-2.97h1.064v2.983zm2.043 1.807c-.539 0-1.071-.141-1.337-.287l.217-.883c.287.147.729.294 
                                     1.184.294.491 0 .749-.203.749-.511 0-.295-.224-.463-.791-.666-.784-.272-1.295-.707-1.295-1.394 0-.806.672-1.422 
@@ -326,16 +353,18 @@
                                     .301.267.435.875.665.834.309 1.226.742 1.226 1.408-.002.793-.61 1.466-1.907 1.466zM14 9h-1V4l5 5h-4z">
                                     </path>
                                 </svg>
-                                </div>
-
                             </div>
-                        </div>
 
-                        <div class="LnkCode">
-                            <button title="Button See Code Project" class="btn BtnLinkProject" onclick="window.open('https://github.com/GNickz/Animaciones', '_blank')">
-                                <a href="#" class="a aLinkToCode" aria-label="Link to See Code Project">Ver repositorio</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974
+                        </div>
+                    </div>
+
+                    <div class="LnkCode">
+                        <button title="Button See Code Project" class="btn BtnLinkProject"
+                            onclick="window.open('https://github.com/GNickz/Animaciones', '_blank')">
+                            <a href="#" class="a aLinkToCode" aria-label="Link to See Code Project">Ver repositorio</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974
                                     9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481
                                     0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605
                                     1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93
@@ -343,81 +372,92 @@
                                     0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 
                                     4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 
                                     11.974 22 6.465 17.535 2 12.026 2z">
-                                    </path>
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="Carrousel">
+                    <div class="ImgProject">
+                        <img name="ImagenProject2" class="imgproject project2" alt="Image Projects">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="ContentCard">
+
+                <div class="InfoCard Card3">
+                    <h1 class="h1 h1InfoProject"><span class="Highlighted">Landing</span> Page</h1>
+
+                    <p class="p pInfoProject">
+                        Landing page animada e interactiva, desarrollada exclusivamente con el espacio virtual de
+                        creación y <span class="Highlighted"> herramienta no-code Hatch.one, que facilita la creacion de
+                            contenido de manera sencilla y efectiva.</span>
+
+
+                    <div class="ProjectTools">
+
+                        <div class="Tools">
+
+                            <div class="Tooltip" title="Hatch.One">
+                                <svg class="svg svgIconToolsProject" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="none" viewBox="0 0 24 24">
+                                    <path
+                                        d="m4 12 .5-2L5 9l1-2 1-1.5L9 4l1-.5 2-.5 2.33.665L14 4l-1 1-2 2-1.5 1.5L11 10l-2 4 4-4-1-1 2-2 1-1 1.5-1.5-.215.215L17 5.5 18 7l1 2 .5 1 .5 2v2.5l-.5 1.5-.5 1-1 1.5-1 1-2 1-1.5.5h-3L9 20.5l-2-1-1-1L5 17l-.5-1-.5-1.5V12Z" />
+                                    <path d="M13.926 3.926 16.937.914l.075.074L14 4l-.074-.074Z" />
+                                    <path d="M13.926 3.926 16.937.914l.075.074L14 4l-.074-.074Z" />
+                                    <path stroke-width=".1" d="M13.926 3.926 16.937.914l.075.074L14 4l-.074-.074Z" />
+                                    <path
+                                        d="m16.015 5 2.982-2.982.071.07-2.982 2.982-.071-.07Zm-1.086-.57 2.982-2.983.071.07L15 4.5l-.071-.07Z" />
                                 </svg>
-                            </button>
+                            </div>
                         </div>
                     </div>
 
-                        <div class="Carrousel">
-                            <div class="ImgProject">
-                                <img name="ImagenProject2" class="imgproject project2" alt="Image Projects">
-                            </div>
-                        </div>
-
-                </div>
-
-                <div class="ContentCard">
-
-                    <div class="InfoCard Card3">
-                        <h1 class="h1 h1InfoProject"><span class="Highlighted">Landing</span> Page</h1>
-                        
-                        <p class="p pInfoProject">
-                            Landing page animada e interactiva, desarrollada exclusivamente con el espacio virtual de creación y <span class="Highlighted"> herramienta no-code Hatch.one, que facilita la creacion de contenido de manera sencilla y efectiva.</span>
-
-
-                        <div class="ProjectTools">
-
-                            <div class="Tools">
-
-                                <div class="Tooltip" title="Hatch.One">
-                                    <svg class="svg svgIconToolsProject" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path  d="m4 12 .5-2L5 9l1-2 1-1.5L9 4l1-.5 2-.5 2.33.665L14 4l-1 1-2 2-1.5 1.5L11 10l-2 4 4-4-1-1 2-2 1-1 1.5-1.5-.215.215L17 5.5 18 7l1 2 .5 1 .5 2v2.5l-.5 1.5-.5 1-1 1.5-1 1-2 1-1.5.5h-3L9 20.5l-2-1-1-1L5 17l-.5-1-.5-1.5V12Z"/>
-                                        <path  d="M13.926 3.926 16.937.914l.075.074L14 4l-.074-.074Z"/>
-                                        <path  d="M13.926 3.926 16.937.914l.075.074L14 4l-.074-.074Z"/>
-                                        <path  stroke-width=".1" d="M13.926 3.926 16.937.914l.075.074L14 4l-.074-.074Z"/>
-                                        <path  d="m16.015 5 2.982-2.982.071.07-2.982 2.982-.071-.07Zm-1.086-.57 2.982-2.983.071.07L15 4.5l-.071-.07Z"/>
-                                      </svg>              
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="LnkCode">
-                            <button title="Button See Codes Project" class="btn BtnLinkProject" onclick="window.open('https://Niick.hatch.one/nico-portafolio', '_blank')">
-                                <a href="#" class="a aLinkToCode" aria-label="Link to See Code Project">Ver proyecto</a>
-                                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.978 13.21a1 1 0 0 0-.396-1.024l-14-10a.999.999 0 0 0-1.575.931l2 17a1 1 0 0 0 1.767.516l3.612-4.416 3.377 5.46 1.701-1.052-3.357-5.428 6.089-1.218a.995.995 0 0 0 .782-.769z"></path></svg>
-                            </button>
-                        </div>
+                    <div class="LnkCode">
+                        <button title="Button See Codes Project" class="btn BtnLinkProject"
+                            onclick="window.open('https://Niick.hatch.one/nico-portafolio', '_blank')">
+                            <a href="#" class="a aLinkToCode" aria-label="Link to See Code Project">Ver proyecto</a>
+                            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M20.978 13.21a1 1 0 0 0-.396-1.024l-14-10a.999.999 0 0 0-1.575.931l2 17a1 1 0 0 0 1.767.516l3.612-4.416 3.377 5.46 1.701-1.052-3.357-5.428 6.089-1.218a.995.995 0 0 0 .782-.769z">
+                                </path>
+                            </svg>
+                        </button>
                     </div>
-
-                        <div class="Carrousel">
-                            <div class="ImgProject">
-                                <img name="ImagenProject3" class="imgproject project3" alt="Image Projects">
-                            </div>
-                        </div>
-
                 </div>
+
+                <div class="Carrousel">
+                    <div class="ImgProject">
+                        <img name="ImagenProject3" class="imgproject project3" alt="Image Projects">
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
-    
 
- 
-<!--Section Skills-->
+
+
+    <!--Section Skills-->
     <section class="ContainerHabilitesTechnologies" id="Skills">
         <div class="ContentHabilitesTechnologies">
             <h1 class="h1 h1Habilites">Habilidades y Tecnologías</h1>
-           
+
             <div class="ContainerHabilites">
                 <div class="ContentHabilites">
 
                     <div class="TitleHabilites">
-                        <p class="p pTitleHabilites">Habilidades</p> 
-                    </div>  
+                        <p class="p pTitleHabilites">Habilidades</p>
+                    </div>
                     <div class="InfoHabilites">
                         <ul>
-                            
-                            <li class="li liHabilites"> 
+
+                            <li class="li liHabilites">
                                 <p class="p pHabilites">Desarrollo <span class="Highlighted">Front end</span></p>
                             </li>
                             <li class="li liHabilites">
@@ -430,10 +470,10 @@
                                 <p class="p pHabilites"><span class="Highlighted">Base de </span>Datos</p>
                             </li>
                         </ul>
-                    </div>              
+                    </div>
                 </div>
             </div>
-            
+
             <div class="ContainerTechnologies">
 
                 <div class="ContentTechnologies">
@@ -444,19 +484,52 @@
 
                 <div class="Technologies">
                     
-                    <img src="assets/HTML.svg" class="img-technologies" alt="">
-                    <img src="assets/HTML.svg" class="img-technologies" alt="">
-                    <img src="assets/HTML.svg" class="img-technologies" alt="">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+            
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+
+                             <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/HTML.svg" class="img-swiper" />
+                            </div>
+                        </div>
+                    </div>
+
                     
-                      
+
                 </div>
+                
+
+
+
 
             </div>
-        
-        </div>
     </section>
 
-<!--Section ContactMe-->
+
+
+
+    <!--Section ContactMe-->
     <section class="ContainerContactMe" id="Contact">
         <div class="CointainerContentContactMe">
             <h1 class="h1 h1Contact">Contáctame</h1>
@@ -464,51 +537,70 @@
             <div class="ContentContactMe">
                 <div class="ContainerForm">
 
-                <form class="Form" id="Form" action="" method="POST">
-                    <div class="ContainerInput">
-                        <label class="lbl lblFormName" for="name">Nombre</label>
-                        <input class="input name" type="text" name="name" id="name" autocomplete="off">
-                    </div>
-                    <div class="ContainerInput">
-                        <label class="lbl lblFormEmail" for="email">Correo</label>
-                        <input class="input email" type="email" name="email" id="email" autocomplete="off"> 
-                    </div>
-                    <div class="ContainerInput">
-                        <label class="lbl lblFormQuestion" for="question">Asunto</label>
-                        <input class="input question" type="Asunto" name="question" id="question" autocomplete="off">
-                    </div>
-                    <div class="ContainerInput TextArea">
-                        <label class="lbl lblFormMessage" for="message">Mensaje</label>
-                        <textarea class="input message" name="message" id="message" autocomplete="off"></textarea>
-                    </div>
-                    <div class="ContainerButton">
-                        <button onclick="sendemail()" class="btn btnSendEmail" type="submit" id="btnsendemail"><a class="a aSendEmail">Enviar</a></button>
-                    </div>
-                
-                    <input type="hidden" name="_next" value='https://gnickz.github.io/Portafolio/'>
+                    <form class="Form" id="Form" action="" method="POST">
+                        <div class="ContainerInput">
+                            <label class="lbl lblFormName" for="name">Nombre</label>
+                            <input class="input name" type="text" name="name" id="name" autocomplete="off">
+                        </div>
+                        <div class="ContainerInput">
+                            <label class="lbl lblFormEmail" for="email">Correo</label>
+                            <input class="input email" type="email" name="email" id="email" autocomplete="off">
+                        </div>
+                        <div class="ContainerInput">
+                            <label class="lbl lblFormQuestion" for="question">Asunto</label>
+                            <input class="input question" type="Asunto" name="question" id="question"
+                                autocomplete="off">
+                        </div>
+                        <div class="ContainerInput TextArea">
+                            <label class="lbl lblFormMessage" for="message">Mensaje</label>
+                            <textarea class="input message" name="message" id="message" autocomplete="off"></textarea>
+                        </div>
+                        <div class="ContainerButton">
+                            <button onclick="sendemail()" class="btn btnSendEmail" type="submit" id="btnsendemail"><a
+                                    class="a aSendEmail">Enviar</a></button>
+                        </div>
 
-                    <input type="hidden" name="_captcha" value="false">
-                
-                </form>
+                        <input type="hidden" name="_next" value='https://gnickz.github.io/Portafolio/'>
+
+                        <input type="hidden" name="_captcha" value="false">
+
+                    </form>
 
                 </div>
                 <div class="ContainerContacts">
-                <div class="ContactGmail">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgContactGmail" width="24" height="24" viewBox="0 0 24 24"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg>
-                    <p class="p pContactGmail"><span class="Highlighted">UrrutiaGonzalez.</span>GustavoN<span class="Highlighted">@gmail.com</span></p>
-                </div>
-                <div class="ContactGitHub">
-                    <p class="p">GitHub</p>
-                    <a href="https://github.com/GNickz" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svgContactGitHub" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
-                    </a>
-                </div>
-                <div class="ContactLinkedIn">
-                    <p class="p">LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/gustavo-nicolas-urrutia-gonzalez-816a28289" target="_blank">
-                        <svg class="svg svgContactLinkedin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg>
-                    </a>
-                </div>
+                    <div class="ContactGmail">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svgContactGmail" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z">
+                            </path>
+                        </svg>
+                        <p class="p pContactGmail"><span class="Highlighted">UrrutiaGonzalez.</span>GustavoN<span
+                                class="Highlighted">@gmail.com</span></p>
+                    </div>
+                    <div class="ContactGitHub">
+                        <p class="p">GitHub</p>
+                        <a href="https://github.com/GNickz" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg svgContactGitHub" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="ContactLinkedIn">
+                        <p class="p">LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/gustavo-nicolas-urrutia-gonzalez-816a28289"
+                            target="_blank">
+                            <svg class="svg svgContactLinkedin" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -524,51 +616,73 @@
 
             <nav class="nav navFooter">
                 <ul class="ulFooter">
-                    <li class="li Footerli"><a class="a FooterNav" href="" aria-label="Link Footer to Inicio">Inicio</a></li>
+                    <li class="li Footerli"><a class="a FooterNav" href="" aria-label="Link Footer to Inicio">Inicio</a>
+                    </li>
                     <li class="li Footerli"><a class="a FooterNav" href="#AboutMe">Acerca de mi</a>
                     <li class="li Footerli"><a class="a FooterNav" href="#Projects">Proyectos</a></li>
                     <li class="li Footerli"><a class="a FooterNav" href="#Skills">Habilidades</a></li>
                     <li class="li Footerli"><a class="a FooterNav" href="#Contact">Contacto</a></li>
-                    <li class="li Footerli"><a class="a FooterNav" href="views/services.html" aria-label="Link Footer to Servicios">Servicios</a></li>
-                    
+                    <li class="li Footerli"><a class="a FooterNav" href="views/services.html"
+                            aria-label="Link Footer to Servicios">Servicios</a></li>
+
                 </ul>
             </nav>
 
             <div class="ContactFooter">
 
                 <div class="contactfooter Gmail">
-                    <svg class="svg svgFooterGmail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg>
-                    <p class="p pFooterGmail">UrrutiaGonzalez.GustavoN@gmail.com</p>     
+                    <svg class="svg svgFooterGmail" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z">
+                        </path>
+                    </svg>
+                    <p class="p pFooterGmail">UrrutiaGonzalez.GustavoN@gmail.com</p>
                 </div>
 
                 <div class="contactfooter GitHub">
                     <p class="p pFooterGitHub">GitHub</p>
                     <a href="https://github.com/GNickz" target="_blank">
-                        <svg class="svg svgFooterGitHub" xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+                        <svg class="svg svgFooterGitHub" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                            </path>
+                        </svg>
                     </a>
                 </div>
 
                 <div class="contactfooter LinkedIn">
                     <p class="p pFooterGitHub">LinkedIn</p>
                     <a href="https://www.linkedin.com/in/gustavo-nicolas-urrutia-gonzalez-816a28289/" target="_blank">
-                        <svg class="svg svgFooterLinkedIn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg>
+                        <svg class="svg svgFooterLinkedIn" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z">
+                            </path>
+                        </svg>
                     </a>
                 </div>
             </div>
 
-            
 
-            
+
+
 
         </div>
     </footer>
 
-    
- 
-    
+
+
+
 </body>
-<script src="js/main.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@latest"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script src="https://kit.fontawesome.com/6d4a182fa4.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
 </html>

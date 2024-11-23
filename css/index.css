@@ -26,7 +26,10 @@
     --TextColorML:#112022;
     --ColorFillIconsML:#112022;
     --ColorFillIconsMLHover: #5ea3a2;
+
+     --box-shadow-ML: 0 10px 20px rgba(94, 163, 162, 0.2), 0 4px 6px rgba(94, 163, 162, 0.1);
     
+     --box-shadow-MD: 0 15px 30px rgba(40, 70, 71, 0.4), 0 8px 15px rgba(40, 70, 71, 0.3);
 
     --ColorFillIconsMD:#f4f9f9;
     --ColorBGHeaderMD:#11202283;
@@ -35,6 +38,8 @@
     --ColorBorderSectionsMD:#284647; 
 
     --ColorTextMD:#f4f9f9;
+
+   
 }
 
 /*navBar href's relocated with every section */
@@ -50,6 +55,7 @@ section[id]{
 body{
     transition: all .5s;
     background-color: var(--BackgroundBodyColorML);
+
 
     /*
     background-image:var(--BackgroundImageBodyML);
@@ -248,18 +254,30 @@ body{
 
 .ContentCard.change, .ContainerHabilitesTechnologies.change{
     background-color: var(--ColorBGSectionsMD);
+    border: 1px solid var(--ColorBorderSectionsMD);
 }
 
 .ContainerHabilites.change, .ContainerTechnologies.change{
-    background-color: #0e0e11bb;
+    background-color: var(--BackgrounBodyColorMD);
+    border: 1px solid var(--ColorBorderSectionsMD);
+
+}
+
+.img-swiper.change{
+    background-color: var(--BackgrounBodyColorMD);
+    border: 1px solid var(--ColorBordersSectionsML);
+    box-shadow: var(--box-shadow-MD);
 }
 
 .ContentContactMe.change{
     background-color:var(--ColorBGHeaderMD);
+    border: 1px solid var(--ColorBorderSectionsMD);
+
 }
 
 .ProjectTools.change, .BtnLinkProject.change{
     background-color: var(--BackgrounBodyColorMD);
+    border: 1px solid var(--ColorBorderSectionsMD);
 }
 
 /*Global Styles*/
@@ -714,17 +732,38 @@ body{
     color: var(--TextColorML);
 }
 .Technologies{
-    padding: 1em;
-    display: flex;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 1rem;
+   display: flex;
+   justify-content: center; 
 }
-.img-technologies{
-    object-fit: cover;
-    border: 1px solid black;
+
+.Technologies{
+    height: 400px;
+    
 }
+
+.swiper {
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 250px;
+
+  }
+
+  .img-swiper {
+    display: block;
+    width: 100%;
+    border: 2px solid var(--ColorBordersSectionsML);
+    background-color:var(--BackgroundBodyColorML);
+    border-radius:.9em;
+    box-shadow: var(--box-shadow-ML);
+  }
+  
 
 /*Styles ContactMe*/
 .ContainerContactMe{

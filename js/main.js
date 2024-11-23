@@ -57,6 +57,7 @@ const content = document.querySelectorAll('.h1, .p, .a, .svg, .lbl, .input')
 const highlighted = document.querySelectorAll('.Highlighted')
 const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe')
 const colorInterSections = document.querySelectorAll('.ProjectTools, .BtnLinkProject')
+const colorImgTechnologies = document.querySelectorAll('.img-swiper')
 
 trigger.addEventListener('click', () =>{
     moon.classList.toggle('change')
@@ -77,6 +78,9 @@ trigger.addEventListener('click', () =>{
         element.classList.toggle('change')
     })
     colorInterSections.forEach(element => {
+        element.classList.toggle('change')
+    })
+    colorImgTechnologies.forEach(element =>{
         element.classList.toggle('change')
     })
 
@@ -151,6 +155,23 @@ function moveLeft()
 
     }
 
+
+    /*Technologies Swiper.js*/
+
+    const swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 15,
+            stretch: 0,
+            depth:230,
+            modifier: 1,
+            slideShadows:false,
+        },
+        loop: true,
+    });
 
     /*Send Email */
    
