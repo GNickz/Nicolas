@@ -266,7 +266,7 @@ body{
 .img-swiper.change{
     background-color: var(--BackgrounBodyColorMD);
     border: 1px solid var(--ColorBordersSectionsML);
-    box-shadow: var(--box-shadow-MD);
+    /*box-shadow: var(--box-shadow-MD);*/
 }
 
 .ContentContactMe.change{
@@ -761,7 +761,7 @@ body{
     border: 2px solid var(--ColorBordersSectionsML);
     background-color:var(--BackgroundBodyColorML);
     border-radius:.9em;
-    box-shadow: var(--box-shadow-ML);
+    /*box-shadow: var(--box-shadow-ML);*/
   }
   
 

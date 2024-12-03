@@ -163,6 +163,9 @@ function moveLeft()
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
+        autoplay: {
+            delay: 2500,
+          },
         coverflowEffect: {
             rotate: 15,
             stretch: 0,
