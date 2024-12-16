@@ -27,9 +27,9 @@
     --ColorFillIconsML:#112022;
     --ColorFillIconsMLHover: #5ea3a2;
 
-     --box-shadow-ML: 0 10px 20px rgba(94, 163, 162, 0.2), 0 4px 6px rgba(94, 163, 162, 0.1);
+     --box-shadow-ML: 0 10px 15px -5 rgba(0, 0, 0, 0.6);
     
-     --box-shadow-MD: 0 15px 30px rgba(40, 70, 71, 0.4), 0 8px 15px rgba(40, 70, 71, 0.3);
+     --box-shadow-MD: 0 10px 15px -5px rgba(40, 70, 71, 0.6);
 
     --ColorFillIconsMD:#f4f9f9;
     --ColorBGHeaderMD:#11202283;
@@ -252,21 +252,31 @@ body{
     color:var(--ColorDestacadoMD);
 }
 
-.ContentCard.change, .ContainerHabilitesTechnologies.change{
-    background-color: var(--ColorBGSectionsMD);
+.ContentCard.change{
+/*     background-color: var(--ColorBGSectionsMD); */
     border: 1px solid var(--ColorBorderSectionsMD);
+    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 0.1);
+ }
+
+ .Carrousel.change{
+    box-shadow: 0px 10px 15px -5px  rgba(64,128,128,1);
+ }
+
+
+.ContainerHabilitesTechnologies.change{
+    background-color: var(--BackgrounBodyColorMD);
+    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 1);
 }
+
 
 .ContainerHabilites.change, .ContainerTechnologies.change{
     background-color: var(--BackgrounBodyColorMD);
-    border: 1px solid var(--ColorBorderSectionsMD);
-
 }
 
 .img-swiper.change{
-    background-color: var(--BackgrounBodyColorMD);
-    border: 1px solid var(--ColorBordersSectionsML);
-    /*box-shadow: var(--box-shadow-MD);*/
+    background-color:#0a0f10;
+    border: 6px solid var(--ColorBorderHeaderML);
+    box-shadow: var(--box-shadow-MD);
 }
 
 .ContentContactMe.change{
@@ -337,7 +347,7 @@ body{
 /*Styles Header*/
 .ContainerHeader{
     width: 100%;
-    background-color: var(--ColorBGHeaderML);
+    background-color:#18515147;
     border-bottom: 1px solid var(--ColorBordersSectionsML);
     backdrop-filter: blur(10px);
     position: sticky;
@@ -353,6 +363,7 @@ body{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+
 }
 .BtnMenu{
     display: none;
@@ -383,12 +394,10 @@ body{
     margin: 0 1em;
     display: flex;
 }
-
 .aHeader{
     font-family: var(--tipografia);
     color: var(--TextColorML);
 }
-
 .NigthModeLigthMode{
     width: 2em;
     height: 2em;
@@ -418,7 +427,7 @@ body{
     backdrop-filter: blur(3px);
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     display: flex;
     flex-wrap:wrap;
@@ -429,7 +438,7 @@ body{
     width: 300px;
 }
 .ContentInfoPresentation{
-    width: 500px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -439,7 +448,7 @@ body{
     padding-left: 1em;
 }
 .InfoPresentation{
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -448,7 +457,7 @@ body{
     color: var(--ColorDestacadoML);
 }
 .ContactPresentation{
-    width: 460px;
+    width: 500px;
     padding: 1em;
     display: flex;
     flex-flow: row wrap;
@@ -456,10 +465,9 @@ body{
     align-items: center;
     gap: 40px 25px; 
 }
-
 .btnLinkGitHub{
     cursor: pointer;
-    border: 1px solid var(--ColorBordersSectionsML);
+    border: 1px solid var( --ColorBorderSectionsMD);
     width: 200px;
     padding: 1em;
     border-radius: .9em;
@@ -515,7 +523,7 @@ body{
     backdrop-filter: blur(3px);
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
 }
 .pAboutMe{
@@ -530,24 +538,24 @@ body{
 }
 .ContentProjects{
     backdrop-filter: blur(3px);
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     padding-left: 1em;
     padding-right: 1em;
 }
 .ContentCard{
-    max-width: 800px;
-    border: 1px solid var(--ColorBordersSectionsML);
-    background-color: var(--ColorBGSectionsML);
+    max-width: 1000px;
     border-radius: 1em;
-    margin: 2em auto;
+    margin: 3em auto;
     padding: 1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    border: 1px solid var(--ColorBorderSectionsMD);
+    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 0.1);
 }
 .InfoCard{
-   width: 400px;
+   width: 500px;
 }
 .h1InfoProject{
     font-size: 20px;
@@ -560,12 +568,11 @@ body{
     margin-top: 1em;
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--ColorBordersSectionsML);
+    border: 1px solid var(--ColorBorderSectionsMD);
     border-radius: .5em;
     padding: .5em;
     background-color: var(--BackgroundBodyColorML);
 }
-
 .Tools{
    margin: 5px;
     display: flex;
@@ -594,7 +601,6 @@ body{
 .svgIconToolsProject:hover{
     fill: var(--ColorDestacadoMD);
 }
-
 .LnkCode{
     display: flex;
     margin-top: 1em;
@@ -608,53 +614,54 @@ body{
     width: 200px;
     padding: 1em;
     margin-top: 1em;
-    border: 2px solid var(--ColorBordersSectionsML);
+    border: 2px solid var(--ColorBorderSectionsMD);
     border-radius: .9em;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
     transition: all 500ms;
-    background-color: var(--BackgroundBodyColorML);  
 }
 .BtnLinkProject:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: all 500ms;
 }
 .Carrousel{
-    width: 300px;
-    
+    width: 350px;
+    display: flex;
+    /* border: 1px solid var(--ColorBorderSectionsMD); */
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    border-radius: 1em;  
+    overflow: hidden;
 }
 .imgproject{
-    border-radius: 1em;
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    border: 1px solid var(--ColorBordersSectionsML);
 }
 
 /*Styles Skills&Technologies*/
 .ContainerHabilitesTechnologies{
     width: 100%;
     margin-bottom: 150px;
-    border-top: 1px solid var(--ColorBordersSectionsML);
-    border-bottom: 1px solid var(--ColorBordersSectionsML);
-    background-color: var(--ColorBGSectionsML);
+    border-top: 1px solid var(--ColorBorderSectionsMD);
+    border-bottom: 1px solid var(--ColorBorderSectionsMD);
+    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 0.1);
+    
 }
 .ContentHabilitesTechnologies{
     backdrop-filter: blur(3px);
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 2em;
     padding-left: 1em;
     padding-right: 1em;
+   
 }
 .ContainerHabilites{
-    backdrop-filter: blur(3px);
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 2em 1em 1em 1em ;
-    background-color: #ffffffcc;
-    border: 1px solid var(--ColorBordersSectionsML);
+    border: 1px solid var(--ColorBorderSectionsMD);
     border-radius: 1em;
 }
 .ContentHabilites{
@@ -667,7 +674,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: .9em;
-    border: 1px solid var(--ColorBordersSectionsML);
+    border: 1px solid var(--ColorBorderSectionsMD);
     width: 200px;
     height: 50px;
     margin-bottom: 20px;
@@ -706,12 +713,10 @@ body{
     width: 100%;
 }
 .ContainerTechnologies{
-    backdrop-filter: blur(3px);
     margin-bottom: 50px;
     padding: 2em 1em 1em 1em;
     border-radius: 1em;
-    background-color: #ffffffcc;
-    border: 1px solid var(--ColorBordersSectionsML);
+    border: 1px solid var(--ColorBorderSectionsMD);
 }
 .ContentTechnologies{
     display: flex;
@@ -723,7 +728,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: .9em;
-    border: 1px solid var(--ColorBordersSectionsML);
+    border: 1px solid var(--ColorBorderSectionsMD);
     width: 200px;
     height: 50px;
     margin-bottom: 20px;
@@ -735,33 +740,27 @@ body{
    display: flex;
    justify-content: center; 
 }
-
 .Technologies{
-    height: 400px;
-    
+    height: 400px;  
 }
-
 .swiper {
     width: 100%;
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
   .swiper-slide {
     background-position: center;
     background-size: cover;
     max-width: 250px;
-
   }
-
   .img-swiper {
     display: block;
     width: 100%;
-    border: 2px solid var(--ColorBordersSectionsML);
-    background-color:var(--BackgroundBodyColorML);
+/*     border: 1px solid var(--ColorBorderSectionsMD);
+ */    background-color:var(--BackgroundBodyColorML);
     border-radius:.9em;
-    /*box-shadow: var(--box-shadow-ML);*/
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.6);
   }
   
 
@@ -771,7 +770,7 @@ body{
     margin-bottom: 400px;
 }
 .CointainerContentContactMe{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 100px auto;
     border-radius: .9em;
     padding-left: 1em;
@@ -782,7 +781,7 @@ body{
     margin-top: 50px;
 }
 .ContentContactMe{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     background-color: var(--ColorBGSectionsML);
     backdrop-filter: blur(3px);
@@ -903,7 +902,7 @@ body{
 .ContainerFotter{
     backdrop-filter: blur(3px);
     border-top: 1px solid var(--ColorBordersSectionsML);
-    background-color: var(--ColorBGHeaderML);
+    background-color: #18515147;
     width: 100%;
     margin-top: auto;
 }
@@ -952,7 +951,6 @@ body{
     gap: 20px;
     align-items: center;
 }
-
 .svgFooterGitHub{
     transition: transform 500ms;
 }
@@ -1003,7 +1001,7 @@ body{
         flex-direction: column-reverse;
     }
     .InfoCard{
-        margin-top: 1em;
+        margin-top:3em;
         width: 100%;
      }
      .Carrousel{

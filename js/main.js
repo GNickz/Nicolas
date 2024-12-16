@@ -55,7 +55,7 @@ const menuMD = document.querySelector('.svgCloseMenu')
 const menuML = document.querySelector('.svgMenu')
 const content = document.querySelectorAll('.h1, .p, .a, .svg, .lbl, .input')
 const highlighted = document.querySelectorAll('.Highlighted')
-const colorBigSections = document.querySelectorAll('.ContentCard, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe')
+const colorBigSections = document.querySelectorAll('.ContentCard, .Carrousel, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe, .ContentHabilitesTechnologies')
 const colorInterSections = document.querySelectorAll('.ProjectTools, .BtnLinkProject')
 const colorImgTechnologies = document.querySelectorAll('.img-swiper')
 
