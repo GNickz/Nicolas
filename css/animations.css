@@ -1,0 +1,243 @@
+
+/*Background animation*/
+.ContainerAnimation{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 3900px;
+}
+.bckanimation{
+    position: absolute;
+    top:200px;
+    left:400px;
+    width: 2px;
+    height: 2px;
+    background-color: #408080;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(64, 128, 128, 0.1),0 0 20px rgba(64,128,128,1);
+    animation: animate 3s linear infinite;
+}
+.bckanimation::before{
+    content:'';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 1px;
+    left: 2px;
+    background:linear-gradient(90deg,#408080,transparent);
+}
+
+@keyframes animate {
+    0%{transform: rotate(315deg) translateX(0);
+    opacity: 1;}
+    70%{opacity: 1;}
+    100%{transform: rotate(315deg) translateX(-10900px);
+    opacity: 0;}
+}
+.bckanimation:nth-child(1){
+    top:0;
+    left:20%;
+    animation-duration: 20s;
+}
+.bckanimation:nth-child(2){
+    top:0;
+    left: 40%;
+    animation-duration: 40s;
+    animation-delay: 1s;
+}
+.bckanimation:nth-child(3){
+    top:0;
+    left: 60%;
+    animation-duration: 12s;
+    animation-delay: 5s;
+}
+.bckanimation:nth-child(4){
+    top:0;
+    left: 80%;
+    animation-duration: 14s;
+    animation-delay:1s;
+}
+.bckanimation:nth-child(5){
+    top:0;
+    left: 100%;
+    animation-duration: 45s;
+    animation-delay:2s;
+}
+.bckanimation:nth-child(6){
+    top:0;
+    left:120%;
+    animation-duration: 55s;
+    animation-delay: 5s;
+}
+.bckanimation:nth-child(7){
+    top:0;
+    left: 140%;
+    animation-duration: 51s;
+
+}
+.bckanimation:nth-child(8){
+    top:0;
+    left: 160%;
+    animation-duration: 60s;
+    animation-delay: 4S;
+   
+}
+.bckanimation:nth-child(9){
+    top:0;
+    left: 180%;
+    animation-duration: 50s;
+    animation-delay: 8s;
+    
+}
+.bckanimation:nth-child(10){
+    top:0;
+    left: 200%;
+    animation-duration: 25s;
+    animation-delay: 2s;
+}
+.bckanimation:nth-child(11){
+    top:0;
+    left:220%;
+    animation-duration: 45s;
+    animation-delay: 5s;
+}
+.bckanimation:nth-child(12){
+    top:0;
+    left: 240%;
+    animation-duration: 60s;
+}
+.bckanimation:nth-child(13){
+    top:0;
+    left: 260%;
+    animation-duration: 50s;
+    animation-delay: 4s;  
+}
+.bckanimation:nth-child(14){
+    top:0;
+    left: 280%;
+    animation-duration: 60s;
+    animation-delay: 2s;
+}
+.bckanimation:nth-child(15){
+    top:0;
+    left: 300%;
+    animation-duration: 20s;
+    animation-delay: 3s; 
+}
+.bckanimation:nth-child(16){
+    top:0;
+    left: 320%;
+    animation-duration: 30s;
+    animation-delay: 1s; 
+}
+.bckanimation:nth-child(17){
+    top:0;
+    left: 340%;
+    animation-duration: 15s;
+    animation-delay: 4s; 
+}
+
+
+@media screen and (max-width:415px){
+    .ContainerAnimation{
+        height: 5900px;
+       
+    }
+
+    .bckanimation:nth-child(1){
+        top:0;
+        left: 100%;
+    }
+    
+    .bckanimation:nth-child(2){
+        top:200px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(3){
+        top: 500px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(4){
+        top: 800px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(5){
+        top: 1100px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(6){
+        top: 1400px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(7){
+        top: 1700px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(8){
+        top: 2000px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(9){
+        top: 2300px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(10){
+        top: 2600px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(11){
+        top: 2900px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(12){
+        top: 3200px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(13){
+        top: 3500px;
+        left:100%;
+    
+    }
+    .bckanimation:nth-child(14){
+        top: 3800px;
+        left:100%;
+    }
+    .bckanimation:nth-child(15){
+        top:4100px;
+        left:100%;
+    }   
+    .bckanimation:nth-child(16){
+        top:4400px;
+        left:100%;
+        animation-duration: 40s;
+        animation-delay:5s;
+    }
+    .bckanimation:nth-child(17){
+        top:4700px;
+        left:100%;
+        animation-duration: 50s; 
+        animation-delay:1s;
+    }
+    .bckanimation:nth-child(18){
+        top:5000px;
+        left:100%;
+        animation-duration: 35s; 
+        animation-delay:8s;
+    }
+    
+    
+}

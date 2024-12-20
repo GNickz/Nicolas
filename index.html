@@ -8,13 +8,17 @@
         content="Autor: Gustavo Nicolas Urrutia González.
     Sitio web personal estructurado con diferentes etiquetas HTML, estilizado con CSS y brindándole funcionalidad con JavaScript.">
     <title>Gustavo Nicolas</title>
-    <link rel="icon" href="assets/Logo.svg">
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/nightmode.css">
+    <link rel="icon" href="assets/Logo.svg">
     <link rel="preconnect" defer href="https://fonts.googleapis.com">
     <link rel="preconnect" defer href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" defer
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -47,7 +51,7 @@
 
             <img class="img imgLogoHeader" src="assets/Logo.svg" alt="">
 
-            <button title="Button Menu" class="btn BtnMenu">
+            <div title="Menu" class="btn ActionMenu">
                 <svg xmlns="http://www.w3.org/2000/svg" class="svgMenu" width="24" height="24" viewBox="0 0 24 24">
                     <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
                 </svg>
@@ -56,15 +60,15 @@
                  12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364
                   12l4.242-4.242z"></path>
                 </svg>
-            </button>
+            </div>
 
             <nav class="navHeader">
                 <ul class="ulHeader">
-                    <li class="liHeader"><a class="a aHeader" href="#Inicio" aria-label="Link to Inicio">Inicio</a></li>
-                    <li class="liHeader"><a class="a aHeader" href="#AboutMe">Acerca de mi</a></li>
-                    <li class="liHeader"><a class="a aHeader" href="#Projects">Proyectos</a></li>
-                    <li class="liHeader"><a class="a aHeader" href="#Skills">Habilidades</a></li>
-                    <li class="liHeader"><a class="a aHeader" href="#Contact">Contacto</a></li>
+                    <li class="liHeader"><a class="nav aHeader" href="#Inicio" aria-label="Link to Inicio">Inicio</a></li>
+                    <li class="liHeader"><a class="nav aHeader" href="#AboutMe">Acerca de mi</a></li>
+                    <li class="liHeader"><a class="nav aHeader" href="#Projects">Proyectos</a></li>
+                    <li class="liHeader"><a class="nav aHeader" href="#Skills">Habilidades</a></li>
+                    <li class="liHeader"><a class="nav aHeader" href="#Contact">Contacto</a></li>
                     <!--Forma de redireccionar desde el index es: NombreCarpeta/NombreArchivo.html-->
                     <!-- <li class="liHeader"><a class="a aHeader" href="views/services.html"
                         aria-label="Link to Servicios">Servicios</a>
@@ -498,6 +502,9 @@
                                 <img src="assets/JS.svg" class="img-swiper" />
                             </div>
                             <div class="swiper-slide">
+                                <img src="assets/FIGMA.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
                                 <img src="assets/CSS.svg" class="img-swiper" />
                             </div>
                             <div class="swiper-slide">
@@ -508,6 +515,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <img src="assets/JS.svg" class="img-swiper" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/FIGMA.svg" class="img-swiper" />
                             </div>
                             
                             
@@ -615,13 +625,13 @@
 
             <nav class="nav navFooter">
                 <ul class="ulFooter">
-                    <li class="li Footerli"><a class="a FooterNav" href="" aria-label="Link Footer to Inicio">Inicio</a>
+                    <li class="li Footerli"><a class="nav FooterNav" href="" aria-label="Link Footer to Inicio">Inicio</a>
                     </li>
-                    <li class="li Footerli"><a class="a FooterNav" href="#AboutMe">Acerca de mi</a>
-                    <li class="li Footerli"><a class="a FooterNav" href="#Projects">Proyectos</a></li>
-                    <li class="li Footerli"><a class="a FooterNav" href="#Skills">Habilidades</a></li>
-                    <li class="li Footerli"><a class="a FooterNav" href="#Contact">Contacto</a></li>
-                    <li class="li Footerli"><a class="a FooterNav" href="views/services.html"
+                    <li class="li Footerli"><a class="nav FooterNav" href="#AboutMe">Acerca de mi</a>
+                    <li class="li Footerli"><a class="nav FooterNav" href="#Projects">Proyectos</a></li>
+                    <li class="li Footerli"><a class="nav FooterNav" href="#Skills">Habilidades</a></li>
+                    <li class="li Footerli"><a class="nav FooterNav" href="#Contact">Contacto</a></li>
+                    <li class="li Footerli"><a class="nav FooterNav" href="views/services.html"
                             aria-label="Link Footer to Servicios">Servicios</a></li>
 
                 </ul>

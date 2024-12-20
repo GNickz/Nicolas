@@ -1,0 +1,24 @@
+
+:root{
+    --tipografia:Rubik;
+    --BackgroundBodyColorML:#fff;
+    --BackgrounBodyColorMD:#110f0e;
+    --ColorDestacadoML:#356a6c;
+    --ColorDestacadoMD:#5ea3a2;
+    --ColorBGHeaderML:rgba(218, 237, 235, 0.800); 
+    --ColorBGSectionsML:#f4f9f99a;
+    --ColorBGButtonsML:#408080;
+    --ColorBordersSectionsML:#5ea3a2;
+    --TextColorML:#112022;
+    --ColorFillIconsML:#112022;
+    --ColorFillIconsMLHover: #5ea3a2;
+    --box-shadow-ML: 0 10px 15px -5 rgba(0, 0, 0, 0.6);
+    --box-shadow-MD: 0 10px 15px -5px rgba(40, 70, 71, 0.6);
+    --ColorFillIconsMD:#f4f9f9;
+    --ColorBGHeaderMD:#11202283;
+    --ColorBorderHeaderMD:#284647;
+    --ColorBGSectionsMD:#112022;
+    --ColorBorderSectionsMD:#284647; 
+    --ColorTextMD:#f4f9f9;
+    --Pipo:rgb(8, 248, 0);
+}

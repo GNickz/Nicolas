@@ -1,9 +1,11 @@
 
+
+
 /*Open Menu*/
 
 function openMenu(){
 
-    const button = document.querySelector('.BtnMenu')
+    const button = document.querySelector('.ActionMenu')
     const nav = document.querySelector('.navHeader')
     const openmenu = document.querySelector('.svgMenu')
     const closemenu = document.querySelector('.svgCloseMenu')
@@ -53,7 +55,7 @@ const body = document.querySelector('.body')
 const header = document.querySelectorAll('.ContainerHeader, .ContainerFotter')
 const menuMD = document.querySelector('.svgCloseMenu')
 const menuML = document.querySelector('.svgMenu')
-const content = document.querySelectorAll('.h1, .p, .a, .svg, .lbl, .input')
+const content = document.querySelectorAll('.h1, .p, .a, .svg, .lbl, .input, .nav')
 const highlighted = document.querySelectorAll('.Highlighted')
 const colorBigSections = document.querySelectorAll('.ContentCard, .Carrousel, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe, .ContentHabilitesTechnologies')
 const colorInterSections = document.querySelectorAll('.ProjectTools, .BtnLinkProject')

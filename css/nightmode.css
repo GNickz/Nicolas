@@ -1,0 +1,73 @@
+/*Change styles to ModeNigth usin toogle*/
+.body.change{
+    transition: all .5s;
+    background-color: var(--BackgrounBodyColorMD);
+}
+.h1.change, .p.change, .a.change, .svg.change, .lbl.change, .input.change, .nav.change{
+    color: var(--ColorTextMD);
+    fill:var(--ColorFillIconsMD);
+}
+.ContainerHeader.change, .ContainerFotter.change{
+    background-color: var(--ColorBGHeaderMD);
+}
+.svgMenu.change{
+    display: none;
+    border: 1px solid yellow;
+}
+.svgMenu.ModeLigth{
+    fill: var(--ColorFillIconsMD);
+    border: none;
+    outline: none;
+}
+.svgMenu.ModeLigth{
+    fill: var(--ColorFillIconsMD);
+}
+.svgCloseMenu.change{
+    display: block;
+    fill: var(--ColorFillIconsML);
+    outline: none;
+}
+.svgCloseMenu.ModeDark{
+    fill: var(--ColorFillIconsMD);
+    border: none;
+}
+.moon.change{
+    display: none;
+}
+.sun.change{
+    display:block;
+    cursor: pointer;
+    fill: var(--ColorFillIconsMD);
+}
+.Highlighted.change{
+    color:var(--ColorDestacadoMD);
+}
+.ContentCard.change{
+    border: 1px solid var(--ColorBorderSectionsMD);
+    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 0.1);
+ }
+ .Carrousel.change{
+    box-shadow: 0px 10px 15px -5px  rgba(64,128,128,1);
+ }
+.ContainerHabilitesTechnologies.change{
+    background-color: var(--BackgrounBodyColorMD);
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 1);
+}
+.ContainerHabilites.change, .ContainerTechnologies.change{
+    background-color: var(--BackgrounBodyColorMD);
+}
+.img-swiper.change{
+    background-color:#0a0f10;
+    border: 6px solid var(--ColorBorderHeaderML);
+    box-shadow: var(--box-shadow-MD);
+}
+.ContentContactMe.change{
+    background-color:var(--ColorBGHeaderMD);
+    border: 1px solid var(--ColorBorderSectionsMD);
+
+}
+.ProjectTools.change, .BtnLinkProject.change{
+    background-color: var(--BackgrounBodyColorMD);
+    border: 1px solid var(--ColorBorderSectionsMD);
+}
