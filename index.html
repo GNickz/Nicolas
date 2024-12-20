@@ -8,11 +8,13 @@
         content="Autor: Gustavo Nicolas Urrutia González.
     Sitio web personal estructurado con diferentes etiquetas HTML, estilizado con CSS y brindándole funcionalidad con JavaScript.">
     <title>Gustavo Nicolas</title>
-    <link rel="stylesheet" href="css/variables.css">
+
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/nightmode.css">
     <link rel="icon" href="assets/Logo.svg">
+
     <link rel="preconnect" defer href="https://fonts.googleapis.com">
     <link rel="preconnect" defer href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" defer
@@ -112,10 +114,11 @@
 
 
     <!--Section Presentation-->
+
     <section class="ContainerPresentation" id="Inicio">
         <div class="ContentPresentation">
             <div class="PicturePresentation">
-                <img src="assets/Logo.svg" alt="Logo_Presentación">
+                <img class="imgLogo" src="assets/Logo.svg" alt="Logo_Presentación">
             </div>
 
             <div class="ContentInfoPresentation">
@@ -131,30 +134,33 @@
             </div>
 
             <div class="ContactPresentation">
+                    <button class="btn btnLinkGitHub" title="Button Link GitHub"
+                        onclick="window.open('https://github.com/GNickz', '_blank')" href="javascript:void(0)">
+                        <a href="#" class="a aLinkGitHub" aria-label="Link to GitHub">GitHub</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svgGitHub" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.026 2c-5.509 0-9.974 4.465-9.974
+                                9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605
+                                1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93
+                                0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554
+                                0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552
+                                4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                            </path>
+                        </svg>
+                    </button>
 
-                <button class="btn btnLinkGitHub" title="Button Link GitHub"
-                    onclick="window.open('https://github.com/GNickz', '_blank')" href="javascript:void(0)">
-                    <a href="#" class="a aLinkGitHub" aria-label="Link to GitHub">GitHub</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgGitHub" width="24" height="24"
-                        viewBox="0 0 24 24">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M12.026 2c-5.509 0-9.974 4.465-9.974
-                            9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605
-                            1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93
-                            0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554
-                            0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552
-                            4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
-                        </path>
-                    </svg>
-                </button>
 
-                <button title="Button Download CV" class="btn btnDownloadCV">
-                    <a href="#" class="a CV" aria-label="Link to Download CV">Descarga CV</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="svg svgDownloadCV" width="24" height="24"
-                        viewBox="0 0 24 24">
-                        <path d="M19 9h-4V3H9v6H5l7 8zM4 19h16v2H4z"></path>
-                    </svg>
-                </button>
+                    <button title="Button Download CV" class="btn btnDownloadCV">
+                        <a href="#" class="a CV" aria-label="Link to Download CV">Descarga CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svg svgDownloadCV" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path d="M19 9h-4V3H9v6H5l7 8zM4 19h16v2H4z"></path>
+                        </svg>
+                    </button>
+
+
+
 
             </div>
 
@@ -686,11 +692,11 @@
 
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@latest"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script src="https://kit.fontawesome.com/6d4a182fa4.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
 
 
 
