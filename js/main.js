@@ -246,5 +246,7 @@ function moveLeft()
         event.preventDefault(); // Esto previene el comportamiento predeterminado de enviar el formulario
         sendemail();
     });
-    
+
+
+
 

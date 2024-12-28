@@ -36,8 +36,7 @@ section[id]{
     font-weight: 400;
     font-size: 15px;
     text-transform: uppercase;
-    pointer-events: none
-    
+    pointer-events: none;
 }
 .nav{
     text-decoration: none;
@@ -69,6 +68,7 @@ section[id]{
     border: none;
     outline: none;
     cursor: pointer;
+    box-shadow: 0 0 0 0.8px #112022;
 }
 
 .lbl{
@@ -90,12 +90,14 @@ section[id]{
 /*Styles Header*/
 .ContainerHeader{
     width: 100%;
-    background-color:#18515147;
-    backdrop-filter: blur(20px);
+    background-color:var(--BackgroundHeaderML);
+    box-shadow: var(--BoxShadowHeader-ML);
+    backdrop-filter: blur(50px);
     position: sticky;
     top: 0;
     z-index: 1;
     margin-bottom: 50px;
+    
 }
 .ContentHeader{
     max-width:1200px;
@@ -216,15 +218,13 @@ section[id]{
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 40px 25px; 
 }
-
 .btnLinkGitHub{
     cursor: pointer;
-    border: 1px solid var( --ColorBorderSectionsMD);
-    padding:1em;
+    padding:1em;   
     width: 200px;
     border-radius: .9em;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -251,6 +251,7 @@ section[id]{
 .btnDownloadCV{
     cursor: pointer;
     background-color: var(--ColorBGButtonsML);
+    box-shadow: none;
     padding: 1em;
     width: 200px;
     border-radius: .9em;
@@ -316,9 +317,8 @@ section[id]{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    border: 1px solid var(--ColorBorderSectionsMD);
-    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 0.1);
-}
+    box-shadow: var(--BoxShadownProjects-ML);
+ }
 .InfoCard{
    width: 500px;
 }
@@ -333,8 +333,7 @@ section[id]{
     margin-top: 1em;
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--ColorBorderSectionsMD);
-    border-radius: .5em;
+    box-shadow: 0 0.5px 0 0 #356a6c;
     padding: .5em;
     background-color: var(--BackgroundBodyColorML);
 }
@@ -379,7 +378,6 @@ section[id]{
     width: 200px;
     padding: 1em;
     margin-top: 1em;
-    border: 2px solid var(--ColorBorderSectionsMD);
     border-radius: .9em;
     display: flex;
     justify-content: space-evenly;
@@ -409,27 +407,33 @@ section[id]{
 
 /*Styles Skills&Technologies*/
 .ContainerHabilitesTechnologies{
+    box-sizing: border-box;
     width: 100%;
     margin-bottom: 150px;
-    border-top: 1px solid var(--ColorBorderSectionsMD);
-    border-bottom: 1px solid var(--ColorBorderSectionsMD);
-    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 0.1);
     backdrop-filter: blur(1px);
+    box-shadow: var(--BoxShadownComponents-ML); 
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
 }
+.ContainerHabilitesTechnologies:before{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    content: "";
+}
+
 .ContentHabilitesTechnologies{
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-   
+    padding: 2em 1em;
 }
 .ContainerHabilites{
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 2em 1em 1em 1em ;
-    border: 1px solid var(--ColorBorderSectionsMD);
+    box-shadow: 19px -20px 48px -10px rgba(23,50,52,1);
     border-radius: 1em;
 }
 .ContentHabilites{
@@ -481,11 +485,11 @@ section[id]{
     width: 100%;
 }
 .ContainerTechnologies{
-    margin-bottom: 50px;
-    padding: 2em 1em 1em 1em;
+    padding: 2em 1em;
     border-radius: 1em;
-    border: 1px solid var(--ColorBorderSectionsMD);
+    box-shadow: 19px -20px 48px -10px rgba(23,50,52,1);
 }
+
 .ContentTechnologies{
     display: flex;
     flex-flow: row wrap;
@@ -549,9 +553,8 @@ section[id]{
 .ContentContactMe{
     max-width: 1000px;
     margin: 50px auto;
-    background-color: var(--ColorBGSectionsML);
     backdrop-filter: blur(3px);
-    border: 1px solid var(--ColorBordersSectionsML);
+    box-shadow: var(--BoxShadownComponents-ML);
     border-radius: .9em;
     display: flex;
     justify-content: space-between;
@@ -576,7 +579,7 @@ section[id]{
     outline: none;
     background: transparent;
     padding: 10px;
-    border-bottom: 1.5px solid var(--ColorBordersSectionsML);
+    border-bottom: 1.5px solid var(--ColorDestacadoML);
 }
 :focus{
     outline: 1.5px solid var(--ColorBordersSectionsML);
@@ -665,7 +668,8 @@ section[id]{
 /*Styles Footer*/
 .ContainerFotter{
     backdrop-filter: blur(3px);
-    background-color: #18515147;
+    background-color: var(--BackgroundHeaderML);
+    box-shadow: var(--BoxShadowFotter-ML);
     width: 100%;
     margin-top: auto;
 }
