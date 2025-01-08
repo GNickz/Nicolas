@@ -70,6 +70,12 @@ section[id]{
     outline: none;
     cursor: pointer;
 }
+.btnm{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
 .lbl{
     margin-bottom: .3em;
