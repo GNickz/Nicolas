@@ -65,7 +65,8 @@ section[id]{
 }
 .btn{
     background: none;
-    border:0;
+    border: none;
+    box-shadow: 0px 0px 2px 0px rgba(17,32,34);
     outline: none;
     cursor: pointer;
 }
