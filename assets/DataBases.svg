@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" fill="none" viewBox="0 0 400 300">
+  <g class="Frame 16">
+    <g class="Tables">
+      <g class="Group 21">
+        <rect width="95" height="67" x="138.5" y="124.5" stroke="#112022" stroke-width="3" class="Rectangle 205" rx="1.5"/>
+        <path stroke="#112022" stroke-dasharray="30 30" stroke-linecap="square" stroke-width="2" d="M138 143h95.5" class="Vector 1861"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M138 176h95.5" class="Vector 1863"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M139 162h94" class="Vector 1862"/>
+      </g>
+      <g class="Group 22">
+        <rect width="100" height="67" x="252.5" y="37.5" stroke="#112022" stroke-width="3" class="Rectangle 206" rx="1.5"/>
+        <path stroke="#112022" stroke-dasharray="30 30" stroke-linecap="square" stroke-width="2" d="M252.5 56h100" class="Vector 1864"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M253 74h100" class="Vector 1865"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M252 89h99" class="Vector 1866"/>
+      </g>
+      <g class="Group 23">
+        <rect width="86" height="80" x="304.5" y="153.5" stroke="#112022" stroke-width="3" class="Rectangle 207" rx="1.5"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M305 206h86" class="Vector 1869"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M304 219h85" class="Vector 1870"/>
+        <path stroke="#112022" stroke-dasharray="30 30" stroke-linecap="square" stroke-width="2" d="M304.5 173.5h86" class="Vector 1867"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M305 191h86" class="Vector 1868"/>
+      </g>
+      <g class="Group 25">
+        <rect width="74" height="111" x="9.5" y="30.5" stroke="#112022" stroke-width="3" class="Rectangle 208" rx="1.5"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M9 108h73.5" class="Vector 1875"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M10 122h73.5" class="Vector 1876"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M10 133h73.5" class="Vector 1877"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M9 95h73.5" class="Vector 1874"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M10 82h73.5" class="Vector 1873"/>
+        <path stroke="#112022" stroke-dasharray="30 30" stroke-linecap="square" stroke-width="2" d="M9.5 50H83" class="Vector 1871"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M10 68h73.5" class="Vector 1872"/>
+      </g>
+      <g class="Group 24">
+        <rect width="107" height="85" x="8.5" y="184.5" stroke="#112022" stroke-width="3" class="Rectangle 209" rx="1.5"/>
+        <path stroke="#112022" stroke-dasharray="30 30" stroke-linecap="square" stroke-width="2" d="M8.5 205h107" class="Vector 1878"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M8 224h107" class="Vector 1879"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M9 243h107" class="Vector 1880"/>
+        <path stroke="#112022" stroke-dasharray="20 20" stroke-linecap="square" stroke-width="1.5" d="M8 261h107" class="Vector 1881"/>
+      </g>
+    </g>
+    <g class="CenterUpToRigth">
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M186.5 124V74.5a1 1 0 0 1 1-1h64" class="Vector 1882"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m243 73.5 8.5-6.5" class="Vector 1883"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m243 73.5 8.5 7" class="Vector 1884"/>
+      <circle cx="244" cy="73.5" r="2" fill="#112022" class="Ellipse 311"/>
+      <circle cx="186.5" cy="113" r="2" fill="#112022" class="Ellipse 312"/>
+    </g>
+    <g class="CenterRigthtToTop">
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M234 162h30.5a1 1 0 0 0 1-1v-56" class="Vector 1885"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m265.5 115.5 7.5-10" class="Vector 1886"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m265.5 115.5-7.5-10" class="Vector 1887"/>
+      <circle cx="265.5" cy="115" r="2" fill="#112022" class="Ellipse 313"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M244 158.5v6.5" class="Vector 1888"/>
+    </g>
+    <g class="TopRightDownToDown">
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M283.5 105.5V184a1 1 0 0 0 1 1h19" class="Vector 1889"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m283.5 115 7.5-9.5" class="Vector 1890"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m283.5 115-7-9.5" class="Vector 1891"/>
+      <circle cx="283.5" cy="115" r="2" fill="#112022" class="Ellipse 314"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M295.5 181.5v7.5" class="Vector 1892"/>
+    </g>
+    <g class="DownRigthLeftToLeft">
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M115.5 208.5H304" class="Vector 1893"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m295 208.5 8.5-7" class="Vector 1894"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m295 208.5 8.5 6" class="Vector 1895"/>
+      <circle cx="296" cy="208.5" r="2" fill="#112022" class="Ellipse 315"/>
+      <circle cx="126" cy="208.5" r="2" fill="#112022" class="Ellipse 316"/>
+    </g>
+    <g class="CenterLeftToLeft">
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="M84 80h28.5a1 1 0 0 1 1 1v81a1 1 0 0 0 1 1H138" class="Vector 1896"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m129.5 163 8-6.5" class="Vector 1897"/>
+      <path stroke="#112022" stroke-dasharray="3 3" stroke-linecap="round" d="m129.5 163 8 7" class="Vector 1898"/>
+      <circle cx="130.5" cy="163" r="2" fill="#112022" class="Ellipse 317"/>
+      <circle cx="99" cy="80" r="2" fill="#112022" class="Ellipse 318"/>
+    </g>
+  </g>
+</svg>

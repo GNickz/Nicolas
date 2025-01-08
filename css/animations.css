@@ -1,3 +1,4 @@
+@import url('/assets/PLANNING.svg');
 
 /*Background animation*/
 .ContainerAnimation{
@@ -241,3 +242,17 @@
     
     
 }
+/* 
+.HandOneMove{
+    animation-name: animateOneHand;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animateOneHand {
+    0% {transform: rotate(-1deg);}
+    50% {transform: rotate( 0deg);}
+    100%{transform: rotate( -1deg);}
+
+} */

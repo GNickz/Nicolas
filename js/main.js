@@ -60,8 +60,12 @@ const highlighted = document.querySelectorAll('.Highlighted')
 const colorBigSections = document.querySelectorAll('.ContentCard, .Carrousel, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe, .ContentHabilitesTechnologies')
 const colorInterSections = document.querySelectorAll('.ProjectTools, .BtnLinkProject')
 const colorImgTechnologies = document.querySelectorAll('.img-swiper')
+const colorImgHabilites = document.querySelectorAll('.imgProcess')
+
 
 trigger.addEventListener('click', () =>{
+
+ 
     moon.classList.toggle('change')
     sun.classList.toggle('change')
     body.classList.toggle('change')
@@ -84,7 +88,12 @@ trigger.addEventListener('click', () =>{
     })
     colorImgTechnologies.forEach(element =>{
         element.classList.toggle('change')
+    });
+    colorImgHabilites.forEach(element =>{
+        element.classList.toggle('change')
     })
+   
+
 
 })
 

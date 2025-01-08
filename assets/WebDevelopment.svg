@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" fill="none" viewBox="0 0 400 300">
+  <g class="Frame 14">
+    <g class="1">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M119 101.5h26" class="Vector 1829"/>
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M154 101h80" class="Vector 1831"/>
+    </g>
+    <g class="2">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M130 116h20" class="Vector 1832"/>
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M162 116h40" class="Vector 1833"/>
+    </g>
+    <g class="3">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M139 131h100" class="Vector 1834"/>
+    </g>
+    <g class="4">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M139 147h100" class="Vector 1835"/>
+    </g>
+    <g class="5">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M131 161h20" class="Vector 1836"/>
+    </g>
+    <g class="6">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M123 176h20" class="Vector 1837"/>
+    </g>
+    <g class="7">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M127 187h40" class="Vector 1838"/>
+    </g>
+    <g class="8">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M139 197h80" class="Vector 1839"/>
+    </g>
+    <g class="9">
+      <path stroke="#112022" stroke-dasharray="6 6" stroke-linecap="round" stroke-width="4" d="M123 206h20" class="Vector 1840"/>
+    </g>
+    <g class="ALL">
+      <path stroke="#112022" stroke-width="4" d="M218.026 223c-.501 11 6.399 27.1 11.999 27.5" class="Vector 1827"/>
+      <path stroke="#112022" stroke-width="4" d="M173 223c.5 11-6.4 27.1-12 27.5" class="Vector 1830"/>
+      <rect width="235" height="161" x="78" y="62" stroke="#112022" stroke-width="4" class="Rectangle 200" rx="18"/>
+      <path stroke="#112022" stroke-width="4" d="m250.029 250.831-.005.01.005-.01Zm-.405-.067c.122.095.209.174.27.236a2.749 2.749 0 0 1-.27.236c-.524.407-1.421.888-2.769 1.396-2.673 1.006-6.656 1.951-11.718 2.757C225.045 256.996 211.03 258 195.5 258c-15.53 0-29.545-1.004-39.637-2.611-5.062-.806-9.045-1.751-11.718-2.757-1.348-.508-2.245-.989-2.769-1.396a2.873 2.873 0 0 1-.27-.236c.062-.062.148-.141.27-.236.524-.407 1.421-.888 2.769-1.396 2.673-1.006 6.656-1.951 11.718-2.757C165.955 245.004 179.97 244 195.5 244c15.53 0 29.545 1.004 39.637 2.611 5.062.806 9.045 1.751 11.718 2.757 1.348.508 2.245.989 2.769 1.396Zm-108.653.067.005.01-.005-.01Zm0 .338.005-.01-.005.01Zm109.053-.01.005.01-.005-.01Z" class="Ellipse 308"/>
+      <path stroke="#112022" d="M104 64v157" class="Vector 1841"/>
+    </g>
+  </g>
+</svg>

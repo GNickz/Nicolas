@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" fill="none" viewBox="0 0 400 300">
+  <g class="Frame 15">
+    <g class="ALL">
+      <rect width="210" height="160" x="93.5" y="42.5" stroke="#112022" stroke-width="3" class="Rectangle 201" rx="18.5"/>
+      <circle cx="218" cy="102" r="7.5" stroke="#112022" stroke-width="3" class="Ellipse 309"/>
+      <path stroke="#112022" stroke-width="3" d="M210.84 102H163m0 0s20.673-7.548 32.5-15c10.537-6.64 24.5-18.5 24.5-18.5s4.263 7.905 8.5 11c4.583 3.348 8.679 3.921 14.34 3.5M163 102s17.526 7.192 33.5 17.5c9.241 5.963 21.5 17 21.5 17s3.14-6.099 8-10c4.723-3.791 10.967-5.03 17-4.5" class="Vector 1842"/>
+      <path stroke="#112022" stroke-width="3" d="M254.5 79.5H251a2 2 0 0 0-2 2V123a2 2 0 0 0 2 2h3.5" class="Vector 1843"/>
+      <path stroke="#112022" stroke-width="3" d="M94 185h209" class="Vector 1846"/>
+      <path stroke="#112022" stroke-width="3" d="M274.5 42.5v141" class="Vector 1847"/>
+      <rect width="155" height="4" x="108.5" y="51.5" stroke="#112022" class="Rectangle 204" rx="2"/>
+      <path stroke="#112022" stroke-width="3" d="M180 213v20" class="Vector 1848"/>
+      <path stroke="#112022" stroke-width="3" d="M216 213v20" class="Vector 1849"/>
+      <path stroke="#112022" stroke-linecap="round" stroke-width="7" d="M106.5 252H239" class="Vector 1850"/>
+      <path stroke="#112022" stroke-width="3" d="M286.027 252h-25.778c-1.197 0-2.115-1.043-1.881-2.217.506-2.55 1.597-6.658 3.632-8.783 3.263-3.408 6.604-5.11 11.5-5 5.328.12 8.998 2.631 12 6.5 1.656 2.135 2.216 5.437 2.405 7.532.098 1.09-.784 1.968-1.878 1.968Z" class="Vector 1851"/>
+      <path fill="#112022" d="M119.5 247.5a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1852"/>
+      <path fill="#112022" d="M134.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1853"/>
+      <path fill="#112022" d="M148.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1854"/>
+      <path fill="#112022" d="M162.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1855"/>
+      <path fill="#112022" d="M177.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1856"/>
+      <path fill="#112022" d="M191.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1857"/>
+      <path fill="#112022" d="M205.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1858"/>
+      <path fill="#112022" d="M219.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1859"/>
+      <path fill="#112022" d="M234.5 247a3.5 3.5 0 1 0-7 0h7Zm-7 0v4h7v-4h-7Z" class="Vector 1860"/>
+    </g>
+    <g class="1">
+      <circle cx="149" cy="175.5" r="4" stroke="#112022" stroke-width="3" class="Ellipse 310"/>
+      <path stroke="#112022" stroke-width="3" d="M149 109.5V172" class="Vector 1844"/>
+      <path stroke="#112022" stroke-width="3" d="M149 110s.454 9.867 4 20.5c2.949 8.844 8.852 17.564 15 23.5 5.525 5.335 14.039 11.207 22 14 10.755 3.773 20.5 3.5 20.5 3.5" class="Vector 1845"/>
+      <rect width="11" height="11" x="216.656" y="163.879" stroke="#112022" stroke-width="3" class="Rectangle 210" rx="2.5" transform="rotate(45 216.656 163.879)"/>
+      <rect width="11" height="11" x="148.656" y="95.879" stroke="#112022" stroke-width="3" class="Rectangle 211" rx="2.5" transform="rotate(45 148.656 95.879)"/>
+    </g>
+  </g>
+</svg>
