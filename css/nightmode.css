@@ -52,7 +52,6 @@
 .ContainerHabilitesTechnologies.change{
     background-color: var(--BackgrounBodyColorMD);
     backdrop-filter: blur(1px);
-    box-shadow: 0px 10px 30px rgba(40, 70, 71, 0.3), 0px 15px 60px rgba(40, 70, 71, 1);
 }
 .ContainerHabilites.change, .ContainerTechnologies.change{
     background-color: var(--BackgrounBodyColorMD);

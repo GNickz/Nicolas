@@ -408,7 +408,6 @@ section[id]{
     width: 100%;
     margin-bottom: 150px;
     backdrop-filter: blur(1px);
-    box-shadow: var(--BoxShadownComponents-ML); 
 }
 .ContentHabilitesTechnologies{
     backdrop-filter: blur(5px);
