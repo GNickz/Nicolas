@@ -60,7 +60,8 @@ const highlighted = document.querySelectorAll('.Highlighted')
 const colorBigSections = document.querySelectorAll('.ContentCard, .Carrousel, .ContainerHabilitesTechnologies, .ContainerHabilites, .ContainerTechnologies, .ContentContactMe, .ContentHabilitesTechnologies')
 const colorInterSections = document.querySelectorAll('.ProjectTools, .BtnLinkProject, .btnLinkGitHub')
 const colorImgTechnologies = document.querySelectorAll('.img-swiper')
-const colorImgHabilites = document.querySelectorAll('.imgProcess')
+const colorImgHabilites = document.querySelectorAll('.imgProcess, .Habilite')
+
 
 
 trigger.addEventListener('click', () =>{

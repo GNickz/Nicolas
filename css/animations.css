@@ -242,17 +242,368 @@
     
     
 }
-/* 
-.HandOneMove{
-    animation-name: animateOneHand;
-    animation-duration: 5s;
+
+
+
+.pen{
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    animation-name: changecolor;
+/*     animation-timing-function: ease-in-out;
+ */}
+@keyframes changecolor {
+   0%{stroke: rgb(17, 32, 34);
+    opacity: 1;
+    transform: translateY(-10px)};
+   50%{stroke:rgb(255, 255, 255);
+    opacity: 0;
+    transform: translateY(5px)};
+   100%{stroke:rgb(17, 32, 34);
+    opacity: 1;
+    transform: translateY(-10px)};
+}
+
+.tool{
+    animation-name: movetool;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
+    transform-origin: right center; 
+}
+@keyframes movetool {
+    0%{transform: rotate(2deg);}
+    50%{transform: rotate(-2deg);}
+    100%{transform: rotate(2deg);}
 }
 
 
-@keyframes animateOneHand {
-    0% {transform: rotate(-1deg);}
-    50% {transform: rotate( 0deg);}
-    100%{transform: rotate( -1deg);}
+  .pulse-path {
+    animation: pulseEffect1 5s linear forwards infinite;
+  }
 
-} */
+  @keyframes pulseEffect1 {
+    0% {
+        stroke-dashoffset: 280; /* El trazo está oculto al inicio */
+        stroke-width: 1; /* Tamaño inicial del trazo */
+      }
+    
+      100% {
+        stroke-dashoffset: 0; /* El trazo se desplaza completamente fuera del área visible */
+        stroke-width: 1; /* El grosor se mantiene constante */
+      }
+  }
+
+  
+  .pulse-path2 {
+    animation: pulseEffect2 10s linear forwards infinite;
+    
+  }
+
+  @keyframes pulseEffect2 {
+    0% {
+    
+      stroke-dashoffset: 240; /* Comienza con el trazo oculto */
+      stroke-width: 1; /* Tamaño inicial del trazo */
+    }
+
+    100% {
+      stroke-dashoffset: 0; /* El trazo vuelve a su posición inicial */
+      stroke-width: 1; /* Vuelve al grosor original */
+    }
+  }
+
+  
+  .pulse-path3 {
+    animation: pulseEffect3 8s linear forwards infinite;
+  }
+
+  @keyframes pulseEffect3 {
+    0% {
+    
+      stroke-dashoffset: 240; /* Comienza con el trazo oculto */
+      stroke-width: 1; /* Tamaño inicial del trazo */
+    }
+
+    100% {
+      stroke-dashoffset: 0; /* El trazo vuelve a su posición inicial */
+      stroke-width: 1; /* Vuelve al grosor original */
+    }
+  }
+
+  .pulse-path4 {
+    animation: pulseEffect4 3s linear forwards infinite;
+  }
+
+  @keyframes pulseEffect4 {
+    0% {
+    
+      stroke-dashoffset: 0; /* Comienza con el trazo oculto */
+      stroke-width: 1; /* Tamaño inicial del trazo */
+    }
+
+    100% {
+      stroke-dashoffset: 200; /* El trazo vuelve a su posición inicial */
+      stroke-width: 1; /* Vuelve al grosor original */
+    }
+  }
+
+
+  .pulse-path5 {
+    animation: pulseEffect5 15s linear forwards infinite;
+   
+  }
+
+  @keyframes pulseEffect5 {
+    0% {
+    
+      stroke-dashoffset: 0; /* Comienza con el trazo oculto */
+      stroke-width: 1; /* Tamaño inicial del trazo */
+    }
+
+    100% {
+      stroke-dashoffset: 200; /* El trazo vuelve a su posición inicial */
+      stroke-width: 1; /* Vuelve al grosor original */
+    }
+  }
+
+  .L1{
+    animation: m1 3s linear infinite;
+  }
+  @keyframes m1 {
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(-5px);
+
+    }
+    
+  }
+
+  .L2{
+    animation: m2 5s linear infinite;
+  }
+  @keyframes m2 {
+    0%{
+        transform: translateX(-5px);
+
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(5px);
+
+    }
+    
+  }
+
+  
+  .L3{
+    animation: m3 6s linear infinite;
+  }
+  @keyframes m3 {
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(-5px);
+
+    }
+    
+  }
+
+  
+  .L4{
+    animation: m4 7s linear infinite;
+  }
+  @keyframes m4 {
+    0%{
+        transform: translateX(-8px);
+
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(8px);
+
+    }
+    
+  }
+
+
+  
+  .L5{
+    animation: m5 8s linear infinite;
+  }
+  @keyframes m5{
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(15px);
+    }
+    100%{
+        transform: translateX(-4px);
+
+    }
+    
+  }
+
+  
+  .L6{
+    animation: m6 4s linear infinite;
+  }
+  @keyframes m6 {
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(25px);
+    }
+    100%{
+        transform: translateX(-5px);
+
+    }
+    
+  }
+
+  
+  .L7{
+    animation: m7 9s linear infinite;
+  }
+  @keyframes m7 {
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-2px);
+
+    }
+    
+  }
+
+  
+  .L8{
+    animation: m8 3s linear infinite;
+  }
+  @keyframes m8 {
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(-15px);
+    }
+    100%{
+        transform: translateX(5px);
+
+    }
+    
+  }
+
+  
+  .L9{
+    animation: m9 10s linear infinite;
+  }
+  @keyframes m9 {
+    0%{
+        transform: translateX(0px);
+
+    }
+    50%{
+        transform: translateX(-5px);
+    }
+    100%{
+        transform: translateX(15px);
+
+    }
+    
+  }
+
+  .T1{
+    animation: puls1 2s linear infinite;
+    stroke-dasharray:20 ;
+
+  }
+  @keyframes puls1 {
+    0%{
+        stroke-dashoffset: 0;
+        stroke-width: 1;
+
+    }
+    100%{
+        stroke-dashoffset: 160;
+        stroke-width: 1;
+
+    }
+    
+  }
+
+  .T2{
+    animation: puls2 2s linear infinite;
+    stroke-dasharray:20 ;
+
+  }
+  @keyframes puls2 {
+    0%{
+        stroke-dashoffset: 0;
+        stroke-width: 1;
+
+    }
+    100%{
+        stroke-dashoffset: 160;
+        stroke-width: 1;
+
+    }
+    
+  }
+
+  .T3{
+    animation: puls3 2s linear infinite;
+    stroke-dasharray: 20;
+  }
+  @keyframes puls3 {
+    0%{
+        stroke-dashoffset: 160;
+        stroke-width: 1;
+
+    }
+    100%{
+        stroke-dashoffset: 0;
+        stroke-width: 1;
+
+    }
+    
+  }
+
+ .T4{
+    animation: puls4 2s linear infinite;
+    stroke-dasharray: 20;
+  }
+  @keyframes puls4 {
+    0%{
+        stroke-dashoffset: 160;
+        stroke-width: 1;
+
+    }
+    100%{
+        stroke-dashoffset: 0;
+        stroke-width: 1;
+
+    }
+  }
