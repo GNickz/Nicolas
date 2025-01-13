@@ -252,15 +252,12 @@
 /*     animation-timing-function: ease-in-out;
  */}
 @keyframes changecolor {
-   0%{stroke: rgb(17, 32, 34);
-    opacity: 1;
-    transform: translateY(-10px)};
-   50%{stroke:rgb(255, 255, 255);
-    opacity: 0;
-    transform: translateY(5px)};
-   100%{stroke:rgb(17, 32, 34);
-    opacity: 1;
-    transform: translateY(-10px)};
+   0%{
+    transform: translateY(-2px)};
+   50%{
+    transform: translateY(1px)};
+   100%{
+    transform: translateY(-2px)};
 }
 
 .tool{
@@ -270,9 +267,9 @@
     transform-origin: right center; 
 }
 @keyframes movetool {
-    0%{transform: rotate(2deg);}
-    50%{transform: rotate(-2deg);}
-    100%{transform: rotate(2deg);}
+    0%{transform: rotate(1deg);}
+    50%{transform: rotate(-1deg);}
+    100%{transform: rotate(1deg);}
 }
 
 
@@ -369,16 +366,20 @@
     animation: m1 3s linear infinite;
   }
   @keyframes m1 {
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
-        transform: translateX(5px);
+      transform: translateX(5px);
     }
-    100%{
+    
+    75%{
         transform: translateX(-5px);
 
+    }
+    100%{
+      transform: translateX(0px);
     }
     
   }
@@ -387,17 +388,19 @@
     animation: m2 5s linear infinite;
   }
   @keyframes m2 {
-    0%{
-        transform: translateX(-5px);
-
-    }
-    50%{
+    25%{
         transform: translateX(0px);
     }
-    100%{
-        transform: translateX(5px);
-
+    50%{
+      transform: translateX(-5px);
     }
+    75%{
+      transform: translateX(5px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+    
     
   }
 
@@ -406,16 +409,19 @@
     animation: m3 6s linear infinite;
   }
   @keyframes m3 {
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
         transform: translateX(5px);
     }
-    100%{
+    75%{
         transform: translateX(-5px);
 
+    }
+    100%{
+      transform: translateX(0px);
     }
     
   }
@@ -425,15 +431,17 @@
     animation: m4 7s linear infinite;
   }
   @keyframes m4 {
-    0%{
-        transform: translateX(-8px);
-
-    }
-    50%{
+    25%{
         transform: translateX(0px);
     }
+    50%{
+        transform: translateX(-8px);
+    }
+    75%{
+      transform: translateX(8px);
+    }
     100%{
-        transform: translateX(8px);
+        transform: translateX(0px);
 
     }
     
@@ -445,15 +453,18 @@
     animation: m5 8s linear infinite;
   }
   @keyframes m5{
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
         transform: translateX(15px);
     }
+    75%{
+      transform: translateX(-4);
+    }
     100%{
-        transform: translateX(-4px);
+        transform: translateX(0px);
 
     }
     
@@ -464,15 +475,18 @@
     animation: m6 4s linear infinite;
   }
   @keyframes m6 {
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
         transform: translateX(25px);
     }
+    75%{
+      transform: translateX(-5px);
+    }
     100%{
-        transform: translateX(-5px);
+        transform: translateX(0px);
 
     }
     
@@ -483,15 +497,18 @@
     animation: m7 9s linear infinite;
   }
   @keyframes m7 {
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
         transform: translateX(10px);
     }
+    75%{
+      transform: translateX(-2px);
+    }
     100%{
-        transform: translateX(-2px);
+        transform: translateX(0px);
 
     }
     
@@ -502,15 +519,18 @@
     animation: m8 3s linear infinite;
   }
   @keyframes m8 {
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
         transform: translateX(-15px);
     }
+    75%{
+      transform: translateX(5px);
+    }
     100%{
-        transform: translateX(5px);
+        transform: translateX(0px);
 
     }
     
@@ -521,15 +541,18 @@
     animation: m9 10s linear infinite;
   }
   @keyframes m9 {
-    0%{
+    25%{
         transform: translateX(0px);
 
     }
     50%{
         transform: translateX(-5px);
     }
+    75%{
+      transform: translateX(15);
+    }
     100%{
-        transform: translateX(15px);
+        transform: translateX(0px);
 
     }
     
