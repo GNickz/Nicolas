@@ -728,7 +728,7 @@ section[id]{
     transform: scale(1.5);
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width: 1080px){
     section[id]{
         scroll-margin-top:400px;
     }
@@ -759,6 +759,20 @@ section[id]{
     .liHeader{
         margin: .5em 0;
     }}
+
+@media screen and (max-width: 913px) {
+    .ContentCard{
+        flex-direction: column-reverse;
+    }
+    .InfoCard{
+        width: 100%;
+        margin-top: 2em;
+    }
+    .Carrousel{
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 769px) {
     .ContentCard{
