@@ -1,95 +1,128 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" fill="none" viewBox="0 0 400 500">
-  <path stroke="#FEB04A" stroke-width="5" d="M210 43h-5.5v34h25v7h-25v16h44V68h-25v-7h25V43H210Z"/>
-  <path stroke="#FED54A" stroke-width="5" d="M196.001 63V43.5H152V58h30.001v32h-16.5V78H152v22h44.001V63Z"/>
-  <rect width="2" height="2" x="238.5" y="366.5" stroke="#FED54A" rx=".5"/>
-  <rect width="6" height="6" x="236.5" y="364.5" stroke="#FED54A" rx=".5"/>
-  <rect width="10" height="10" x="234.5" y="362.5" stroke="#FED54A" rx=".5"/>
-  <rect width="14" height="14" x="232.5" y="360.5" stroke="#FED54A" rx=".5"/>
-  <rect width="18" height="18" x="230.5" y="358.5" stroke="#FED54A" rx=".5"/>
-  <rect width="22" height="22" x="228.5" y="356.5" stroke="#FED54A" rx=".5"/>
-  <path stroke="#FED54A" d="M250 354.5h-22.5a1 1 0 0 0-1 1v24a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1V359"/>
-  <path stroke="#FED54A" d="M254.5 361v20.5a1 1 0 0 1-1 1h-28a1 1 0 0 1-1-1v-28a1 1 0 0 1 1-1h23"/>
-  <path stroke="#FED54A" d="M256.5 363v20.5a1 1 0 0 1-1 1H224m24-34h-24"/>
-  <path stroke="#FED54A" d="M224 348.5h23m-23 38h33.5a1 1 0 0 0 1-1V365"/>
-  <path stroke="#FED54A" d="M246.5 346.5H224m36.5 19.5v21.5a1 1 0 0 1-1 1H224"/>
-  <path stroke="#FED54A" d="M224 344.5h22m-22 46h37.5a1 1 0 0 0 1-1v-22"/>
-  <path stroke="#FED54A" d="M224 342.5h21.5m-21.5 50h33m1.5 0h5a1 1 0 0 0 1-1V369"/>
-  <path stroke="#FED54A" d="M224 340.5h21.5m-21.5 54h29.5m13-24.5v23.5a1 1 0 0 1-1 1h-6"/>
-  <path stroke="#FED54A" d="M224 338.5h21.5m-21.5 58h26.5m18-25v24a1 1 0 0 1-1 1h-6"/>
-  <path stroke="#FED54A" d="M224 336.5h21.5m-21.5 62h23m23.5-26.5v25.5a1 1 0 0 1-1 1H263m6.5-62a1 1 0 0 1 1 1v3"/>
-  <path stroke="#FED54A" d="M224.001 334.5h21.5m-22.001 66h19.001m27-66h2a1 1 0 0 1 1 1v9m-7 56h6a1 1 0 0 0 1-1v-27"/>
-  <path stroke="#FED54A" d="M224 332.5h21.5m24.5 0h3.5a1 1 0 0 1 1 1v13m-51.5 56h16m29 0h5.5a1 1 0 0 0 1-1v-28"/>
-  <path stroke="#FED54A" d="M224 330.5h21.499m25.501 0h4.442a1 1 0 0 1 1 .999l.013 15.501M222.5 404.5h15.499m33 0h4.5a1 1 0 0 0 1-1.001L276.476 374"/>
-  <path stroke="#FED54A" d="M224 328.5h22.5m-25 78h18m36.5 0h1.5a1 1 0 0 0 1-1v-30m-5.5-47h4.5a1 1 0 0 1 1 1v19"/>
-  <path stroke="#FED54A" d="M280.5 407v-30.5m-40 32h-20m-22-8.5v-72.5a1 1 0 0 1 1-1m24.5 0h23m29 0h3.5a1 1 0 0 1 1 1v22"/>
-  <path stroke="#FED54A" d="M242.5 410.5h-23m63-3.5v-29.5m-86 25.5v-77.5a1 1 0 0 1 1-1h2m24.5 0h23.5m35 .5v25.5"/>
-  <path stroke="#FED54A" d="M284.5 378.5V407m0-55v-27m-35.5-2.5h-25m-24.5 0h-4a1 1 0 0 0-1 1v81m49.5 8h-25.5"/>
-  <path stroke="#FED54A" d="M199.5 320.5h-6a1 1 0 0 0-1 1v84m31.5-85h25.5m37 5v27m0 26.5v28m-41 7.5H217"/>
-  <path stroke="#FED54A" d="M199.5 318.5h-8a1 1 0 0 0-1 1v87m33.5-88h27.5m37 8V353m0 27v26.5m-41 10.041-32 .033"/>
-  <path stroke="#FED54A" d="m188.499 407-.001-89.5a1 1 0 0 1 1-1H199.5m13.499 102H250m40.5-12.5v-25m0-27-.001-26.5m-37.999-11H224"/>
-  <path stroke="#FED54A" d="M186.5 407v-91.5a1 1 0 0 1 1-1h12m11.5 106h42m39.5-15.5v-22.5m0-27.5v-26m-39-14.5H224"/>
-  <path stroke="#FED54A" d="M184.5 407v-93.5a1 1 0 0 1 1-1h14m8 110h50m37-18.5v-20.5m0-27.5v-24.5m-38-19H224"/>
-  <path stroke="#FED54A" d="M182.5 406.5v-95a1 1 0 0 1 1-1h16m3.5 114h58.5m35-21.5v-18m0-28.5V333m-37-22.5H224"/>
-  <path stroke="#FED54A" d="M180.5 406v-96.5a1 1 0 0 1 1-1h18m-8.5 118h77.5m30-26V387m0-29v-22m-36-27.5H224"/>
-  <path stroke="#FED54A" d="M178.5 426v1.5a1 1 0 0 0 1 1h98m11 0h11a1 1 0 0 0 1-1V426m0-29.5v-6m0-31.5v-24m0-27v-.5a1 1 0 0 0-1-1h-2m-29.927 0H224m-24.5 0h-20a1 1 0 0 0-1 1v97.557"/>
-  <path stroke="#FED54A" d="M199.5 304.5h-22a1 1 0 0 0-1 1v98m47.5-99h54.5m8 0h15a1 1 0 0 1 1 1v3m0 24.5v27m0 65v4.5a1 1 0 0 1-1 1H177.407a1 1 0 0 1-1-1.001l.003-3.499"/>
-  <path stroke="#FED54A" d="M174.5 425v6.5a1 1 0 0 0 1 1h128a1 1 0 0 0 1-1v-7m-130-23.5v-97.5a1 1 0 0 1 1-1h128a1 1 0 0 1 1 1v6.5m0 22v29.5"/>
-  <path stroke="#FED54A" d="M172.5 398.5v-97a1 1 0 0 1 1-1h132a1 1 0 0 1 1 1v9M172.5 425v8.5a1 1 0 0 0 1 1h132a1 1 0 0 0 1-1v-10m0-92.5v31"/>
-  <path stroke="#FED54A" d="M170.5 394v-94.5a1 1 0 0 1 1-1h136a1 1 0 0 1 1 1v13M170.5 424v11.5a1 1 0 0 0 1 1h136a1 1 0 0 0 1-1v-13m0-59.5v-33.5"/>
-  <path stroke="#FED54A" d="M310.5 315v-17.5a1 1 0 0 0-1-1h-140a1 1 0 0 0-1 1V394m142-66.5V365m0 56.5v16a1 1 0 0 1-1 1h-140a1 1 0 0 1-1-1V423"/>
-  <path stroke="#FED54A" d="M312.5 317.5v-22a1 1 0 0 0-1-1h-144a1 1 0 0 0-1 1V395m146-68.5v40m0 53.5v19.5a1 1 0 0 1-1 1h-144a1 1 0 0 1-1-1v-17"/>
-  <path stroke="#FED54A" d="M314.5 320v-26.5a1 1 0 0 0-1-1h-148a1 1 0 0 0-1 1V396m150-71v43m0 50v23.5a1 1 0 0 1-1 1h-148a1 1 0 0 1-1-1v-20"/>
-  <path stroke="#FED54A" d="M316.5 322.5v-31a1 1 0 0 0-1-1h-152a1 1 0 0 0-1 1v106m154-73.5v46.5m0 45.5v27.5a1 1 0 0 1-1 1h-152a1 1 0 0 1-1-1V420"/>
-  <path stroke="#FED54A" d="M160.5 398.5v-109a1 1 0 0 1 1-1h156a1 1 0 0 1 1 1V373m-158 45.5v27a1 1 0 0 0 1 1h156a1 1 0 0 0 1-1v-32"/>
-  <path stroke="#FED54A" d="M158.5 400V287.5a1 1 0 0 1 1-1h160a1 1 0 0 1 1 1v89m-162 39.5v31.5a1 1 0 0 0 1 1h160a1 1 0 0 0 1-1v-37"/>
-  <path stroke="#FED54A" d="M156.5 401.5v-116a1 1 0 0 1 1-1h164a1 1 0 0 1 1 1v94m-166 34.5v35.5a1 1 0 0 0 1 1h164a1 1 0 0 0 1-1v-43"/>
-  <path stroke="#FED54A" d="m324.5 450 .001-51.34M324.5 392l.001-108.5a1 1 0 0 0-1-1H155.5a1 1 0 0 0-1 1v119m0 9.5v39.5"/>
-  <path stroke="#FED54A" d="M152.5 403V281.5a1 1 0 0 1 1-1h172a1 1 0 0 1 1 1v168m-174-40.5v42.5"/>
-  <path stroke="#FED54A" d="M150.5 404V279.5a1 1 0 0 1 1-1h176a1 1 0 0 1 1 1v169m-178-42.5v45.5"/>
-  <path stroke="#FED54A" d="M148.5 451.5v-174a1 1 0 0 1 1-1h180a1 1 0 0 1 1 1v170"/>
-  <path stroke="#FED54A" d="M146.5 451.5v-176a1 1 0 0 1 1-1h184a1 1 0 0 1 1 1V446"/>
-  <path stroke="#FED54A" d="M144.5 451.5v-178a1 1 0 0 1 1-1h188a1 1 0 0 1 1 1V444"/>
-  <path stroke="#FED54A" d="M142.5 451.5v-180a1 1 0 0 1 1-1h192a1 1 0 0 1 1 1v170.974"/>
-  <path stroke="#FED54A" d="M140.5 451.5v-182a1 1 0 0 1 1-1h196a1 1 0 0 1 1 1V439"/>
-  <path stroke="#FED54A" d="M138.5 451.5v-184a1 1 0 0 1 1-1l200-.065a1 1 0 0 1 1 1V435"/>
-  <path stroke="#FED54A" d="M342.5 264.5h-205a1 1 0 0 0-1 1v186"/>
-  <path stroke="#FED54A" d="M342.5 262.5h-207a1 1 0 0 0-1 1v188"/>
-  <path stroke="#FED54A" d="M342.5 260.5h-209a1 1 0 0 0-1 1v190"/>
-  <path stroke="#FED54A" d="M342.5 258.5h-211a1 1 0 0 0-1 1v192"/>
-  <path stroke="#FED54A" d="M342.5 256.5h-213a1 1 0 0 0-1 1v194"/>
-  <path stroke="#FED54A" d="M342.5 254.5h-215a1 1 0 0 0-1 1v196"/>
-  <path stroke="#FED54A" d="M342.5 252.5h-217a1 1 0 0 0-1 1v198"/>
-  <path stroke="#FED54A" d="M342.5 250.5h-219a1 1 0 0 0-1 1v200"/>
-  <path stroke="#FED54A" d="M342.5 248.5h-221a1 1 0 0 0-1 1v202"/>
-  <path stroke="#FED54A" d="M342.5 246.5h-223a1 1 0 0 0-1 1v204"/>
-  <path stroke="#FED54A" d="M342.5 244.5h-225a1 1 0 0 0-1 1v206"/>
-  <path stroke="#FED54A" d="M342.5 242.5h-227a1 1 0 0 0-1 1v208"/>
-  <path stroke="#FED54A" d="M342.5 240.5h-229a1 1 0 0 0-1 1v210"/>
-  <path stroke="#FED54A" d="M342.5 238.5h-231a1 1 0 0 0-1 1v212"/>
-  <path stroke="#FED54A" d="M342.5 236.5h-233a1 1 0 0 0-1 1v214"/>
-  <path stroke="#FED54A" d="M342.5 234.5h-235a1 1 0 0 0-1 1v216"/>
-  <path stroke="#FED54A" d="M342.5 232.5h-237a1 1 0 0 0-1 1v218"/>
-  <path stroke="#FED54A" d="M342.5 230.5h-239a1 1 0 0 0-1 1v220"/>
-  <path stroke="#FED54A" d="M342.5 228.5h-241a1 1 0 0 0-1 1v222"/>
-  <path stroke="#FED54A" d="M342.5 226.5h-243a1 1 0 0 0-1 1v224"/>
-  <path stroke="#FED54A" d="M342.5 224.5h-245a1 1 0 0 0-1 1v226"/>
-  <path stroke="#FED54A" d="M342.5 222.5h-247a1 1 0 0 0-1 1v228"/>
-  <path stroke="#FED54A" d="M342.5 220.5h-249a1 1 0 0 0-1 1v230"/>
-  <path stroke="#FED54A" d="M342.5 218.5h-251a1 1 0 0 0-1 1v232"/>
-  <path stroke="#FED54A" d="M342.5 216.5h-253a1 1 0 0 0-1 1v234"/>
-  <path stroke="#FED54A" d="M342.5 212.5h-257a1 1 0 0 0-1 1v238"/>
-  <path stroke="#FED54A" d="M86.5 451.5v-236a1 1 0 0 1 1-1h255"/>
-  <path stroke="#FED54A" d="M82.5 451.5v-240a1 1 0 0 1 1-1h259"/>
-  <path stroke="#FED54A" d="M80.5 451.5v-242a1 1 0 0 1 1-1h261"/>
-  <path stroke="#FED54A" d="M342.5 206.5h-263a1 1 0 0 0-1 1V451"/>
-  <path stroke="#FED54A" d="M342.5 204.5h-265a1 1 0 0 0-1 1v245"/>
-  <path stroke="#FED54A" d="M74.5 450V203.5a1 1 0 0 1 1-1h267"/>
-  <path stroke="#FED54A" d="M342.5 200.5h-269a1 1 0 0 0-1 1V449"/>
-  <path stroke="#FED54A" d="M70.5 448V199.5a1 1 0 0 1 1-1h271"/>
-  <path stroke="#FED54A" d="M342.5 196.5h-273a1 1 0 0 0-1 1v249"/>
-  <path stroke="#FED54A" d="M66.5 445V195.5a1 1 0 0 1 1-1h275"/>
-  <path stroke="#FED54A" d="M342.5 192.5h-277a1 1 0 0 0-1 1v250"/>
-  <path stroke="#FED54A" d="M62.5 441V191.5a1 1 0 0 1 1-1h279"/>
-  <path stroke="#FED54A" d="M342.5 188.5h-281a1 1 0 0 0-1 1V438"/>
-  <path stroke="#FED54A" d="M58.5 433V187.5a1 1 0 0 1 1-1h283m0-2h-285m285-2h-285m0-2h285m0-2h-285m0-2h285m0-2h-285m0-2h285m0-2h-285m0-2h285m0-2h-285m0-2h285m0-2h-285m0-2h285m0-2h-285m0-2h285m0-2h-285m0-2h285m-.5-2H58m.5-2h283m-.5-2H59m.5-2h280.927m-279.927-2h279m-1-2h-277m1.5-2h274m-1.999-2H65m268-2H67m3-2h259.999m-256.499-2h253m-245.5-2h237.999"/>
+  <g class="Frame 7">
+    <g class="Group 14">
+      <rect width="2" height="2" x="238.5" y="366.5" stroke="#FED54A" class="Rectangle 122" rx=".5"/>
+      <rect width="6" height="6" x="236.5" y="364.5" stroke="#FED54A" class="Rectangle 123" rx=".5"/>
+      <rect width="10" height="10" x="234.5" y="362.5" stroke="#FED54A" class="Rectangle 124" rx=".5"/>
+      <rect width="14" height="14" x="232.5" y="360.5" stroke="#FED54A" class="Rectangle 125" rx=".5"/>
+      <rect width="18" height="18" x="230.5" y="358.5" stroke="#FED54A" class="Rectangle 126" rx=".5"/>
+      <rect width="22" height="22" x="228.5" y="356.5" stroke="#FED54A" class="Rectangle 127" rx=".5"/>
+      <path stroke="#FED54A" d="M250 354.5h-22.5a1 1 0 0 0-1 1v24a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1V359" class="Rectangle 128"/>
+      <path stroke="#FED54A" d="M254.5 361v20.5a1 1 0 0 1-1 1h-28a1 1 0 0 1-1-1v-28a1 1 0 0 1 1-1h23" class="Vector 1619"/>
+      <path stroke="#FED54A" d="M256.5 363v20.5a1 1 0 0 1-1 1H224m24-34h-24" class="Rectangle 129"/>
+      <path stroke="#FED54A" d="M224 348.5h23m-23 38h33.5a1 1 0 0 0 1-1V365" class="Rectangle 130"/>
+      <path stroke="#FED54A" d="M246.5 346.5H224m36.5 19.5v21.5a1 1 0 0 1-1 1H224" class="Rectangle 131"/>
+      <path stroke="#FED54A" d="M224 344.5h22m-22 46h37.5a1 1 0 0 0 1-1v-22" class="Rectangle 132"/>
+      <path stroke="#FED54A" d="M224 342.5h21.5m-21.5 50h33m1.5 0h5a1 1 0 0 0 1-1V369" class="Rectangle 133"/>
+      <path stroke="#FED54A" d="M224 340.5h21.5m-21.5 54h29.5m13-24.5v23.5a1 1 0 0 1-1 1h-6" class="Rectangle 134"/>
+      <path stroke="#FED54A" d="M224 338.5h21.5m-21.5 58h26.5m18-25v24a1 1 0 0 1-1 1h-6" class="Rectangle 135"/>
+      <path stroke="#FED54A" d="M224 336.5h21.5m-21.5 62h23m23.5-26.5v25.5a1 1 0 0 1-1 1H263m6.5-62a1 1 0 0 1 1 1v3" class="Rectangle 136"/>
+      <path stroke="#FED54A" d="M224.001 334.5h21.5m-22.001 66h19.001m27-66h2a1 1 0 0 1 1 1v9m-7 56h6a1 1 0 0 0 1-1v-27" class="Rectangle 137"/>
+      <path stroke="#FED54A" d="M224 332.5h21.5m24.5 0h3.5a1 1 0 0 1 1 1v13m-51.5 56h16m29 0h5.5a1 1 0 0 0 1-1v-28" class="Rectangle 138"/>
+      <path stroke="#FED54A" d="M224 330.5h21.499m25.501 0h4.442a1 1 0 0 1 1 .999l.013 15.501M222.5 404.5h15.499m33 0h4.5a1 1 0 0 0 1-1.001L276.476 374" class="Rectangle 139"/>
+      <path stroke="#FED54A" d="M224 328.5h22.5m-25 78h18m36.5 0h1.5a1 1 0 0 0 1-1v-30m-5.5-47h4.5a1 1 0 0 1 1 1v19" class="Rectangle 140"/>
+      <path stroke="#FED54A" d="M280.5 407v-30.5m-40 32h-20m-22-8.5v-72.5a1 1 0 0 1 1-1m24.5 0h23m29 0h3.5a1 1 0 0 1 1 1v22" class="Rectangle 141"/>
+      <path stroke="#FED54A" d="M242.5 410.5h-23m63-3.5v-29.5m-86 25.5v-77.5a1 1 0 0 1 1-1h2m24.5 0h23.5m35 .5v25.5" class="Rectangle 142"/>
+      <path stroke="#FED54A" d="M284.5 378.5V407m0-55v-27m-35.5-2.5h-25m-24.5 0h-4a1 1 0 0 0-1 1v81m49.5 8h-25.5" class="Rectangle 143"/>
+      <path stroke="#FED54A" d="M199.5 320.5h-6a1 1 0 0 0-1 1v84m31.5-85h25.5m37 5v27m0 26.5v28m-41 7.5H217" class="Rectangle 144"/>
+      <path stroke="#FED54A" d="M199.5 318.5h-8a1 1 0 0 0-1 1v87m33.5-88h27.5m37 8V353m0 27v26.5m-41 10.041-32 .033" class="Rectangle 145"/>
+      <path stroke="#FED54A" d="m188.499 407-.001-89.5a1 1 0 0 1 1-1H199.5m13.499 102H250m40.5-12.5v-25m0-27-.001-26.5m-37.999-11H224" class="Rectangle 146"/>
+      <path stroke="#FED54A" d="M186.5 407v-91.5a1 1 0 0 1 1-1h12m11.5 106h42m39.5-15.5v-22.5m0-27.5v-26m-39-14.5H224" class="Rectangle 147"/>
+      <path stroke="#FED54A" d="M184.5 407v-93.5a1 1 0 0 1 1-1h14m8 110h50m37-18.5v-20.5m0-27.5v-24.5m-38-19H224" class="Rectangle 148"/>
+      <path stroke="#FED54A" d="M182.5 406.5v-95a1 1 0 0 1 1-1h16m3.5 114h58.5m35-21.5v-18m0-28.5V333m-37-22.5H224" class="Rectangle 149"/>
+      <path stroke="#FED54A" d="M180.5 406v-96.5a1 1 0 0 1 1-1h18m-8.5 118h77.5m30-26V387m0-29v-22m-36-27.5H224" class="Rectangle 150"/>
+      <path stroke="#FED54A" d="M178.5 426v1.5a1 1 0 0 0 1 1h98m11 0h11a1 1 0 0 0 1-1V426m0-29.5v-6m0-31.5v-24m0-27v-.5a1 1 0 0 0-1-1h-2m-29.927 0H224m-24.5 0h-20a1 1 0 0 0-1 1v97.557" class="Rectangle 151"/>
+      <path stroke="#FED54A" d="M199.5 304.5h-22a1 1 0 0 0-1 1v98m47.5-99h54.5m8 0h15a1 1 0 0 1 1 1v3m0 24.5v27m0 65v4.5a1 1 0 0 1-1 1H177.407a1 1 0 0 1-1-1.001l.003-3.499" class="Rectangle 152"/>
+      <path stroke="#FED54A" d="M174.5 425v6.5a1 1 0 0 0 1 1h128a1 1 0 0 0 1-1v-7m-130-23.5v-97.5a1 1 0 0 1 1-1h128a1 1 0 0 1 1 1v6.5m0 22v29.5" class="Rectangle 153"/>
+      <path stroke="#FED54A" d="M172.5 398.5v-97a1 1 0 0 1 1-1h132a1 1 0 0 1 1 1v9M172.5 425v8.5a1 1 0 0 0 1 1h132a1 1 0 0 0 1-1v-10m0-92.5v31" class="Rectangle 154"/>
+      <path stroke="#FED54A" d="M170.5 394v-94.5a1 1 0 0 1 1-1h136a1 1 0 0 1 1 1v13M170.5 424v11.5a1 1 0 0 0 1 1h136a1 1 0 0 0 1-1v-13m0-59.5v-33.5" class="Rectangle 155"/>
+      <path stroke="#FED54A" d="M310.5 315v-17.5a1 1 0 0 0-1-1h-140a1 1 0 0 0-1 1V394m142-66.5V365m0 56.5v16a1 1 0 0 1-1 1h-140a1 1 0 0 1-1-1V423" class="Rectangle 156"/>
+      <path stroke="#FED54A" d="M312.5 317.5v-22a1 1 0 0 0-1-1h-144a1 1 0 0 0-1 1V395m146-68.5v40m0 53.5v19.5a1 1 0 0 1-1 1h-144a1 1 0 0 1-1-1v-17" class="Rectangle 157"/>
+      <path stroke="#FED54A" d="M314.5 320v-26.5a1 1 0 0 0-1-1h-148a1 1 0 0 0-1 1V396m150-71v43m0 50v23.5a1 1 0 0 1-1 1h-148a1 1 0 0 1-1-1v-20" class="Rectangle 158"/>
+      <path stroke="#FED54A" d="M316.5 322.5v-31a1 1 0 0 0-1-1h-152a1 1 0 0 0-1 1v106m154-73.5v46.5m0 45.5v27.5a1 1 0 0 1-1 1h-152a1 1 0 0 1-1-1V420" class="Rectangle 159"/>
+      <path stroke="#FED54A" d="M160.5 398.5v-109a1 1 0 0 1 1-1h156a1 1 0 0 1 1 1V373m-158 45.5v27a1 1 0 0 0 1 1h156a1 1 0 0 0 1-1v-32" class="Rectangle 160"/>
+      <path stroke="#FED54A" d="M158.5 400V287.5a1 1 0 0 1 1-1h160a1 1 0 0 1 1 1v89m-162 39.5v31.5a1 1 0 0 0 1 1h160a1 1 0 0 0 1-1v-37" class="Rectangle 161"/>
+      <path stroke="#FED54A" d="M156.5 401.5v-116a1 1 0 0 1 1-1h164a1 1 0 0 1 1 1v94m-166 34.5v35.5a1 1 0 0 0 1 1h164a1 1 0 0 0 1-1v-43" class="Rectangle 162"/>
+      <path stroke="#FED54A" d="m324.5 450 .001-51.34M324.5 392l.001-108.5a1 1 0 0 0-1-1H155.5a1 1 0 0 0-1 1v119m0 9.5v39.5" class="Rectangle 163"/>
+      <path stroke="#FED54A" d="M152.5 403V281.5a1 1 0 0 1 1-1h172a1 1 0 0 1 1 1v168m-174-40.5v42.5" class="Rectangle 164"/>
+      <path stroke="#FED54A" d="M150.5 404V279.5a1 1 0 0 1 1-1h176a1 1 0 0 1 1 1v169m-178-42.5v45.5" class="Rectangle 165"/>
+      <path stroke="#FED54A" d="M148.5 451.5v-174a1 1 0 0 1 1-1h180a1 1 0 0 1 1 1v170" class="Rectangle 166"/>
+      <path stroke="#FED54A" d="M146.5 451.5v-176a1 1 0 0 1 1-1h184a1 1 0 0 1 1 1V446" class="Rectangle 167"/>
+      <path stroke="#FED54A" d="M144.5 451.5v-178a1 1 0 0 1 1-1h188a1 1 0 0 1 1 1V444" class="Rectangle 168"/>
+      <path stroke="#FED54A" d="M142.5 451.5v-180a1 1 0 0 1 1-1h192a1 1 0 0 1 1 1v170.974" class="Rectangle 169"/>
+      <path stroke="#FED54A" d="M140.5 451.5v-182a1 1 0 0 1 1-1h196a1 1 0 0 1 1 1V439" class="Rectangle 170"/>
+      <path stroke="#FED54A" d="M138.5 451.5v-184a1 1 0 0 1 1-1l200-.065a1 1 0 0 1 1 1V435" class="Rectangle 171"/>
+      <path stroke="#FED54A" d="M342.5 264.5h-205a1 1 0 0 0-1 1v186" class="Rectangle 172"/>
+      <path stroke="#FED54A" d="M342.5 262.5h-207a1 1 0 0 0-1 1v188" class="Rectangle 173"/>
+      <path stroke="#FED54A" d="M342.5 260.5h-209a1 1 0 0 0-1 1v190" class="Rectangle 174"/>
+      <path stroke="#FED54A" d="M342.5 258.5h-211a1 1 0 0 0-1 1v192" class="Rectangle 175"/>
+      <path stroke="#FED54A" d="M342.5 256.5h-213a1 1 0 0 0-1 1v194" class="Rectangle 176"/>
+      <path stroke="#FED54A" d="M342.5 254.5h-215a1 1 0 0 0-1 1v196" class="Rectangle 177"/>
+      <path stroke="#FED54A" d="M342.5 252.5h-217a1 1 0 0 0-1 1v198" class="Rectangle 178"/>
+      <path stroke="#FED54A" d="M342.5 250.5h-219a1 1 0 0 0-1 1v200" class="Rectangle 179"/>
+      <path stroke="#FED54A" d="M342.5 248.5h-221a1 1 0 0 0-1 1v202" class="Rectangle 180"/>
+      <path stroke="#FED54A" d="M342.5 246.5h-223a1 1 0 0 0-1 1v204" class="Rectangle 181"/>
+      <path stroke="#FED54A" d="M342.5 244.5h-225a1 1 0 0 0-1 1v206" class="Rectangle 182"/>
+      <path stroke="#FED54A" d="M342.5 242.5h-227a1 1 0 0 0-1 1v208" class="Rectangle 183"/>
+      <path stroke="#FED54A" d="M342.5 240.5h-229a1 1 0 0 0-1 1v210" class="Rectangle 184"/>
+      <path stroke="#FED54A" d="M342.5 238.5h-231a1 1 0 0 0-1 1v212" class="Rectangle 185"/>
+      <path stroke="#FED54A" d="M342.5 236.5h-233a1 1 0 0 0-1 1v214" class="Rectangle 186"/>
+      <path stroke="#FED54A" d="M342.5 234.5h-235a1 1 0 0 0-1 1v216" class="Rectangle 187"/>
+      <path stroke="#FED54A" d="M342.5 232.5h-237a1 1 0 0 0-1 1v218" class="Rectangle 188"/>
+      <path stroke="#FED54A" d="M342.5 230.5h-239a1 1 0 0 0-1 1v220" class="Rectangle 189"/>
+      <path stroke="#FED54A" d="M342.5 228.5h-241a1 1 0 0 0-1 1v222" class="Rectangle 190"/>
+      <path stroke="#FED54A" d="M342.5 226.5h-243a1 1 0 0 0-1 1v224" class="Rectangle 191"/>
+      <path stroke="#FED54A" d="M342.5 224.5h-245a1 1 0 0 0-1 1v226" class="Rectangle 192"/>
+      <path stroke="#FED54A" d="M342.5 222.5h-247a1 1 0 0 0-1 1v228" class="Rectangle 193"/>
+      <path stroke="#FED54A" d="M342.5 220.5h-249a1 1 0 0 0-1 1v230" class="Rectangle 194"/>
+      <path stroke="#FED54A" d="M342.5 218.5h-251a1 1 0 0 0-1 1v232" class="Rectangle 195"/>
+      <path stroke="#FED54A" d="M342.5 216.5h-253a1 1 0 0 0-1 1v234" class="Rectangle 196"/>
+      <path stroke="#FED54A" d="M342.5 212.5h-257a1 1 0 0 0-1 1v238" class="Rectangle 198"/>
+      <path stroke="#FED54A" d="M86.5 451.5v-236a1 1 0 0 1 1-1h255" class="Vector 1620"/>
+      <path stroke="#FED54A" d="M82.5 451.5v-240a1 1 0 0 1 1-1h259" class="Vector 1621"/>
+      <path stroke="#FED54A" d="M80.5 451.5v-242a1 1 0 0 1 1-1h261" class="Vector 1622"/>
+      <path stroke="#FED54A" d="M342.5 206.5h-263a1 1 0 0 0-1 1V451" class="Vector 1623"/>
+      <path stroke="#FED54A" d="M342.5 204.5h-265a1 1 0 0 0-1 1v245" class="Vector 1624"/>
+      <path stroke="#FED54A" d="M74.5 450V203.5a1 1 0 0 1 1-1h267" class="Vector 1625"/>
+      <path stroke="#FED54A" d="M342.5 200.5h-269a1 1 0 0 0-1 1V449" class="Vector 1626"/>
+      <path stroke="#FED54A" d="M70.5 448V199.5a1 1 0 0 1 1-1h271" class="Vector 1627"/>
+      <path stroke="#FED54A" d="M342.5 196.5h-273a1 1 0 0 0-1 1v249" class="Vector 1628"/>
+      <path stroke="#FED54A" d="M66.5 445V195.5a1 1 0 0 1 1-1h275" class="Vector 1629"/>
+      <path stroke="#FED54A" d="M342.5 192.5h-277a1 1 0 0 0-1 1v250" class="Vector 1630"/>
+      <path stroke="#FED54A" d="M62.5 441V191.5a1 1 0 0 1 1-1h279" class="Vector 1631"/>
+      <path stroke="#FED54A" d="M342.5 188.5h-281a1 1 0 0 0-1 1V438" class="Vector 1632"/>
+      <path stroke="#FED54A" d="M58.5 433V187.5a1 1 0 0 1 1-1h283" class="Vector 1633"/>
+      <path stroke="#FED54A" d="M342.5 184.5h-285" class="Vector 1634"/>
+      <path stroke="#FED54A" d="M342.5 182.5h-285" class="Vector 1635"/>
+      <path stroke="#FED54A" d="M57.5 180.5h285" class="Vector 1638"/>
+      <path stroke="#FED54A" d="M342.5 178.5h-285" class="Vector 1639"/>
+      <path stroke="#FED54A" d="M57.5 176.5h285" class="Vector 1640"/>
+      <path stroke="#FED54A" d="M342.5 174.5h-285" class="Vector 1641"/>
+      <path stroke="#FED54A" d="M57.5 172.5h285" class="Vector 1642"/>
+      <path stroke="#FED54A" d="M342.5 170.5h-285" class="Vector 1643"/>
+      <path stroke="#FED54A" d="M57.5 168.5h285" class="Vector 1644"/>
+      <path stroke="#FED54A" d="M342.5 166.5h-285" class="Vector 1645"/>
+      <path stroke="#FED54A" d="M57.5 164.5h285" class="Vector 1646"/>
+      <path stroke="#FED54A" d="M342.5 162.5h-285" class="Vector 1647"/>
+      <path stroke="#FED54A" d="M57.5 160.5h285" class="Vector 1648"/>
+      <path stroke="#FED54A" d="M342.5 158.5h-285" class="Vector 1649"/>
+      <path stroke="#FED54A" d="M57.5 156.5h285" class="Vector 1650"/>
+      <path stroke="#FED54A" d="M342.5 154.5h-285" class="Vector 1651"/>
+      <path stroke="#FED54A" d="M57.5 152.5h285" class="Vector 1652"/>
+      <path stroke="#FED54A" d="M342 150.5H58" class="Vector 1653"/>
+      <path stroke="#FED54A" d="M58.5 148.5h283" class="Vector 1654"/>
+      <path stroke="#FED54A" d="M341 146.5H59" class="Vector 1655"/>
+      <path stroke="#FED54A" d="M59.5 144.5h280.927" class="Vector 1656"/>
+      <path stroke="#FED54A" d="M60.5 142.5h279" class="Vector 1657"/>
+      <path stroke="#FED54A" d="M338.5 140.5h-277" class="Vector 1658"/>
+      <path stroke="#FED54A" d="M63 138.5h274" class="Vector 1659"/>
+      <path stroke="#FED54A" d="M335.001 136.5H65" class="Vector 1660"/>
+      <path stroke="#FED54A" d="M333 134.5H67" class="Vector 1661"/>
+      <path stroke="#FED54A" d="M70 132.5h259.999" class="Vector 1662"/>
+      <path stroke="#FED54A" d="M73.5 130.5h253" class="Vector 1663"/>
+      <path stroke="#FED54A" d="M81 128.5h237.999" class="Vector 1664"/>
+    </g>
+    <path fill="#FED54A" d="M180.613 47h15.66v42.57c0 4.56-.9 8.4-2.7 11.52-1.74 3.12-4.23 5.49-7.47 7.11-3.18 1.62-6.87 2.43-11.07 2.43-5.58 0-10.26-1.35-14.04-4.05-3.72-2.76-6.15-6.78-7.29-12.06l14.31-2.79c.24 1.26.66 2.34 1.26 3.24.66.84 1.44 1.47 2.34 1.89.9.42 1.86.63 2.88.63 1.2 0 2.25-.27 3.15-.81.96-.54 1.68-1.35 2.16-2.43.54-1.08.81-2.37.81-3.87V47Z" class="J"/>
+    <path fill="#000" d="M217.55 90.83c.3 1.74.9 3.15 1.8 4.23a8.73 8.73 0 0 0 3.42 2.25c1.38.42 2.88.63 4.5.63 2.82 0 4.98-.57 6.48-1.71 1.56-1.2 2.34-2.73 2.34-4.59 0-1.5-.48-2.7-1.44-3.6-.9-.9-2.19-1.65-3.87-2.25-1.62-.66-3.51-1.32-5.67-1.98-2.4-.66-4.83-1.41-7.29-2.25-2.46-.9-4.74-2.01-6.84-3.33-2.1-1.38-3.78-3.15-5.04-5.31-1.26-2.16-1.86-4.86-1.8-8.1 0-3.96 1.02-7.32 3.06-10.08s4.8-4.83 8.28-6.21c3.48-1.44 7.47-2.16 11.97-2.16 4.08 0 7.71.6 10.89 1.8 3.18 1.2 5.79 2.97 7.83 5.31 2.1 2.28 3.57 5.13 4.41 8.55l-14.4 2.52c-.24-1.32-.78-2.4-1.62-3.24-.84-.84-1.86-1.44-3.06-1.8a9.834 9.834 0 0 0-3.42-.63c-1.44 0-2.76.24-3.96.72-1.2.48-2.19 1.17-2.97 2.07-.72.9-1.08 1.95-1.08 3.15 0 1.32.42 2.4 1.26 3.24.9.84 2.1 1.59 3.6 2.25 1.5.66 3.15 1.29 4.95 1.89 2.46.78 4.98 1.62 7.56 2.52 2.58.9 4.98 2.07 7.2 3.51 2.22 1.38 3.99 3.18 5.31 5.4 1.38 2.16 2.07 4.89 2.07 8.19 0 3.54-.87 6.72-2.61 9.54-1.74 2.82-4.35 5.07-7.83 6.75-3.48 1.68-7.89 2.52-13.23 2.52-4.5 0-8.55-.63-12.15-1.89-3.54-1.32-6.45-3.24-8.73-5.76-2.28-2.52-3.78-5.61-4.5-9.27l14.58-2.88Z" class="S"/>
+  </g>
 </svg>
